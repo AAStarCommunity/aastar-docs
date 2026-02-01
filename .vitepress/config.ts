@@ -60,6 +60,14 @@ export default defineConfig({
             { text: 'Sepolia Contracts', link: '/guide/deployments/verify.sepolia.contracts' },
             { text: 'OP-Sepolia Contracts', link: '/guide/deployments/verify.op-sepolia.contracts' }
           ]
+        },
+        {
+          text: 'Lifecycle API (L3)',
+          items: [
+            { text: 'Developer Guide', link: '/guide/docs/L3_Lifecycle_Developer_Guide' },
+            { text: 'Complete Demo Walkthrough', link: '/guide/docs/L3_Complete_Demo_Walkthrough' },
+            { text: 'Patterns Design', link: '/guide/docs/L3_Lifecycle_Patterns_Design' }
+          ]
         }
       ],
       
@@ -140,6 +148,7 @@ export default defineConfig({
             { text: 'Operator Flow', link: '/examples/operator-flow' },
             { text: 'Community Flow', link: '/examples/community-flow' },
             { text: 'End User Flow', link: '/examples/enduser-flow' },
+            { text: 'L3 Complete Lifecycle', link: '/guide/docs/L3_Complete_Demo_Walkthrough' },
             { text: 'Multi-Chain Setup', link: '/examples/multi-chain' }
           ]
         }
