@@ -112,6 +112,9 @@ export default defineConfig({
           text: 'Core Modules',
           collapsed: false,
           items: [
+            { text: '@aastar/community', link: '/api/@aastar/community' },
+            { text: '@aastar/operator', link: '/api/@aastar/operator' },
+            { text: '@aastar/enduser', link: '/api/@aastar/enduser' },
             { text: '@aastar/core', link: '/api/@aastar/core' },
             { text: '@aastar/account', link: '/api/@aastar/account' },
             { text: '@aastar/paymaster', link: '/api/@aastar/paymaster' },

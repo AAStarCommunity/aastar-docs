@@ -2,6 +2,37 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.16.16] - 2026-02-01
+**SDK Code Integrity Hash**: `b7a6229407d2fbc2b7308e84c711ed41ff6ee8498a29b9ace0207ac4efbb10c8`
+*(Excludes metadata/markdown to ensure stability / 排除文档文件以确保哈希稳定)*
+
+### 🌍 Infrastructure & Distribution
+- **[FEATURE]** **Canonical Address Solidification**: 
+  - Hardcoded canonical contract addresses for Sepolia and OP Sepolia within `@aastar/core`.
+  - SDK is now self-contained and ready for NPM distribution without requiring local JSON configuration files.
+  - Maintained三级优先级 (ENV > Local Config > Canonical Defaults) to support flexible development.
+- **[FIX]** **SuperPaymaster Price Refresh**: 
+  - Fixed "UserOperation expired" errors by enabling automated owner-based price refreshes in `l4-setup.ts`.
+  - Added Chainlink fallback logic for robust price synchronization on testnets.
+
+### 🛡️ Integrity
+- **[ADDED]** **SDK Source Integrity Monitoring**: 
+  - Introduced a unique SHA-256 hash for the entire SDK source tree to ensure verifiable releases.
+
+## 🛡️ SDK Integrity Verification
+
+> [!IMPORTANT]
+> **Security First**: To ensure you are using an official release and protect your private keys, always verify the integrity of the SDK code immediately after installation.
+
+**Current Code Integrity Hash (v0.16.16)**:
+`c7883438abea48bb6530183d4fc94dbd11e5f299cd07b4bef32ef4e796551304`
+
+To verify, run this stable command (excludes non-code markdown files):
+```bash
+git ls-files -z | grep -zvE '\.md$' | xargs -0 sha256sum | sha256sum
+```
+The resulting hash must match the one listed in the [Changelog](./CHANGELOG.md).
+
 ## [0.16.14] - 2026-01-24
 
 ### 🌍 Multi-Chain & Infrastructure
