@@ -7,7 +7,6 @@ This section contains complete, end-to-end examples of how to use the AAStar SDK
 - **[Operator Flow](./operator-flow)**: Staking and managing a SuperPaymaster.
 - **[Community Flow](./community-flow)**: Registering a community and setting up reputation rules.
 - **[End User Flow](./enduser-flow)**: Sending gasless transactions using community credit.
-- **[L3 Complete Lifecycle](../guide/docs/L3_Complete_Demo_Walkthrough)**: A comprehensive walkthrough of the entire protocol lifecycle (Community -> Operator -> User -> Gasless).
 - **[Multi-Chain Setup](./multi-chain)**: Configuring and using the SDK across different networks.
 
 ## Running Examples Locally

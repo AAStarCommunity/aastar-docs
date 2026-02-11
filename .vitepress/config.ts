@@ -62,6 +62,15 @@ export default defineConfig({
           ]
         },
         {
+          text: 'Operations',
+          items: [
+            { text: 'Configuration Sync', link: '/guide/docs/Configuration_Sync' },
+            { text: 'Gasless Tester Guide', link: '/guide/docs/TESTER_GUIDE_GASLESS' },
+            { text: 'Account Initialization (CN)', link: '/guide/docs/Account_Initialization_Guide_CN' },
+            { text: 'Stage3 Analysis', link: '/guide/docs/SDK_STAGE3_ANALYSIS' }
+          ]
+        },
+        {
           text: 'Lifecycle API (L3)',
           items: [
             { text: 'Developer Guide', link: '/guide/docs/L3_Lifecycle_Developer_Guide' },
