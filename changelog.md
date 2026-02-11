@@ -16,6 +16,11 @@ All notable changes to this project will be documented in this file.
 ### 🧰 Tooling & Regression
 - **[ADDED]** EIP-2537 precompile verification script and historical check dataset.
 
+### 🌐 Deployments
+- **[LAUNCHED]** **Optimism Mainnet (OP) Deployment**:
+  - Added an overview Deployments page with links for Optimism / OP-Sepolia / Sepolia.
+  - Default view now shows the Optimism mainnet verified contracts table: https://docs.aastar.io/guide/deployments/
+
 ## [0.16.20] - 2026-02-07
 **SDK Code Integrity Hash**: `0a9c8a4a778bb1b64fac6fd29d8a61b2f9b02566f33b2de65e2c26e536f9fff8`
 *(Excludes metadata/markdown to ensure stability / 排除文档文件以确保哈希稳定)*
