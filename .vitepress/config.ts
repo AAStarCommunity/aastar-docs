@@ -22,7 +22,7 @@ export default defineConfig({
       { text: 'Guide', link: '/guide/getting-started' },
       { text: 'API', link: '/api/' },
       { text: 'Examples', link: '/examples/' },
-      { text: 'Deployments', link: '/guide/deployments/verify.sepolia.contracts' },
+      { text: 'Deployments', link: '/guide/deployments/' },
       { text: 'History', link: '/changelog' }
     ],
 
@@ -57,8 +57,10 @@ export default defineConfig({
         {
           text: 'Deployments',
           items: [
-            { text: 'Sepolia Contracts', link: '/guide/deployments/verify.sepolia.contracts' },
-            { text: 'OP-Sepolia Contracts', link: '/guide/deployments/verify.op-sepolia.contracts' }
+            { text: 'Overview (Optimism Default)', link: '/guide/deployments/' },
+            { text: 'Optimism Contracts', link: '/guide/deployments/verify.optimism.contracts' },
+            { text: 'OP-Sepolia Contracts', link: '/guide/deployments/verify.op-sepolia.contracts' },
+            { text: 'Sepolia Contracts', link: '/guide/deployments/verify.sepolia.contracts' }
           ]
         },
         {

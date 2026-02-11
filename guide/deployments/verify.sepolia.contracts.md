@@ -2,6 +2,10 @@
 
 The following contracts have been successfully verified on Etherscan for the Sepolia testnet.
 
+- **[Deployments (Default: Optimism)](./)**  
+- **[Optimism](./verify.optimism.contracts)**  
+- **[OP-Sepolia](./verify.op-sepolia.contracts)**  
+
 | Contract Name | Address | Etherscan Link |
 | :--- | :--- | :--- |
 | **SuperPaymaster** | `0x16cE0c7d846f9446bbBeb9C5a84A4D140fAeD94A` | [View on Etherscan](https://sepolia.etherscan.io/address/0x16cE0c7d846f9446bbBeb9C5a84A4D140fAeD94A#code) |
