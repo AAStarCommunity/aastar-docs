@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.16.22] - 2026-02-11
+**SDK Code Integrity Hash**: `89da8c80ebe6ad8b06adbd4946a00817b18ae79296550709b20bd9ca3af424f9`
+*(Excludes metadata/markdown to ensure stability / 排除文档文件以确保哈希稳定)*
+
+### 🌍 Multi-Chain & Infrastructure
+- **[FEATURE]** **Optimism Mainnet Canonical Addresses**:
+  - Embedded canonical contract addresses for Optimism (Chain ID: 10) in `@aastar/core`.
+  - `NETWORK=optimism` now resolves `CHAIN_ID=10` by default when `CHAIN_ID` is not provided.
+
 ## [0.16.21] - 2026-02-11
 **SDK Code Integrity Hash**: `8d5b71dda17e2cb746e4a70a98020b9c7a4f2b390a82804f7e5924b0bf5a51d5`
 *(Excludes metadata/markdown to ensure stability / 排除文档文件以确保哈希稳定)*
@@ -15,11 +24,6 @@ All notable changes to this project will be documented in this file.
 
 ### 🧰 Tooling & Regression
 - **[ADDED]** EIP-2537 precompile verification script and historical check dataset.
-
-### 🌐 Deployments
-- **[LAUNCHED]** **Optimism Mainnet (OP) Deployment**:
-  - Added an overview Deployments page with links for Optimism / OP-Sepolia / Sepolia.
-  - Default view now shows the Optimism mainnet verified contracts table: https://docs.aastar.io/guide/deployments/
 
 ## [0.16.20] - 2026-02-07
 **SDK Code Integrity Hash**: `0a9c8a4a778bb1b64fac6fd29d8a61b2f9b02566f33b2de65e2c26e536f9fff8`
@@ -52,8 +56,8 @@ All notable changes to this project will be documented in this file.
 > [!IMPORTANT]
 > **Security First**: To ensure you are using an official release and protect your private keys, always verify the integrity of the SDK code immediately after installation.
 
-**Current Code Integrity Hash (v0.16.21)**:
-`e596ff3d6e2bed8220b721d124c7dcaacf39f6fee41fb4cf180c796a7da0e1aa`
+**Current Code Integrity Hash (v0.16.22)**:
+`89da8c80ebe6ad8b06adbd4946a00817b18ae79296550709b20bd9ca3af424f9`
 
 To verify, run this stable command (excludes non-code markdown files):
 ```bash
