@@ -7,6 +7,39 @@ export default defineConfig({
   lang: 'en',
   ignoreDeadLinks: true, 
   lastUpdated: true,
+  vite: {
+    plugins: [
+      {
+        name: 'aastar-docs-rewrite-docs-prefix',
+        configureServer(server) {
+          server.middlewares.use((req, _res, next) => {
+            const url = req.url
+            if (!url) return next()
+
+            const [path, query] = url.split('?')
+            if (path === '/docs' || path.startsWith('/docs/')) {
+              const rewrittenPath = path === '/docs' ? '/' : path.slice('/docs'.length) || '/'
+              req.url = query ? `${rewrittenPath}?${query}` : rewrittenPath
+            }
+            next()
+          })
+        },
+        configurePreviewServer(server) {
+          server.middlewares.use((req, _res, next) => {
+            const url = req.url
+            if (!url) return next()
+
+            const [path, query] = url.split('?')
+            if (path === '/docs' || path.startsWith('/docs/')) {
+              const rewrittenPath = path === '/docs' ? '/' : path.slice('/docs'.length) || '/'
+              req.url = query ? `${rewrittenPath}?${query}` : rewrittenPath
+            }
+            next()
+          })
+        }
+      }
+    ]
+  },
 
   themeConfig: {
     logo: '/aastar-logo.png',
