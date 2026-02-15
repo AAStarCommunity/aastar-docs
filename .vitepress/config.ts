@@ -12,27 +12,35 @@ export default defineConfig({
       {
         name: 'aastar-docs-rewrite-docs-prefix',
         configureServer(server) {
-          server.middlewares.use((req, _res, next) => {
-            const url = req.url
+          server.middlewares.use((req: any, res: any, next: any) => {
+            const url: string | undefined = req.url
             if (!url) return next()
 
             const [path, query] = url.split('?')
-            if (path === '/docs' || path.startsWith('/docs/')) {
-              const rewrittenPath = path === '/docs' ? '/' : path.slice('/docs'.length) || '/'
-              req.url = query ? `${rewrittenPath}?${query}` : rewrittenPath
+            if (path === '/docs' || path === '/docs/' || path.startsWith('/docs/')) {
+              const redirectedPath = path === '/docs' || path === '/docs/' ? '/' : path.slice('/docs'.length) || '/'
+              const location = query ? `${redirectedPath}?${query}` : redirectedPath
+              res.statusCode = 302
+              res.setHeader('Location', location)
+              res.end()
+              return
             }
             next()
           })
         },
         configurePreviewServer(server) {
-          server.middlewares.use((req, _res, next) => {
-            const url = req.url
+          server.middlewares.use((req: any, res: any, next: any) => {
+            const url: string | undefined = req.url
             if (!url) return next()
 
             const [path, query] = url.split('?')
-            if (path === '/docs' || path.startsWith('/docs/')) {
-              const rewrittenPath = path === '/docs' ? '/' : path.slice('/docs'.length) || '/'
-              req.url = query ? `${rewrittenPath}?${query}` : rewrittenPath
+            if (path === '/docs' || path === '/docs/' || path.startsWith('/docs/')) {
+              const redirectedPath = path === '/docs' || path === '/docs/' ? '/' : path.slice('/docs'.length) || '/'
+              const location = query ? `${redirectedPath}?${query}` : redirectedPath
+              res.statusCode = 302
+              res.setHeader('Location', location)
+              res.end()
+              return
             }
             next()
           })
