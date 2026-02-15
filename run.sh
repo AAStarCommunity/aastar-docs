@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "${script_dir}"
+
 port=5173
 pids="$(lsof -ti "tcp:${port}" 2>/dev/null || true)"
 if [[ -n "${pids}" ]]; then
