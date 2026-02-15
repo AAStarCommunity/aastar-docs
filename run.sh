@@ -5,4 +5,4 @@ if [[ -n "${pids}" ]]; then
   kill -9 ${pids} 2>/dev/null || true
 fi
 
-pnpm run docs:dev -- --port "${port}" --strictPort
+pnpm docs:dev --port "${port}" --strictPort
