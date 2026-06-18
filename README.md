@@ -62,4 +62,4 @@ npm run docs:build
 
 ## 📄 License
 
-MIT © AAStar Community
+Apache-2.0 © AAStar Community
