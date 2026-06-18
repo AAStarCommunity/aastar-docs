@@ -823,11 +823,11 @@ export class Client {
         }
     }
 
-    async makeRequest<T>(
+    async makeRequest&lt;T&gt;(
         endpoint: string,
         method: string = "GET",
         data?: any,
-    ): Promise<ApiResponse<T>> {
+    ): Promise&lt;ApiResponse<T&gt;> {
         this.log("Request:", method, endpoint, data);
 
         // ...请求逻辑...
