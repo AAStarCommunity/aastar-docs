@@ -1,6 +1,6 @@
 > **createEndUserClient**(`__namedParameters`): [`EndUserClient`](../type-aliases/EndUserClient.md)
 
-Defined in: [packages/sdk/src/clients/endUser.ts:80](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/sdk/src/clients/endUser.ts#L80)
+Defined in: [packages/sdk/src/clients/endUser.ts:80](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/sdk/src/clients/endUser.ts#L80)
 
 ## Parameters
 

@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/core/tier/types.ts:20](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/core/tier/types.ts#L20)
+Defined in: [packages/airaccount/src/core/tier/types.ts:20](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/core/tier/types.ts#L20)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [packages/airaccount/src/core/tier/types.ts:20](https://github.com/A
 
 > **tier1Limit**: `bigint`
 
-Defined in: [packages/airaccount/src/core/tier/types.ts:22](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/core/tier/types.ts#L22)
+Defined in: [packages/airaccount/src/core/tier/types.ts:22](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/core/tier/types.ts#L22)
 
 Max value for Tier 1 (single ECDSA/Passkey). 0 = no enforcement.
 
@@ -16,6 +16,6 @@ Max value for Tier 1 (single ECDSA/Passkey). 0 = no enforcement.
 
 > **tier2Limit**: `bigint`
 
-Defined in: [packages/airaccount/src/core/tier/types.ts:24](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/core/tier/types.ts#L24)
+Defined in: [packages/airaccount/src/core/tier/types.ts:24](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/core/tier/types.ts#L24)
 
 Max value for Tier 2 (P256 + BLS). 0 = no enforcement.

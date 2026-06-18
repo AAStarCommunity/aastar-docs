@@ -1,6 +1,6 @@
 > **AssetPolicy** = `object`
 
-Defined in: [packages/core/src/actions/policyRegistry.ts:21](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/core/src/actions/policyRegistry.ts#L21)
+Defined in: [packages/core/src/actions/policyRegistry.ts:21](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/policyRegistry.ts#L21)
 
 Per-(sender, asset) amount policy. Native-unit amounts (no USD oracle).
 
@@ -10,7 +10,7 @@ Per-(sender, asset) amount policy. Native-unit amounts (no USD oracle).
 
 > **configured**: `boolean`
 
-Defined in: [packages/core/src/actions/policyRegistry.ts:31](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/core/src/actions/policyRegistry.ts#L31)
+Defined in: [packages/core/src/actions/policyRegistry.ts:31](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/policyRegistry.ts#L31)
 
 false => no policy for this (sender, asset) => UNRESTRICTED (opt-in).
 
@@ -20,7 +20,7 @@ false => no policy for this (sender, asset) => UNRESTRICTED (opt-in).
 
 > **dailyLimit**: `bigint`
 
-Defined in: [packages/core/src/actions/policyRegistry.ts:27](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/core/src/actions/policyRegistry.ts#L27)
+Defined in: [packages/core/src/actions/policyRegistry.ts:27](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/policyRegistry.ts#L27)
 
 Cumulative spend over `windowSeconds` => REJECT when exceeded.
 
@@ -30,7 +30,7 @@ Cumulative spend over `windowSeconds` => REJECT when exceeded.
 
 > **dvtTriggerAmount**: `bigint`
 
-Defined in: [packages/core/src/actions/policyRegistry.ts:23](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/core/src/actions/policyRegistry.ts#L23)
+Defined in: [packages/core/src/actions/policyRegistry.ts:23](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/policyRegistry.ts#L23)
 
 Single-tx amount >= this => REQUIRE_DVT; 0 => amount-based trigger DISABLED.
 
@@ -40,7 +40,7 @@ Single-tx amount >= this => REQUIRE_DVT; 0 => amount-based trigger DISABLED.
 
 > **perTxHardCap**: `bigint`
 
-Defined in: [packages/core/src/actions/policyRegistry.ts:25](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/core/src/actions/policyRegistry.ts#L25)
+Defined in: [packages/core/src/actions/policyRegistry.ts:25](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/policyRegistry.ts#L25)
 
 Single-tx amount > this => REJECT (enforced only when configured).
 
@@ -50,6 +50,6 @@ Single-tx amount > this => REJECT (enforced only when configured).
 
 > **windowSeconds**: `bigint`
 
-Defined in: [packages/core/src/actions/policyRegistry.ts:29](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/core/src/actions/policyRegistry.ts#L29)
+Defined in: [packages/core/src/actions/policyRegistry.ts:29](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/policyRegistry.ts#L29)
 
 Daily-limit window length in seconds; 0 => DEFAULT_WINDOW (1 day).

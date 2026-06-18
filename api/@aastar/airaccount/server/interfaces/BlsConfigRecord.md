@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:72](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/interfaces/storage-adapter.ts#L72)
+Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:72](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/interfaces/storage-adapter.ts#L72)
 
 BLS configuration record.
 
@@ -8,7 +8,7 @@ BLS configuration record.
 
 > `optional` **discovery**: `object`
 
-Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:82](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/interfaces/storage-adapter.ts#L82)
+Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:82](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/interfaces/storage-adapter.ts#L82)
 
 #### discoveryTimeout?
 
@@ -24,7 +24,7 @@ Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:82](ht
 
 > `optional` **signerNodes**: `object`
 
-Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:73](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/interfaces/storage-adapter.ts#L73)
+Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:73](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/interfaces/storage-adapter.ts#L73)
 
 #### nodes
 

@@ -1,6 +1,6 @@
 > `const` **ROLE\_PAYMASTER\_SUPER**: [`Hash`](https://viem.sh/docs/index.html)
 
-Defined in: [packages/core/src/roles.ts:62](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/core/src/roles.ts#L62)
+Defined in: [packages/core/src/roles.ts:62](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/roles.ts#L62)
 
 Paymaster Super Role
 

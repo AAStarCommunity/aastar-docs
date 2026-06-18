@@ -1,6 +1,6 @@
 > **GTokenActions** = [`ERC20Actions`](ERC20Actions.md) & `object`
 
-Defined in: [packages/core/src/actions/tokens.ts:20](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/core/src/actions/tokens.ts#L20)
+Defined in: [packages/core/src/actions/tokens.ts:20](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/tokens.ts#L20)
 
 ## Type Declaration
 

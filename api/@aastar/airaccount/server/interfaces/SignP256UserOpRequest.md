@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:35](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/kms-session-service.ts#L35)
+Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:35](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/kms-session-service.ts#L35)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:35](
 
 > **accountAddress**: `string`
 
-Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:38](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/kms-session-service.ts#L38)
+Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:38](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/kms-session-service.ts#L38)
 
 ***
 
@@ -14,7 +14,7 @@ Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:38](
 
 > **keyId**: `string`
 
-Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:36](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/kms-session-service.ts#L36)
+Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:36](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/kms-session-service.ts#L36)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:36](
 
 > **payload**: `string`
 
-Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:37](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/kms-session-service.ts#L37)
+Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:37](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/kms-session-service.ts#L37)

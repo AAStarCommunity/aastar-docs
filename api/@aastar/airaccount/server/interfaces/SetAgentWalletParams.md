@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:47](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/erc8004-service.ts#L47)
+Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:47](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/erc8004-service.ts#L47)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:47](http
 
 > **agentId**: `bigint`
 
-Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:48](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/erc8004-service.ts#L48)
+Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:48](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/erc8004-service.ts#L48)
 
 ***
 
@@ -14,7 +14,7 @@ Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:48](http
 
 > **agentRegistry**: `string`
 
-Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:51](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/erc8004-service.ts#L51)
+Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:51](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/erc8004-service.ts#L51)
 
 AAStar AgentRegistry contract address (SuperPaymaster-facing, NOT the official ERC-8004 registry)
 
@@ -24,7 +24,7 @@ AAStar AgentRegistry contract address (SuperPaymaster-facing, NOT the official E
 
 > **agentWallet**: `string`
 
-Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:49](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/erc8004-service.ts#L49)
+Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:49](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/erc8004-service.ts#L49)
 
 ***
 
@@ -32,6 +32,6 @@ Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:49](http
 
 > **agentWalletSig**: `string`
 
-Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:53](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/erc8004-service.ts#L53)
+Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:53](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/erc8004-service.ts#L53)
 
 Signature from the agent wallet proving ownership

@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/services/kms-payment-signer.ts:14](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/kms-payment-signer.ts#L14)
+Defined in: [packages/airaccount/src/server/services/kms-payment-signer.ts:14](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/kms-payment-signer.ts#L14)
 
 Shared signature response for all payment signing endpoints.
 
@@ -8,7 +8,7 @@ Shared signature response for all payment signing endpoints.
 
 > **keyId**: `string`
 
-Defined in: [packages/airaccount/src/server/services/kms-payment-signer.ts:15](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/kms-payment-signer.ts#L15)
+Defined in: [packages/airaccount/src/server/services/kms-payment-signer.ts:15](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/kms-payment-signer.ts#L15)
 
 ***
 
@@ -16,4 +16,4 @@ Defined in: [packages/airaccount/src/server/services/kms-payment-signer.ts:15](h
 
 > **signature**: `string`
 
-Defined in: [packages/airaccount/src/server/services/kms-payment-signer.ts:16](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/kms-payment-signer.ts#L16)
+Defined in: [packages/airaccount/src/server/services/kms-payment-signer.ts:16](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/kms-payment-signer.ts#L16)

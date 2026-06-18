@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/auth/hardware/ledger.ts:22](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/auth/hardware/ledger.ts#L22)
+Defined in: [packages/airaccount/src/auth/hardware/ledger.ts:22](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/auth/hardware/ledger.ts#L22)
 
 ledger.ts — Ledger hardware wallet signer for AirAccount M7.
 
@@ -22,7 +22,7 @@ Requirements:
 
 > `optional` **derivationPath**: `string`
 
-Defined in: [packages/airaccount/src/auth/hardware/ledger.ts:27](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/auth/hardware/ledger.ts#L27)
+Defined in: [packages/airaccount/src/auth/hardware/ledger.ts:27](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/auth/hardware/ledger.ts#L27)
 
 BIP-44 derivation path. Defaults to the first Ethereum account.
 Use Ledger Live's "m/44'/60'/0'/0/0" for the default account.

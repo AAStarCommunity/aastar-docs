@@ -1,4 +1,4 @@
-Defined in: [admin/src/ProtocolGovernance.ts:5](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/admin/src/ProtocolGovernance.ts#L5)
+Defined in: [admin/src/ProtocolGovernance.ts:5](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/admin/src/ProtocolGovernance.ts#L5)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [admin/src/ProtocolGovernance.ts:5](https://github.com/AAStarCommuni
 
 > **entryPoint**: `` `0x${string}` ``
 
-Defined in: [admin/src/ProtocolGovernance.ts:8](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/admin/src/ProtocolGovernance.ts#L8)
+Defined in: [admin/src/ProtocolGovernance.ts:8](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/admin/src/ProtocolGovernance.ts#L8)
 
 ***
 
@@ -14,7 +14,7 @@ Defined in: [admin/src/ProtocolGovernance.ts:8](https://github.com/AAStarCommuni
 
 > **minStake**: `bigint`
 
-Defined in: [admin/src/ProtocolGovernance.ts:6](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/admin/src/ProtocolGovernance.ts#L6)
+Defined in: [admin/src/ProtocolGovernance.ts:6](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/admin/src/ProtocolGovernance.ts#L6)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [admin/src/ProtocolGovernance.ts:6](https://github.com/AAStarCommuni
 
 > **superPaymaster**: `` `0x${string}` ``
 
-Defined in: [admin/src/ProtocolGovernance.ts:9](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/admin/src/ProtocolGovernance.ts#L9)
+Defined in: [admin/src/ProtocolGovernance.ts:9](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/admin/src/ProtocolGovernance.ts#L9)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: [admin/src/ProtocolGovernance.ts:9](https://github.com/AAStarCommuni
 
 > **treasury**: `` `0x${string}` ``
 
-Defined in: [admin/src/ProtocolGovernance.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/admin/src/ProtocolGovernance.ts#L7)
+Defined in: [admin/src/ProtocolGovernance.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/admin/src/ProtocolGovernance.ts#L7)

@@ -1,6 +1,6 @@
 > **buildClientDataJSON**(`challenge`, `origin`): `Uint8Array`
 
-Defined in: [packages/airaccount/src/server/services/webauthn-ceremony.ts:147](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/webauthn-ceremony.ts#L147)
+Defined in: [packages/airaccount/src/server/services/webauthn-ceremony.ts:147](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/webauthn-ceremony.ts#L147)
 
 Build the clientDataJSON bytes embedding the TA-issued one-time challenge.
 

@@ -1,6 +1,6 @@
 > **sessionKeyValidatorActions**(`address`): (`client`) => [`SessionKeyValidatorActions`](../type-aliases/SessionKeyValidatorActions.md)
 
-Defined in: [packages/core/src/actions/sessionKeyValidator.ts:26](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/core/src/actions/sessionKeyValidator.ts#L26)
+Defined in: [packages/core/src/actions/sessionKeyValidator.ts:26](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/sessionKeyValidator.ts#L26)
 
 ## Parameters
 
