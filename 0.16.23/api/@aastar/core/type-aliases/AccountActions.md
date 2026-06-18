@@ -1,0 +1,135 @@
+> **AccountActions** = `object`
+
+Defined in: [packages/core/src/actions/account.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/9c654bccf291bedf59c180131227065a5460e904/packages/core/src/actions/account.ts#L7)
+
+## Properties
+
+### addDeposit()
+
+> **addDeposit**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
+
+Defined in: [packages/core/src/actions/account.ts:12](https://github.com/AAStarCommunity/aastar-sdk/blob/9c654bccf291bedf59c180131227065a5460e904/packages/core/src/actions/account.ts#L12)
+
+#### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `args` | \{ `account?`: [`Account`](https://viem.sh/docs/index.html) \| `Address`; \} |
+| `args.account?` | [`Account`](https://viem.sh/docs/index.html) \| `Address` |
+
+#### Returns
+
+`Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
+
+***
+
+### entryPoint()
+
+> **entryPoint**: () => `Promise`\<`Address`\>
+
+Defined in: [packages/core/src/actions/account.ts:11](https://github.com/AAStarCommunity/aastar-sdk/blob/9c654bccf291bedf59c180131227065a5460e904/packages/core/src/actions/account.ts#L11)
+
+#### Returns
+
+`Promise`\<`Address`\>
+
+***
+
+### execute()
+
+> **execute**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
+
+Defined in: [packages/core/src/actions/account.ts:8](https://github.com/AAStarCommunity/aastar-sdk/blob/9c654bccf291bedf59c180131227065a5460e904/packages/core/src/actions/account.ts#L8)
+
+#### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `args` | \{ `account?`: [`Account`](https://viem.sh/docs/index.html) \| `Address`; `dest`: `Address`; `func`: [`Hex`](https://viem.sh/docs/index.html); `value`: `bigint`; \} |
+| `args.account?` | [`Account`](https://viem.sh/docs/index.html) \| `Address` |
+| `args.dest` | `Address` |
+| `args.func` | [`Hex`](https://viem.sh/docs/index.html) |
+| `args.value` | `bigint` |
+
+#### Returns
+
+`Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
+
+***
+
+### executeBatch()
+
+> **executeBatch**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
+
+Defined in: [packages/core/src/actions/account.ts:9](https://github.com/AAStarCommunity/aastar-sdk/blob/9c654bccf291bedf59c180131227065a5460e904/packages/core/src/actions/account.ts#L9)
+
+#### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `args` | \{ `account?`: [`Account`](https://viem.sh/docs/index.html) \| `Address`; `dest`: `Address`[]; `func`: [`Hex`](https://viem.sh/docs/index.html)[]; `value`: `bigint`[]; \} |
+| `args.account?` | [`Account`](https://viem.sh/docs/index.html) \| `Address` |
+| `args.dest` | `Address`[] |
+| `args.func` | [`Hex`](https://viem.sh/docs/index.html)[] |
+| `args.value` | `bigint`[] |
+
+#### Returns
+
+`Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
+
+***
+
+### getDeposit()
+
+> **getDeposit**: () => `Promise`\<`bigint`\>
+
+Defined in: [packages/core/src/actions/account.ts:14](https://github.com/AAStarCommunity/aastar-sdk/blob/9c654bccf291bedf59c180131227065a5460e904/packages/core/src/actions/account.ts#L14)
+
+#### Returns
+
+`Promise`\<`bigint`\>
+
+***
+
+### getNonce()
+
+> **getNonce**: () => `Promise`\<`bigint`\>
+
+Defined in: [packages/core/src/actions/account.ts:10](https://github.com/AAStarCommunity/aastar-sdk/blob/9c654bccf291bedf59c180131227065a5460e904/packages/core/src/actions/account.ts#L10)
+
+#### Returns
+
+`Promise`\<`bigint`\>
+
+***
+
+### owner()
+
+> **owner**: () => `Promise`\<`Address`\>
+
+Defined in: [packages/core/src/actions/account.ts:15](https://github.com/AAStarCommunity/aastar-sdk/blob/9c654bccf291bedf59c180131227065a5460e904/packages/core/src/actions/account.ts#L15)
+
+#### Returns
+
+`Promise`\<`Address`\>
+
+***
+
+### withdrawDepositTo()
+
+> **withdrawDepositTo**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
+
+Defined in: [packages/core/src/actions/account.ts:13](https://github.com/AAStarCommunity/aastar-sdk/blob/9c654bccf291bedf59c180131227065a5460e904/packages/core/src/actions/account.ts#L13)
+
+#### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `args` | \{ `account?`: [`Account`](https://viem.sh/docs/index.html) \| `Address`; `amount`: `bigint`; `withdrawAddress`: `Address`; \} |
+| `args.account?` | [`Account`](https://viem.sh/docs/index.html) \| `Address` |
+| `args.amount` | `bigint` |
+| `args.withdrawAddress` | `Address` |
+
+#### Returns
+
+`Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>

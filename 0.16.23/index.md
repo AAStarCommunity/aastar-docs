@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /guide/getting-started
+      link: /0.16.23/guide/getting-started
     - theme: alt
       text: View on GitHub
       link: https://github.com/AAStarCommunity/aastar-sdk
@@ -42,8 +42,11 @@ features:
     details: Deploy on Ethereum, Optimism, and other EVM-compatible chains.
 ---
 
+> [!WARNING]
+> **Archived documentation — SDK v0.16.23.** This is a frozen snapshot of an older release. For the latest version, see the [current documentation](/).
+
 <p align="center">
-  <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License: Apache-2.0" style="display:inline-block; margin-right: 10px;" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" style="display:inline-block; margin-right: 10px;" />
   <img src="https://img.shields.io/badge/TypeScript-5.0-blue" alt="TypeScript" style="display:inline-block; margin-right: 10px;" />
   <img src="https://img.shields.io/badge/Status-0.16.6-green" alt="Status" style="display:inline-block; margin-right: 10px;" />
   <img src="https://img.shields.io/badge/Last_Updated-2026--01--15-orange" alt="Last Updated" style="display:inline-block;" />
@@ -91,5 +94,5 @@ AAStar SDK provides a complete infrastructure for building **Your Own Protocol (
 Used by developers building the next generation of Web3 applications.
 
 <div class="vp-doc" style="margin-top: 2rem;">
-  <a href="/guide/getting-started" class="vp-button brand">Get Started →</a>
+  <a href="/0.16.23/guide/getting-started" class="vp-button brand">Get Started →</a>
 </div>
