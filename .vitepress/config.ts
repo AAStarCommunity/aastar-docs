@@ -71,7 +71,7 @@ const guideSidebar: DefaultTheme.SidebarItem[] = [
     text: 'Lifecycle API (L3)',
     items: [
       { text: 'Developer Guide', link: '/guide/docs/L3_Lifecycle_Developer_Guide' },
-      { text: 'Complete Demo Walkthrough', link: '/guide/docs/L3_Complete_Demo_Walkthrough' },
+      { text: 'Use Case Analysis', link: '/guide/docs/L3_Use_Case_Analysis' },
       { text: 'Patterns Design', link: '/guide/docs/L3_Lifecycle_Patterns_Design' }
     ]
   }
@@ -126,6 +126,52 @@ const apiSidebar: DefaultTheme.SidebarItem[] = [
     text: 'Core Modules',
     collapsed: false,
     items: [
+      { text: '@aastar/core', link: '/api/@aastar/core' },
+      { text: '@aastar/account', link: '/api/@aastar/account' },
+      { text: '@aastar/paymaster', link: '/api/@aastar/paymaster' },
+      { text: '@aastar/enduser', link: '/api/@aastar/enduser' },
+      { text: '@aastar/operator', link: '/api/@aastar/operator' },
+      { text: '@aastar/admin', link: '/api/@aastar/admin' },
+      { text: '@aastar/dapp', link: '/api/@aastar/dapp' },
+      { text: '@aastar/tokens', link: '/api/@aastar/tokens' },
+      { text: '@aastar/identity', link: '/api/@aastar/identity' },
+      { text: '@aastar/airaccount', link: '/api/@aastar/airaccount' },
+      { text: '@aastar/channel', link: '/api/@aastar/channel' },
+      { text: '@aastar/x402', link: '/api/@aastar/x402' }
+    ]
+  },
+  {
+    text: 'Examples',
+    items: [
+      { text: 'SDK Handbooks', link: '/api/@aastar/sdk#core-scenarios' }
+    ]
+  }
+]
+
+// Frozen API sidebar for the archived v0.16.23 snapshot. v0.16.23 predates the
+// single-package consolidation, so it still exposes @aastar/community and
+// @aastar/analytics and lacks admin/airaccount/channel/x402. Kept separate so
+// updating the latest apiSidebar above never rewrites the frozen archive.
+const apiSidebarArchived: DefaultTheme.SidebarItem[] = [
+  {
+    text: 'Getting Started',
+    items: [
+      { text: 'Overview', link: '/api/' },
+      { text: 'Installation', link: '/api/@aastar/sdk#installation' },
+      { text: 'Quick Start', link: '/api/@aastar/sdk#usage' }
+    ]
+  },
+  {
+    text: '@aastar/sdk (Meta Package)',
+    items: [
+      { text: 'Overview', link: '/api/@aastar/sdk' },
+      { text: 'Node.js Tools', link: '/api/@aastar/sdk/node' }
+    ]
+  },
+  {
+    text: 'Core Modules',
+    collapsed: false,
+    items: [
       { text: '@aastar/community', link: '/api/@aastar/community' },
       { text: '@aastar/operator', link: '/api/@aastar/operator' },
       { text: '@aastar/enduser', link: '/api/@aastar/enduser' },
@@ -154,7 +200,7 @@ const examplesSidebar: DefaultTheme.SidebarItem[] = [
       { text: 'Operator Flow', link: '/examples/operator-flow' },
       { text: 'Community Flow', link: '/examples/community-flow' },
       { text: 'End User Flow', link: '/examples/enduser-flow' },
-      { text: 'L3 Complete Lifecycle', link: '/guide/docs/L3_Complete_Demo_Walkthrough' },
+      { text: 'L3 Lifecycle Developer Guide', link: '/guide/docs/L3_Lifecycle_Developer_Guide' },
       { text: 'Multi-Chain Setup', link: '/examples/multi-chain' }
     ]
   }
@@ -228,9 +274,9 @@ export default defineConfig({
       { text: 'Deployments', link: '/guide/deployments/' },
       { text: 'History', link: '/changelog' },
       {
-        text: 'v0.20.x (latest)',
+        text: 'v0.20.8 (latest)',
         items: [
-          { text: 'v0.20.x (latest)', link: '/' },
+          { text: 'v0.20.8 (latest)', link: '/' },
           { text: 'v0.16.23', link: '/0.16.23/' }
         ]
       }
@@ -245,7 +291,7 @@ export default defineConfig({
       // Mirrored sidebars for the frozen archived version (v0.16.23).
       // Links are auto-prefixed with the version path via prefixSidebar().
       '/0.16.23/guide/': prefixSidebar(guideSidebar, ARCHIVED_VERSION),
-      '/0.16.23/api/': prefixSidebar(apiSidebar, ARCHIVED_VERSION),
+      '/0.16.23/api/': prefixSidebar(apiSidebarArchived, ARCHIVED_VERSION),
       '/0.16.23/examples/': prefixSidebar(examplesSidebar, ARCHIVED_VERSION),
       '/0.16.23/zh/guide/': prefixSidebar(zhGuideSidebar, ARCHIVED_VERSION)
     },

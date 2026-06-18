@@ -2,10 +2,155 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
+## [0.20.8] - 2026-06-18
 
-## [0.16.23] - 2026-02-24
-**SDK Code Integrity Hash**: `9b02e91aaae2081b68b8ddfcf4c3dd52d450b4f368a8746b5896e0024e441db7`
+**Address bug fix (single source of truth).** `@aastar/airaccount` carried its own hardcoded copy of protocol contract addresses, stale at `v0.17.2-beta.4`, while `@aastar/core` `CANONICAL_ADDRESSES` (the authority) was at `v0.19.0-beta.2` (Sepolia full redeploy). The airaccount server used the stale copy internally.
+
+- `AIRACCOUNT_ADDRESSES` current Sepolia fields now **derive from `@aastar/core` `CANONICAL_ADDRESSES[11155111]`** — factory `0x52c5190E`, accountImpl `0x7fe62d51`, delegate/extension/agentRegistry/validatorRouter/BLS/sessionKey/forceExit/calldataParser realigned to v0.19.0-beta.2. Legacy/deprecated factory addresses retained for historical account recovery.
+- Added `@aastar/core` as an `@aastar/airaccount` dependency + an anti-drift test asserting the derived fields equal `CANONICAL_ADDRESSES` (CI fails if they ever diverge again).
+- Audit: confirmed `airaccount` was the ONLY package not sourcing addresses from `@aastar/core`; all others already do.
+
+**SDK Code Integrity Hash**: `1b43e81d4cc394b44ed39665749d678666d9e7571054619f8da09aa64b04fec1`
+
+## [0.20.7] - 2026-06-18
+
+**viem-only — `ethers` fully removed.** Published with deps `viem` + `@simplewebauthn/browser` + `axios` (no ethers), Apache-2.0.
+
+- **ethers → viem migration**: `@aastar/airaccount` (the last ethers consumer) migrated 100% to viem — provider hub, signer hub, all 16 services, BLS packing, signatures. Byte-for-byte equivalence proven by a differential parity layer, now ethers-free golden-fixture tests. `ethers` removed as a dependency everywhere (incl. root devDep + on-chain evidence scripts).
+- **Passkey client decoupled from the YAA backend**: `YAAAClient` → `AirAccountClient`, `YAAAServerClient` → `AirAccountServerClient` (deprecated aliases kept). Passkey routes parameterized (`DEFAULT_PASSKEY_ROUTES`, overridable); dead `api.yetanotheraa.com` default removed. Official hosted Relying-Party will be `auth.aastar.io` (served by aNode).
+- **Hardening**: typed wrappers for high-risk contract reads (gas budget, fund-custody address, guard allow/deny gates, session-key grant hashes); uint256 args enforced as `bigint`.
+- Builds on **0.20.6** (repaired published `.d.ts` types + browser-build fix) and **0.20.5** (single-package `@aastar/sdk/kms` subpath + seamless multi-chain address auto-resolution).
+- Tooling: SDK anvil business-regression harness repaired (address sync + honest pass/fail); TypeDoc API-doc generation restored.
+
+**SDK Code Integrity Hash**: `55018672abdf24b1c9a66235c8f9f72d9e0c410ea6e1e5c9701fbca17bd68d5f`
+
+## [0.20.1] - 2026-06-16
+
+Upstream sync (radar-driven, detect→upgrade→test). Four upstreams moved on 2026-06-16:
+
+- **SuperPaymaster** fresh Sepolia redeploy — 17 addresses re-synced + xPNTsToken `setSpenderDailyCapFor`/`spenderDailyCapOverride` (ABI + wrappers + tests).
+- **KMS** openapi 0.22.0 → 0.23.0 (coverage already 100%; pin only).
+- **AirAccount contracts** v0.18.0-beta.2 → v0.19.0-beta.2 — **FULL Sepolia redeploy**: although v0.19 has no new Solidity logic, the `ACCOUNT_VERSION`/`FACTORY_VERSION` bump to `"0.19.0"` changed bytecode and redeployed **all 11 addresses** (factory `0x52c5190E`, impl `0x7fe62d51`, BLS verifier `AAStarBLSAlgorithm 0xA9EE4f8A`→`0x68c381Ad`, aggregator `0x77f7bf95`, validator-router, session-key/force-exit/delegate/extension/agent-registry/calldata-parser). The DVT real-node E2E verifier was repointed to the new `AAStarBLSAlgorithm`.
+- **DVT** (YetAnotherAA-Validator) v1.2.0 → v1.3.0 — new opt-in `POST /signature/sign` `{ status: "pending_confirmation", userOpHash }` response (CONFIRM_ENABLED high-value ops, released via `POST /signature/confirm`). The SDK now surfaces it as a typed `DvtPendingConfirmationError` from the co-sign assembly path instead of silently dropping the node; the full confirm-flow client remains tracked in #82.
+
+Radar fix: the AirAccount address anchor now tracks the **latest upstream CHANGELOG deploy table** (a fixed version-specific E2E doc silently false-greened the v0.19 redeploy); self-contradiction now compares same-version docs only.
+
+Compatible upstreams: AirAccount v0.19.0-beta.2 / SuperPaymaster v5.4.0-beta.1 (2026-06-16 redeploy) / KMS openapi 0.23.0 / DVT v1.3.0.
+
+## [0.20.0] - 2026-06-16
+
+> Compatible upstream versions: **AirAccount contracts v0.18.0-beta.2 · SuperPaymaster v5.4.0-beta.1 · KMS openapi 0.22.0 · DVT (YetAnotherAA-Validator) v1.2.0**.
+> (Numbered 0.20.0 — `[0.19.0]` was already used by an earlier, unreleased CHANGELOG entry below.)
+
+### Highlights this cycle
+- **100% upstream ABI/API coverage** (KMS / SuperPaymaster / AirAccount), enforced by `scripts/coverage/check-doc-coverage.ts` + an ABI-absent-wrapper audit. Closed across waves: SuperPaymaster pre-flight/price/BLS-timelock reads, the governance/admin surface (Registry/BLSAggregator/DVTValidator/GTokenStaking/MicroPaymentChannel/ReputationSystem), the full AirAccount account/factory/session/agent surface, xPNTsToken finance, KMS `/UnfreezeKey`, and the KMS TEE remote-attestation endpoints (`/attestation` + `.well-known/attestation-measurements*`, #37/#12/#87).
+- **AirAccount contracts synced to v0.18.0-beta.2** (full Sepolia redeploy — all 11 addresses updated to the E2E-verified beta.2 deployment, incl. the DVT verifier `AAStarBLSAlgorithm 0xA9EE4f8A`; re-vendored the 2 ABIs that changed: `+guardSetStrictMode` on the account, `-g2Add` on AAStarBLSAlgorithm); `microPaymentChannel` Sepolia config drift fixed.
+- **issue #30 — 65+ ABI-absent wrappers repaired**: every action wrapper that called a `functionName` absent from its ABI (v5.x removed/renamed fns; would revert on-chain) was re-verified and fixed — RENAMED where the ABI has the fn, or made to THROW `NOT_IMPLEMENTED` where genuinely removed. `x402.ts` switched to `X402FacilitatorABI`.
+- **DVT v1 client aggregation (#63)**: `dvtWire.ts` assembles the combined signature in the verifier's exact `[tier][P256][nodeIds][blsSig]` wire (byte-for-byte vs live Sepolia txs); an SDK-driven real-node E2E proves on-chain `AAStarBLSAlgorithm.validate = 0`.
+- **Beta4 — agent on-chain lifecycle**: complete viem agent surface (`agentRegistry` + `airAccountFactory`) + a Sepolia E2E with real tx hashes (createAgentAccount → registerAgent → revokeAgent).
+- **YAA #52 (Beta3.1)**: `issueXPNTs` fix, `checkResources`, batch SBT mint, registry queries + `getCommunityProfile` (event back-trace), `configureSBTRules`/`getCommunityStats`, `getMySBTId` fix; + repaired pre-existing dangling getters.
+- **WebAuthn #49 challenge-binding (#58)**: TA-nonce → `clientDataJSON` ceremony across the KMS server-side signing paths (mainnet prerequisite before `ENFORCE_TA_CHALLENGE=true`).
+- **AirAccount v0.18 + SuperPaymaster v5.4 ABI/address sync**; new `policyRegistry` / `x402Facilitator` / `timelockController` / `agentValidationRegistry` keys; `microPaymentChannel` + `pnts` realigned to the live deployments.
+- **Docs**: README "Integration Infrastructure & Upstream Version Pins" (4 stacks) + mandatory `docs/RELEASE-CHECKLIST.md`.
+
+### SuperPaymaster v5.4.0-beta.1 sync (chore/sync-superpaymaster-v5.4)
+
+#### Added
+- **`X402Facilitator` ABI** (`@aastar/core` `packages/core/src/abis/X402Facilitator.json`) +
+  `X402FacilitatorABI` / `X402FacilitatorArtifact` exports. x402 micropayment settlement
+  entrypoint (verify/settle EIP-3009 authorizations + direct xPNTs, operator/facilitator fees).
+- **`x402Facilitator`** and **`timelockController`** keys added to `CANONICAL_ADDRESSES` for all
+  chains (real on Sepolia `11155111`, zero on `10` / `11155420`). Sepolia x402Facilitator
+  `0xFe95a77e4Db593E6EA88000Aad9cD1230BAB4512`, timelockController `0x6cEc100c9CDc6ee7D9EDe0533edD3554E641DdBF`.
+  The x402 facilitator address is now resolvable from the SDK (previously absent everywhere).
+
+#### Changed
+- Re-synced `SuperPaymaster.json`, `Registry.json`, `PolicyRegistry.json` ABIs from the
+  SuperPaymaster repo (v5.4 god-split / L-C surface).
+- Fixed stale Sepolia addresses: SP impl comment `0xEB2C9Cb…` → **`0xE84Ae83E…`**;
+  `registryImpl` in root `config.sepolia.json` `0x1bd28f89…` → **`0x0B5ce703…`**; added
+  `x402Facilitator` / `policyRegistry` / `timelockController` and updated stale `spImpl` in
+  `config.sepolia.json`.
+- `@aastar/core` `0.18.0` → `0.18.1`.
+
+### KMS v0.20.0 + ERC-8004 SDK integration (feat/kms-v0.20.0-integration)
+
+#### ⚠ BREAKING CHANGES
+- **`WebAuthnAssertion`** fields renamed from camelCase to **PascalCase** —
+  `challengeId` → **`ChallengeId`**, `credential` → **`Credential`** — to match the KMS
+  wire format (the server struct uses `#[serde(rename = "ChallengeId" / "Credential")]`).
+  Any code constructing a `WebAuthnAssertion` literal must update the field casing.
+  The previous camelCase shape never matched the server and would have been rejected.
+- **`KmsBeginGrantSessionAuthResponse`** fields likewise PascalCased: `challengeId` →
+  **`ChallengeId`**, `options` → **`Options`** (matches `AuthenticationOptionsResponse`).
+- **`KmsSignGrantSessionRequest` / `KmsSignP256GrantSessionRequest`**: `contractScope`
+  and `selectorScope` are now **`string`** (was `number`) — the KMS server types are
+  `String` (`selectorScope` is a bytes4 hex); numeric values failed server deserialization.
+- **Default KMS endpoint** is now `https://kms.aastar.io` (was `https://kms1.aastar.io`).
+
+#### Added
+- `KmsHttpClient` — shared KMS HTTP transport (`post`/`get`/`amzPost`/`postWithBearer`).
+- `KmsManager` key methods: `sign` (message/EIP-155 tx), `getPublicKey`, `deriveAddress`,
+  `listKeys`, `deleteKey`, `changePasskey`; `signTypedDataWithWebAuthn` now posts full
+  EIP-712 typed data to `/kms/SignTypedData`; `beginWebAuthnAuth` uses `/BeginAuthentication`.
+- `KmsAgentService` (agent TEE-JWT lifecycle), `KmsSessionService` (P256 session keys),
+  `KmsPaymentSigner` (Micropayment / GToken EIP-3009 / x402 signers), `KmsMonitorService`
+  (health/version/queueStatus/rollbackCounter/stats + `@internal` adminPurgeKey).
+- `ERC8004Service` — ERC-8004 agent identity calldata encoders + chain-derived registry addresses.
+
+## [0.19.0] - 2026-03-30
+
+### Breaking Changes
+- `AIRACCOUNT_ADDRESSES.sepolia.factory` now points to M7 r6 (`0x42f82d77...`).
+  Existing M7 r5 accounts will have different CREATE2 addresses under the new factory.
+  Old r5 factory address is preserved as `factoryM7r5Prev` for reference.
+
+### Added
+- `AccountManager.buildGuardianAcceptanceHash(owner, salt, factoryAddress, chainId, dailyLimit)` —
+  computes the raw keccak256 guardian acceptance hash (guardians sign via `personal_sign`);
+  `dailyLimit` is bound into the hash (M9 C-3 front-run fix); `salt` accepts `number | bigint`
+- `AccountManager.createAccountWithGuardians(params)` — creates an account with
+  two explicit user guardians + community guardian (v0.7+ only); throws for v0.6
+- `AccountRecord` new optional fields: `dailyLimit`, `guardian1`, `guardian1Sig`,
+  `guardian2`, `guardian2Sig` — persisted for deterministic initCode reconstruction
+- `createAccount` accepts new optional `dailyLimit: bigint` parameter; written into
+  the factory config so initCode stays identical across process restarts
+- `TransferManager`: guardian accounts use `createAccountWithDefaults` for initCode
+  (fixes sender/initCode mismatch that would cause bundlers to reject first UserOp)
+
+## [0.18.0] - 2026-03-27
+
+### M7 r5 SDK Upgrade (feat/m7-sdk-upgrade)
+
+#### ⚠ BREAKING CHANGES
+- **`AIRACCOUNT_ADDRESSES.sepolia.factory`** now points to the **M7 r5** factory contract (`0xa0007c5db27548d8c1582773856db1d123107383`). The previous M5 address has been renamed to **`factoryM5`** (`0xd72a236d84be6c388a8bc7deb64afd54704ae385`). Any existing code referencing `.factory` will now target the M7 contract, producing **different CREATE2 account addresses**. This affects counterfactual address derivation and asset routing for accounts created via the old factory.
+  - Migration: use `.factoryM7` (explicit) or `.factoryM5` (legacy M5 accounts).
+- **`SessionKeyService` constructor** no longer has default address values for `sessionKeyValidatorAddress` and `agentSessionKeyValidatorAddress`. Both addresses must now be passed explicitly to avoid cross-network address mismatches.
+- **`SessionKeyService.encodeGrantAgentSession`** signature changed: the unused `account` parameter has been removed. Contract uses `msg.sender`; the first argument is now `sessionKey`.
+
+#### Features
+- M7 r5 contract addresses and ABIs (`compositeValidator`, `tierGuardHook`, `agentSessionKeyValidator`, `accountImpl`)
+- F6 `GuardStateReader` — ETH and per-token spending state
+- F7 OAPD address derivation (`getOapdAddress`, `getOapdAddressWithChainId`)
+- F4 EIP-1193/6963 — `AirAccountEIP1193Provider`, `announceAirAccount()`, `watchProviders()`
+- F4 `personal_sign` and `eth_signTypedData_v4` support in `AirAccountEIP1193Provider`
+- F1 Hardware wallets — `connectLedger()` (WebHID ECDSA) + `createYubiKeySigner()` (WebAuthn P256, Tier 2/3)
+- F2 Helios — `createHeliosTransport()` (a16z WASM light client viem transport)
+- F3 ENS — `resolveEns()`, `lookupAddress()`, `resolveEnsVerified()`
+
+## [0.17.0] - 2026-03-24
+
+### V5.3 Agent Economy SDK
+- **[FEATURE]** **@aastar/x402**: x402 payment client — EIP-3009 signing, payment header encode/decode, x402Fetch auto-retry
+- **[FEATURE]** **@aastar/channel**: MicroPaymentChannel client — EIP-712 voucher signing, channel lifecycle management
+- **[FEATURE]** **@aastar/cli**: CLI tool — `aastar x402/channel/agent` commands
+- **[FEATURE]** **Core L1 Actions**: `x402Actions`, `agentActions`, `channelActions` — three new action factories
+- **[SYNC]** SuperPaymaster ABI synced to V5.3.0 (x402 settlement, agent sponsorship, facilitator fees)
+- **[ADDED]** MicroPaymentChannel ABI
+- **[ADDED]** Address constants: microPaymentChannel, agentIdentityRegistry, agentReputationRegistry (Sepolia deployed)
+
+## [0.20.8] - 2026-06-18
+**SDK Code Integrity Hash**: `1b43e81d4cc394b44ed39665749d678666d9e7571054619f8da09aa64b04fec1`
 *(Excludes metadata/markdown to ensure stability / 排除文档文件以确保哈希稳定)*
 ### ⛽ Gas Fee Strategy (PaymasterClient)
 - **[FIX]** **Testnet/Mainnet Split Gas Pricing**:
@@ -106,8 +251,8 @@ All notable changes to this project will be documented in this file.
 > [!IMPORTANT]
 > **Security First**: To ensure you are using an official release and protect your private keys, always verify the integrity of the SDK code immediately after installation.
 
-**Current Code Integrity Hash (v0.16.22)**:
-`89da8c80ebe6ad8b06adbd4946a00817b18ae79296550709b20bd9ca3af424f9`
+**Current Code Integrity Hash (v0.19.0)**:
+`b39aef2a020061c37725d0e80295774dadadc7ff964fef723287bfc71520dbb5`
 
 To verify, run this stable command (excludes non-code markdown files):
 ```bash

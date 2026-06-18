@@ -45,8 +45,8 @@ features:
 <p align="center">
   <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License: Apache-2.0" style="display:inline-block; margin-right: 10px;" />
   <img src="https://img.shields.io/badge/TypeScript-5.0-blue" alt="TypeScript" style="display:inline-block; margin-right: 10px;" />
-  <img src="https://img.shields.io/badge/Status-0.16.6-green" alt="Status" style="display:inline-block; margin-right: 10px;" />
-  <img src="https://img.shields.io/badge/Last_Updated-2026--01--15-orange" alt="Last Updated" style="display:inline-block;" />
+  <img src="https://img.shields.io/badge/Status-0.20.8-green" alt="Status" style="display:inline-block; margin-right: 10px;" />
+  <img src="https://img.shields.io/badge/Last_Updated-2026--06--18-orange" alt="Last Updated" style="display:inline-block;" />
 </p>
 
 <BigFeatures />

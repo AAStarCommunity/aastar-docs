@@ -1,6 +1,6 @@
 > **getUserOpHashV07**(`userOp`, `entryPoint`, `chainId`): `` `0x${string}` ``
 
-Defined in: [V4/PaymasterUtils.ts:169](https://github.com/AAStarCommunity/aastar-sdk/blob/9c654bccf291bedf59c180131227065a5460e904/packages/paymaster/src/V4/PaymasterUtils.ts#L169)
+Defined in: [V4/PaymasterUtils.ts:169](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/paymaster/src/V4/PaymasterUtils.ts#L169)
 
 ## Parameters
 

@@ -1,6 +1,8 @@
 # Verified SuperPaymaster Contracts (Sepolia)
 
-The following contracts have been successfully verified on Etherscan for the Sepolia testnet.
+The following contracts are deployed on the Sepolia testnet. Addresses track the
+canonical address book in `@aastar/core` (`CANONICAL_ADDRESSES[11155111]`), the
+single source of truth used by the SDK.
 
 - **[Deployments (Default: Optimism)](./)**  
 - **[Optimism](./verify.optimism.contracts)**  
@@ -8,19 +10,22 @@ The following contracts have been successfully verified on Etherscan for the Sep
 
 | Contract Name | Address | Etherscan Link |
 | :--- | :--- | :--- |
-| **SuperPaymaster** | `0x16cE0c7d846f9446bbBeb9C5a84A4D140fAeD94A` | [View on Etherscan](https://sepolia.etherscan.io/address/0x16cE0c7d846f9446bbBeb9C5a84A4D140fAeD94A#code) |
-| **Registry** | `0x7Ba70C5bFDb3A4d0cBd220534f3BE177fefc1788` | [View on Etherscan](https://sepolia.etherscan.io/address/0x7Ba70C5bFDb3A4d0cBd220534f3BE177fefc1788#code) |
-| **GToken** | `0x9ceDeC089921652D050819ca5BE53765fc05aa9E` | [View on Etherscan](https://sepolia.etherscan.io/address/0x9ceDeC089921652D050819ca5BE53765fc05aa9E#code) |
-| **aPNTs** | `0xDf669834F04988BcEE0E3B6013B6b867Bd38778d` | [View on Etherscan](https://sepolia.etherscan.io/address/0xDf669834F04988BcEE0E3B6013B6b867Bd38778d#code) |
-| **xPNTsFactory** | `0x6EafdA3477F3eec1F848505e1c06dFB5532395b6` | [View on Etherscan](https://sepolia.etherscan.io/address/0x6EafdA3477F3eec1F848505e1c06dFB5532395b6#code) |
-| **GTokenStaking** | `0x1118eAf2427a5B9e488e28D35338d22EaCBc37fC` | [View on Etherscan](https://sepolia.etherscan.io/address/0x1118eAf2427a5B9e488e28D35338d22EaCBc37fC#code) |
-| **MySBT** | `0x677423f5Dad98D19cAE8661c36F094289cb6171a` | [View on Etherscan](https://sepolia.etherscan.io/address/0x677423f5Dad98D19cAE8661c36F094289cb6171a#code) |
-| **BLSValidator** | `0x04590731005d25d379A55b6c3136B5CD1eaC757F` | [View on Etherscan](https://sepolia.etherscan.io/address/0x04590731005d25d379A55b6c3136B5CD1eaC757F#code) |
-| **BLSAggregator** | `0xe380d443842A8A37F691B9f3EF58e40073759edc` | [View on Etherscan](https://sepolia.etherscan.io/address/0xe380d443842A8A37F691B9f3EF58e40073759edc#code) |
-| **ReputationSystem** | `0x4b256541Ff4021f8D8229908C2BEd9c15Fd8afCC` | [View on Etherscan](https://sepolia.etherscan.io/address/0x4b256541Ff4021f8D8229908C2BEd9c15Fd8afCC#code) |
-| **DVTValidator** | `0xcB42417Cfb374e923BAF729040d9973FB7676537` | [View on Etherscan](https://sepolia.etherscan.io/address/0xcB42417Cfb374e923BAF729040d9973FB7676537#code) |
-| **PaymasterFactory** | `0xfDE4671581F21C9e54Cafa95FA6Da98678750F4d` | [View on Etherscan](https://sepolia.etherscan.io/address/0xfDE4671581F21C9e54Cafa95FA6Da98678750F4d#code) |
-| **PaymasterV4Impl** | `0x0EBEDa248D53678D493f62719b3ce34DDb3CAcFf` | [View on Etherscan](https://sepolia.etherscan.io/address/0x0EBEDa248D53678D493f62719b3ce34DDb3CAcFf#code) |
+| **SuperPaymaster** | `0x030025f40d509b1a99547bAEb3795bD27F7182b7` | [View on Etherscan](https://sepolia.etherscan.io/address/0x030025f40d509b1a99547bAEb3795bD27F7182b7#code) |
+| **Registry** | `0x3F920B25f8b65988359C372F66F036E48adFc556` | [View on Etherscan](https://sepolia.etherscan.io/address/0x3F920B25f8b65988359C372F66F036E48adFc556#code) |
+| **GToken** | `0x20a051502a7AE6e40cfFd6EBe59057538E698984` | [View on Etherscan](https://sepolia.etherscan.io/address/0x20a051502a7AE6e40cfFd6EBe59057538E698984#code) |
+| **aPNTs** | `0x9e66B457E0ABb1F139FD8A596d00f784eBA2873b` | [View on Etherscan](https://sepolia.etherscan.io/address/0x9e66B457E0ABb1F139FD8A596d00f784eBA2873b#code) |
+| **xPNTsFactory** | `0xCec3655525a112882E74Fb7C26AcB267a07724cb` | [View on Etherscan](https://sepolia.etherscan.io/address/0xCec3655525a112882E74Fb7C26AcB267a07724cb#code) |
+| **GTokenStaking** | `0x3B363598746Ea57314d4869B160940948c569D48` | [View on Etherscan](https://sepolia.etherscan.io/address/0x3B363598746Ea57314d4869B160940948c569D48#code) |
+| **MySBT** | `0x072A0D12f4212B6baD7c6d0A633eaffbDE9105bF` | [View on Etherscan](https://sepolia.etherscan.io/address/0x072A0D12f4212B6baD7c6d0A633eaffbDE9105bF#code) |
+| **ReputationSystem** | `0x7fEd690E1663755e24a1C9d6164336809d68a578` | [View on Etherscan](https://sepolia.etherscan.io/address/0x7fEd690E1663755e24a1C9d6164336809d68a578#code) |
+| **DVTValidator** | `0x19BA9829C784E4A41b68960b9c0bA55f83718997` | [View on Etherscan](https://sepolia.etherscan.io/address/0x19BA9829C784E4A41b68960b9c0bA55f83718997#code) |
+| **BLSAggregator** | `0x15387e161c1b3dAe7c66Fbd5c1F32837B58B2e79` | [View on Etherscan](https://sepolia.etherscan.io/address/0x15387e161c1b3dAe7c66Fbd5c1F32837B58B2e79#code) |
+| **PaymasterFactory** | `0x0Aa06EA5295eeD4D48c93c594Db1CBf3626971A5` | [View on Etherscan](https://sepolia.etherscan.io/address/0x0Aa06EA5295eeD4D48c93c594Db1CBf3626971A5#code) |
+| **PaymasterV4Impl** | `0x59DCA5861aaDA602fE1BFbfcc36DFAc36C58623d` | [View on Etherscan](https://sepolia.etherscan.io/address/0x59DCA5861aaDA602fE1BFbfcc36DFAc36C58623d#code) |
+
+> **PaymasterV4** `0x1f0D4eF151a79948070D387BaC43b1321F0c41e3` is a per-community AOA proxy
+> (not part of the core protocol config) — verify it separately.
+> **BLSValidator** `0x0A71C5a32b8CBC517523D2C88b539Ab22AeF0654` is deprecated; the aggregator verifies BLS inline.
 
 ---
-*Note: EntryPoint `0x0000000071727De22E5E9d8BAf0edAc6f37da032` and SimpleAccountFactory `0x91E60482a2B343004dF29EB205C4F6916E864700` are infrastructure contracts and are already verified.*
+*Note: EntryPoint `0x0000000071727De22E5E9d8BAf0edAc6f37da032` and SimpleAccountFactory `0x91E60e0613810449d098b0b5Ec8b51A0FE8c8985` are infrastructure contracts and are already verified.*
