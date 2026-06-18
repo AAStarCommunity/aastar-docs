@@ -1,6 +1,6 @@
 > **encodeDVTVerifierProof**(`nodeIds`, `blsSig`): `` `0x${string}` ``
 
-Defined in: [packages/core/src/crypto/dvtWire.ts:155](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/crypto/dvtWire.ts#L155)
+Defined in: [packages/core/src/crypto/dvtWire.ts:155](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/core/src/crypto/dvtWire.ts#L155)
 
 Encode the VERIFIER-LEVEL proof passed to `AAStarBLSAlgorithm.validate`:
 `[nodeId_1(32)…nodeId_N(32)][blsSig(256)]` — NO `nodeIdsLength` prefix (the contract

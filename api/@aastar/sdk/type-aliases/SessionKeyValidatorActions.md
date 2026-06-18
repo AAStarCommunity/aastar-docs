@@ -1,6 +1,6 @@
 > **SessionKeyValidatorActions** = `object`
 
-Defined in: [packages/core/src/actions/sessionKeyValidator.ts:13](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/actions/sessionKeyValidator.ts#L13)
+Defined in: [packages/core/src/actions/sessionKeyValidator.ts:13](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/core/src/actions/sessionKeyValidator.ts#L13)
 
 ## Properties
 
@@ -8,7 +8,7 @@ Defined in: [packages/core/src/actions/sessionKeyValidator.ts:13](https://github
 
 > **checkSessionScope**: (`args`) => `Promise`\<`void`\>
 
-Defined in: [packages/core/src/actions/sessionKeyValidator.ts:15](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/actions/sessionKeyValidator.ts#L15)
+Defined in: [packages/core/src/actions/sessionKeyValidator.ts:15](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/core/src/actions/sessionKeyValidator.ts#L15)
 
 #### Parameters
 
@@ -31,7 +31,7 @@ Defined in: [packages/core/src/actions/sessionKeyValidator.ts:15](https://github
 
 > **grantNonces**: (`args`) => `Promise`\<`bigint`\>
 
-Defined in: [packages/core/src/actions/sessionKeyValidator.ts:16](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/actions/sessionKeyValidator.ts#L16)
+Defined in: [packages/core/src/actions/sessionKeyValidator.ts:16](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/core/src/actions/sessionKeyValidator.ts#L16)
 
 #### Parameters
 
@@ -51,7 +51,7 @@ Defined in: [packages/core/src/actions/sessionKeyValidator.ts:16](https://github
 
 > **grantNonces\_p256**: (`args`) => `Promise`\<`bigint`\>
 
-Defined in: [packages/core/src/actions/sessionKeyValidator.ts:17](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/actions/sessionKeyValidator.ts#L17)
+Defined in: [packages/core/src/actions/sessionKeyValidator.ts:17](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/core/src/actions/sessionKeyValidator.ts#L17)
 
 #### Parameters
 
@@ -71,7 +71,7 @@ Defined in: [packages/core/src/actions/sessionKeyValidator.ts:17](https://github
 
 > **recordCallForVelocity**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/sessionKeyValidator.ts:21](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/actions/sessionKeyValidator.ts#L21)
+Defined in: [packages/core/src/actions/sessionKeyValidator.ts:21](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/core/src/actions/sessionKeyValidator.ts#L21)
 
 #### Parameters
 
@@ -93,7 +93,7 @@ Defined in: [packages/core/src/actions/sessionKeyValidator.ts:21](https://github
 
 > **sessionKeyCount**: (`args`) => `Promise`\<`bigint`\>
 
-Defined in: [packages/core/src/actions/sessionKeyValidator.ts:18](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/actions/sessionKeyValidator.ts#L18)
+Defined in: [packages/core/src/actions/sessionKeyValidator.ts:18](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/core/src/actions/sessionKeyValidator.ts#L18)
 
 #### Parameters
 
@@ -112,7 +112,7 @@ Defined in: [packages/core/src/actions/sessionKeyValidator.ts:18](https://github
 
 > **sessionStates\_p256**: (`args`) => `Promise`\<[`P256SessionState`](P256SessionState.md)\>
 
-Defined in: [packages/core/src/actions/sessionKeyValidator.ts:19](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/actions/sessionKeyValidator.ts#L19)
+Defined in: [packages/core/src/actions/sessionKeyValidator.ts:19](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/core/src/actions/sessionKeyValidator.ts#L19)
 
 #### Parameters
 

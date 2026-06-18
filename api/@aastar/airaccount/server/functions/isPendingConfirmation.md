@@ -1,6 +1,6 @@
 > **isPendingConfirmation**(`data`): `data is { status: "pending_confirmation"; userOpHash?: string }`
 
-Defined in: [packages/airaccount/src/server/services/bls-signature-service.ts:56](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/bls-signature-service.ts#L56)
+Defined in: [packages/airaccount/src/server/services/bls-signature-service.ts:56](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/bls-signature-service.ts#L56)
 
 Type guard for a DVT v1.3.0 `/signature/sign` response that withheld its
 co-signature pending out-of-band confirmation (`{ status: "pending_confirmation",

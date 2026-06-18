@@ -1,6 +1,6 @@
 > **ChannelConfig** = `object`
 
-Defined in: [packages/channel/src/types.ts:15](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/channel/src/types.ts#L15)
+Defined in: [packages/channel/src/types.ts:15](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/channel/src/types.ts#L15)
 
 ## Properties
 
@@ -8,7 +8,7 @@ Defined in: [packages/channel/src/types.ts:15](https://github.com/AAStarCommunit
 
 > **authorizedSigner**: `` `0x${string}` ``
 
-Defined in: [packages/channel/src/types.ts:20](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/channel/src/types.ts#L20)
+Defined in: [packages/channel/src/types.ts:20](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/channel/src/types.ts#L20)
 
 ***
 
@@ -16,7 +16,7 @@ Defined in: [packages/channel/src/types.ts:20](https://github.com/AAStarCommunit
 
 > **deposit**: `bigint`
 
-Defined in: [packages/channel/src/types.ts:18](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/channel/src/types.ts#L18)
+Defined in: [packages/channel/src/types.ts:18](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/channel/src/types.ts#L18)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [packages/channel/src/types.ts:18](https://github.com/AAStarCommunit
 
 > **payee**: `` `0x${string}` ``
 
-Defined in: [packages/channel/src/types.ts:16](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/channel/src/types.ts#L16)
+Defined in: [packages/channel/src/types.ts:16](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/channel/src/types.ts#L16)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [packages/channel/src/types.ts:16](https://github.com/AAStarCommunit
 
 > **salt**: [`Hex`](https://viem.sh/docs/index.html)
 
-Defined in: [packages/channel/src/types.ts:19](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/channel/src/types.ts#L19)
+Defined in: [packages/channel/src/types.ts:19](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/channel/src/types.ts#L19)
 
 ***
 
@@ -40,4 +40,4 @@ Defined in: [packages/channel/src/types.ts:19](https://github.com/AAStarCommunit
 
 > **token**: `` `0x${string}` ``
 
-Defined in: [packages/channel/src/types.ts:17](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/channel/src/types.ts#L17)
+Defined in: [packages/channel/src/types.ts:17](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/channel/src/types.ts#L17)

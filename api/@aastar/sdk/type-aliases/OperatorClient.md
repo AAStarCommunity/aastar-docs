@@ -1,6 +1,6 @@
 > **OperatorClient** = [`Client`](https://viem.sh/docs/index.html)\<[`Transport`](https://viem.sh/docs/index.html), [`Chain`](https://viem.sh/docs/index.html), [`Account`](https://viem.sh/docs/index.html) \| `undefined`\> & [`PublicActions`](https://viem.sh/docs/index.html)\<[`Transport`](https://viem.sh/docs/index.html), [`Chain`](https://viem.sh/docs/index.html), [`Account`](https://viem.sh/docs/index.html) \| `undefined`\> & [`WalletActions`](https://viem.sh/docs/index.html)\<[`Chain`](https://viem.sh/docs/index.html), [`Account`](https://viem.sh/docs/index.html) \| `undefined`\> & [`RegistryActions`](RegistryActions.md) & [`SuperPaymasterActions`](SuperPaymasterActions.md) & [`PaymasterActions`](PaymasterActions.md) & [`StakingActions`](StakingActions.md) & `object`
 
-Defined in: [packages/sdk/src/clients/operator.ts:25](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/sdk/src/clients/operator.ts#L25)
+Defined in: [packages/sdk/src/clients/operator.ts:25](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/sdk/src/clients/operator.ts#L25)
 
 ## Type Declaration
 

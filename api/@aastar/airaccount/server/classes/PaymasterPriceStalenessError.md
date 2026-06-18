@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/services/paymaster-manager.ts:15](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/paymaster-manager.ts#L15)
+Defined in: [packages/airaccount/src/server/services/paymaster-manager.ts:15](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/paymaster-manager.ts#L15)
 
 Thrown when a paymaster's on-chain price cache is stale.
 Caller should invoke `paymasterManager.updatePrice(paymasterAddress)` before retrying.
@@ -13,7 +13,7 @@ Caller should invoke `paymasterManager.updatePrice(paymasterAddress)` before ret
 
 > **new PaymasterPriceStalenessError**(`paymasterAddress`, `ageSeconds`, `thresholdSeconds`): `PaymasterPriceStalenessError`
 
-Defined in: [packages/airaccount/src/server/services/paymaster-manager.ts:16](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/paymaster-manager.ts#L16)
+Defined in: [packages/airaccount/src/server/services/paymaster-manager.ts:16](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/paymaster-manager.ts#L16)
 
 #### Parameters
 
@@ -37,7 +37,7 @@ Defined in: [packages/airaccount/src/server/services/paymaster-manager.ts:16](ht
 
 > `readonly` **ageSeconds**: `number`
 
-Defined in: [packages/airaccount/src/server/services/paymaster-manager.ts:18](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/paymaster-manager.ts#L18)
+Defined in: [packages/airaccount/src/server/services/paymaster-manager.ts:18](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/paymaster-manager.ts#L18)
 
 ***
 
@@ -69,7 +69,7 @@ Defined in: node\_modules/.pnpm/typescript@5.6.3/node\_modules/typescript/lib/li
 
 > `readonly` **paymasterAddress**: `string`
 
-Defined in: [packages/airaccount/src/server/services/paymaster-manager.ts:17](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/paymaster-manager.ts#L17)
+Defined in: [packages/airaccount/src/server/services/paymaster-manager.ts:17](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/paymaster-manager.ts#L17)
 
 ***
 
@@ -89,7 +89,7 @@ Defined in: node\_modules/.pnpm/typescript@5.6.3/node\_modules/typescript/lib/li
 
 > `readonly` **thresholdSeconds**: `number`
 
-Defined in: [packages/airaccount/src/server/services/paymaster-manager.ts:19](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/paymaster-manager.ts#L19)
+Defined in: [packages/airaccount/src/server/services/paymaster-manager.ts:19](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/paymaster-manager.ts#L19)
 
 ***
 

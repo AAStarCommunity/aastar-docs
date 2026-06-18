@@ -827,7 +827,7 @@ export class Client {
         endpoint: string,
         method: string = "GET",
         data?: any,
-    ): Promise&lt;ApiResponse<T&gt;> {
+    ): Promise&lt;ApiResponse&lt;T&gt;&gt; {
         this.log("Request:", method, endpoint, data);
 
         // ...请求逻辑...

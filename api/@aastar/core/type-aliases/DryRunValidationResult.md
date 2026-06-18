@@ -1,6 +1,6 @@
 > **DryRunValidationResult** = `object`
 
-Defined in: [packages/core/src/actions/superPaymaster.ts:28](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/actions/superPaymaster.ts#L28)
+Defined in: [packages/core/src/actions/superPaymaster.ts:28](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/core/src/actions/superPaymaster.ts#L28)
 
 Result of an off-chain `dryRunValidation` pre-flight check.
 `ok` mirrors whether the paymaster would accept the UserOp; `reasonCode` is a
@@ -12,7 +12,7 @@ bytes32 machine-readable rejection code (zero when `ok` is true).
 
 > **ok**: `boolean`
 
-Defined in: [packages/core/src/actions/superPaymaster.ts:29](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/actions/superPaymaster.ts#L29)
+Defined in: [packages/core/src/actions/superPaymaster.ts:29](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/core/src/actions/superPaymaster.ts#L29)
 
 ***
 
@@ -20,4 +20,4 @@ Defined in: [packages/core/src/actions/superPaymaster.ts:29](https://github.com/
 
 > **reasonCode**: [`Hex`](https://viem.sh/docs/index.html)
 
-Defined in: [packages/core/src/actions/superPaymaster.ts:30](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/actions/superPaymaster.ts#L30)
+Defined in: [packages/core/src/actions/superPaymaster.ts:30](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/core/src/actions/superPaymaster.ts#L30)

@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/services/weighted-signature-service.ts:79](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/weighted-signature-service.ts#L79)
+Defined in: [packages/airaccount/src/server/services/weighted-signature-service.ts:79](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/weighted-signature-service.ts#L79)
 
 A pending weight-change proposal awaiting guardian approval + timelock.
 
@@ -8,7 +8,7 @@ A pending weight-change proposal awaiting guardian approval + timelock.
 
 > **approvalBitmap**: `bigint`
 
-Defined in: [packages/airaccount/src/server/services/weighted-signature-service.ts:85](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/weighted-signature-service.ts#L85)
+Defined in: [packages/airaccount/src/server/services/weighted-signature-service.ts:85](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/weighted-signature-service.ts#L85)
 
 Bitmap of guardian indices that have approved (bit i set => guardian i approved).
 
@@ -18,7 +18,7 @@ Bitmap of guardian indices that have approved (bit i set => guardian i approved)
 
 > **proposed**: [`WeightConfig`](WeightConfig.md)
 
-Defined in: [packages/airaccount/src/server/services/weighted-signature-service.ts:81](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/weighted-signature-service.ts#L81)
+Defined in: [packages/airaccount/src/server/services/weighted-signature-service.ts:81](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/weighted-signature-service.ts#L81)
 
 The proposed new WeightConfig.
 
@@ -28,6 +28,6 @@ The proposed new WeightConfig.
 
 > **proposedAt**: `bigint`
 
-Defined in: [packages/airaccount/src/server/services/weighted-signature-service.ts:83](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/weighted-signature-service.ts#L83)
+Defined in: [packages/airaccount/src/server/services/weighted-signature-service.ts:83](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/weighted-signature-service.ts#L83)
 
 Unix timestamp when the proposal was created; 0 means no active proposal.

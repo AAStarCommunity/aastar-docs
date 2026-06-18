@@ -1,4 +1,4 @@
-Defined in: [packages/sdk/src/utils/userOp.ts:26](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/sdk/src/utils/userOp.ts#L26)
+Defined in: [packages/sdk/src/utils/userOp.ts:26](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/sdk/src/utils/userOp.ts#L26)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [packages/sdk/src/utils/userOp.ts:26](https://github.com/AAStarCommu
 
 > **paymasterGasLimit**: `bigint`
 
-Defined in: [packages/sdk/src/utils/userOp.ts:27](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/sdk/src/utils/userOp.ts#L27)
+Defined in: [packages/sdk/src/utils/userOp.ts:27](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/sdk/src/utils/userOp.ts#L27)
 
 ***
 
@@ -14,4 +14,4 @@ Defined in: [packages/sdk/src/utils/userOp.ts:27](https://github.com/AAStarCommu
 
 > **paymasterPostOpGasLimit**: `bigint`
 
-Defined in: [packages/sdk/src/utils/userOp.ts:28](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/sdk/src/utils/userOp.ts#L28)
+Defined in: [packages/sdk/src/utils/userOp.ts:28](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/sdk/src/utils/userOp.ts#L28)

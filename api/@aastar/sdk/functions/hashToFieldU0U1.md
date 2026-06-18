@@ -1,6 +1,6 @@
 > **hashToFieldU0U1**(`message`): [`HashToFieldU0U1`](../interfaces/HashToFieldU0U1.md)
 
-Defined in: [packages/core/src/crypto/hashToField.ts:73](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/crypto/hashToField.ts#L73)
+Defined in: [packages/core/src/crypto/hashToField.ts:73](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/core/src/crypto/hashToField.ts#L73)
 
 Compute `hash_to_field(message, DST=BLS_POP_DST, count=2)` for BLS12-381 G2
 and serialize the resulting two Fp2 elements (u0, u1) into SuperPaymaster's

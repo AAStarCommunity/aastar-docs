@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/auth/passkey/types.ts:44](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/auth/passkey/types.ts#L44)
+Defined in: [packages/airaccount/src/auth/passkey/types.ts:44](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/auth/passkey/types.ts#L44)
 
 ## Extends
 
@@ -10,7 +10,7 @@ Defined in: [packages/airaccount/src/auth/passkey/types.ts:44](https://github.co
 
 > `optional` **allowCredentials**: `any`[]
 
-Defined in: [packages/airaccount/src/auth/passkey/types.ts:40](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/auth/passkey/types.ts#L40)
+Defined in: [packages/airaccount/src/auth/passkey/types.ts:40](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/auth/passkey/types.ts#L40)
 
 #### Inherited from
 
@@ -22,7 +22,7 @@ Defined in: [packages/airaccount/src/auth/passkey/types.ts:40](https://github.co
 
 > **challenge**: `string`
 
-Defined in: [packages/airaccount/src/auth/passkey/types.ts:37](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/auth/passkey/types.ts#L37)
+Defined in: [packages/airaccount/src/auth/passkey/types.ts:37](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/auth/passkey/types.ts#L37)
 
 #### Inherited from
 
@@ -34,7 +34,7 @@ Defined in: [packages/airaccount/src/auth/passkey/types.ts:37](https://github.co
 
 > `optional` **rpId**: `string`
 
-Defined in: [packages/airaccount/src/auth/passkey/types.ts:39](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/auth/passkey/types.ts#L39)
+Defined in: [packages/airaccount/src/auth/passkey/types.ts:39](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/auth/passkey/types.ts#L39)
 
 #### Inherited from
 
@@ -46,7 +46,7 @@ Defined in: [packages/airaccount/src/auth/passkey/types.ts:39](https://github.co
 
 > `optional` **timeout**: `number`
 
-Defined in: [packages/airaccount/src/auth/passkey/types.ts:38](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/auth/passkey/types.ts#L38)
+Defined in: [packages/airaccount/src/auth/passkey/types.ts:38](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/auth/passkey/types.ts#L38)
 
 #### Inherited from
 
@@ -58,7 +58,7 @@ Defined in: [packages/airaccount/src/auth/passkey/types.ts:38](https://github.co
 
 > **userOpHash**: `string`
 
-Defined in: [packages/airaccount/src/auth/passkey/types.ts:45](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/auth/passkey/types.ts#L45)
+Defined in: [packages/airaccount/src/auth/passkey/types.ts:45](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/auth/passkey/types.ts#L45)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: [packages/airaccount/src/auth/passkey/types.ts:45](https://github.co
 
 > `optional` **userVerification**: `string`
 
-Defined in: [packages/airaccount/src/auth/passkey/types.ts:41](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/auth/passkey/types.ts#L41)
+Defined in: [packages/airaccount/src/auth/passkey/types.ts:41](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/auth/passkey/types.ts#L41)
 
 #### Inherited from
 

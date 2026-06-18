@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/services/session-key-service.ts:168](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/session-key-service.ts#L168)
+Defined in: [packages/airaccount/src/server/services/session-key-service.ts:168](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/session-key-service.ts#L168)
 
 ## Extended by
 
@@ -10,7 +10,7 @@ Defined in: [packages/airaccount/src/server/services/session-key-service.ts:168]
 
 > **callTargets**: `string`[]
 
-Defined in: [packages/airaccount/src/server/services/session-key-service.ts:172](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/session-key-service.ts#L172)
+Defined in: [packages/airaccount/src/server/services/session-key-service.ts:172](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/session-key-service.ts#L172)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [packages/airaccount/src/server/services/session-key-service.ts:172]
 
 > **expiry**: `number`
 
-Defined in: [packages/airaccount/src/server/services/session-key-service.ts:169](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/session-key-service.ts#L169)
+Defined in: [packages/airaccount/src/server/services/session-key-service.ts:169](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/session-key-service.ts#L169)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [packages/airaccount/src/server/services/session-key-service.ts:169]
 
 > **selectorAllowlist**: `string`[]
 
-Defined in: [packages/airaccount/src/server/services/session-key-service.ts:173](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/session-key-service.ts#L173)
+Defined in: [packages/airaccount/src/server/services/session-key-service.ts:173](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/session-key-service.ts#L173)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [packages/airaccount/src/server/services/session-key-service.ts:173]
 
 > **velocityLimit**: `number`
 
-Defined in: [packages/airaccount/src/server/services/session-key-service.ts:170](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/session-key-service.ts#L170)
+Defined in: [packages/airaccount/src/server/services/session-key-service.ts:170](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/session-key-service.ts#L170)
 
 ***
 
@@ -42,4 +42,4 @@ Defined in: [packages/airaccount/src/server/services/session-key-service.ts:170]
 
 > **velocityWindow**: `number`
 
-Defined in: [packages/airaccount/src/server/services/session-key-service.ts:171](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/session-key-service.ts#L171)
+Defined in: [packages/airaccount/src/server/services/session-key-service.ts:171](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/session-key-service.ts#L171)

@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:63](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/erc8004-service.ts#L63)
+Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:63](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/erc8004-service.ts#L63)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:63](http
 
 > **agentId**: `bigint`
 
-Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:66](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/erc8004-service.ts#L66)
+Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:66](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/erc8004-service.ts#L66)
 
 ***
 
@@ -14,7 +14,7 @@ Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:66](http
 
 > **agentWallet**: `string`
 
-Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:67](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/erc8004-service.ts#L67)
+Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:67](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/erc8004-service.ts#L67)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:67](http
 
 > **deadline**: `bigint`
 
-Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:69](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/erc8004-service.ts#L69)
+Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:69](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/erc8004-service.ts#L69)
 
 Unix timestamp — signature becomes invalid after this deadline
 
@@ -32,7 +32,7 @@ Unix timestamp — signature becomes invalid after this deadline
 
 > **identityRegistry**: `string`
 
-Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:65](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/erc8004-service.ts#L65)
+Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:65](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/erc8004-service.ts#L65)
 
 Must be the official ERC-8004 identity registry for this chain
 
@@ -42,6 +42,6 @@ Must be the official ERC-8004 identity registry for this chain
 
 > **signature**: `string`
 
-Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:71](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/erc8004-service.ts#L71)
+Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:71](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/erc8004-service.ts#L71)
 
 Signature authorising the wallet binding, signed by the identity registry's expected signer

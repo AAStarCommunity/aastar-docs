@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/services/force-exit-service.ts:58](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/force-exit-service.ts#L58)
+Defined in: [packages/airaccount/src/server/services/force-exit-service.ts:58](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/force-exit-service.ts#L58)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [packages/airaccount/src/server/services/force-exit-service.ts:58](h
 
 > **approvalBitmap**: `bigint`
 
-Defined in: [packages/airaccount/src/server/services/force-exit-service.ts:63](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/force-exit-service.ts#L63)
+Defined in: [packages/airaccount/src/server/services/force-exit-service.ts:63](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/force-exit-service.ts#L63)
 
 ***
 
@@ -14,7 +14,7 @@ Defined in: [packages/airaccount/src/server/services/force-exit-service.ts:63](h
 
 > **data**: `string`
 
-Defined in: [packages/airaccount/src/server/services/force-exit-service.ts:61](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/force-exit-service.ts#L61)
+Defined in: [packages/airaccount/src/server/services/force-exit-service.ts:61](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/force-exit-service.ts#L61)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/airaccount/src/server/services/force-exit-service.ts:61](h
 
 > **guardians**: \[`string`, `string`, `string`\]
 
-Defined in: [packages/airaccount/src/server/services/force-exit-service.ts:64](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/force-exit-service.ts#L64)
+Defined in: [packages/airaccount/src/server/services/force-exit-service.ts:64](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/force-exit-service.ts#L64)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/airaccount/src/server/services/force-exit-service.ts:64](h
 
 > **proposedAt**: `bigint`
 
-Defined in: [packages/airaccount/src/server/services/force-exit-service.ts:62](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/force-exit-service.ts#L62)
+Defined in: [packages/airaccount/src/server/services/force-exit-service.ts:62](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/force-exit-service.ts#L62)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/airaccount/src/server/services/force-exit-service.ts:62](h
 
 > **target**: `string`
 
-Defined in: [packages/airaccount/src/server/services/force-exit-service.ts:59](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/force-exit-service.ts#L59)
+Defined in: [packages/airaccount/src/server/services/force-exit-service.ts:59](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/force-exit-service.ts#L59)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: [packages/airaccount/src/server/services/force-exit-service.ts:59](h
 
 > **value**: `bigint`
 
-Defined in: [packages/airaccount/src/server/services/force-exit-service.ts:60](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/force-exit-service.ts#L60)
+Defined in: [packages/airaccount/src/server/services/force-exit-service.ts:60](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/airaccount/src/server/services/force-exit-service.ts#L60)

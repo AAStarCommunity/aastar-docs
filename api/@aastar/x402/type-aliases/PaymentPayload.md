@@ -1,6 +1,6 @@
 > **PaymentPayload** = `object`
 
-Defined in: [packages/x402/src/types.ts:64](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/x402/src/types.ts#L64)
+Defined in: [packages/x402/src/types.ts:64](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/x402/src/types.ts#L64)
 
 Client payment payload — PAYMENT-SIGNATURE header.
 Client sends this on retry request.
@@ -11,7 +11,7 @@ Client sends this on retry request.
 
 > **accepted**: [`PaymentRequirements`](PaymentRequirements.md)
 
-Defined in: [packages/x402/src/types.ts:67](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/x402/src/types.ts#L67)
+Defined in: [packages/x402/src/types.ts:67](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/x402/src/types.ts#L67)
 
 ***
 
@@ -19,7 +19,7 @@ Defined in: [packages/x402/src/types.ts:67](https://github.com/AAStarCommunity/a
 
 > `optional` **extensions**: `Record`\<`string`, `unknown`\>
 
-Defined in: [packages/x402/src/types.ts:72](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/x402/src/types.ts#L72)
+Defined in: [packages/x402/src/types.ts:72](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/x402/src/types.ts#L72)
 
 ***
 
@@ -27,7 +27,7 @@ Defined in: [packages/x402/src/types.ts:72](https://github.com/AAStarCommunity/a
 
 > **payload**: `object`
 
-Defined in: [packages/x402/src/types.ts:68](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/x402/src/types.ts#L68)
+Defined in: [packages/x402/src/types.ts:68](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/x402/src/types.ts#L68)
 
 #### authorization
 
@@ -43,7 +43,7 @@ Defined in: [packages/x402/src/types.ts:68](https://github.com/AAStarCommunity/a
 
 > `optional` **resource**: [`ResourceInfo`](ResourceInfo.md)
 
-Defined in: [packages/x402/src/types.ts:66](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/x402/src/types.ts#L66)
+Defined in: [packages/x402/src/types.ts:66](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/x402/src/types.ts#L66)
 
 ***
 
@@ -51,4 +51,4 @@ Defined in: [packages/x402/src/types.ts:66](https://github.com/AAStarCommunity/a
 
 > **x402Version**: `2`
 
-Defined in: [packages/x402/src/types.ts:65](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/x402/src/types.ts#L65)
+Defined in: [packages/x402/src/types.ts:65](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/x402/src/types.ts#L65)

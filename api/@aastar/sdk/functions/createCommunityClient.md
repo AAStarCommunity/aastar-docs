@@ -1,6 +1,6 @@
 > **createCommunityClient**(`__namedParameters`): [`LegacyCommunityClient`](../type-aliases/LegacyCommunityClient.md)
 
-Defined in: [packages/sdk/src/clients/community.ts:60](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/sdk/src/clients/community.ts#L60)
+Defined in: [packages/sdk/src/clients/community.ts:60](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/sdk/src/clients/community.ts#L60)
 
 ## Parameters
 

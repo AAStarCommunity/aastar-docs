@@ -277,6 +277,6 @@ We welcome contributions! Please see our Contributing Guide for details.
 
 ---
 
-&lt;p align="center"&gt;
+<p align="center">
   Built with ❤️ by the AAstar Community
-&lt;/p&gt;
+</p>

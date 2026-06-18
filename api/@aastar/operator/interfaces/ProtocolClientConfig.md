@@ -1,4 +1,4 @@
-Defined in: [operator/src/ProtocolClient.ts:5](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/operator/src/ProtocolClient.ts#L5)
+Defined in: [operator/src/ProtocolClient.ts:5](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/operator/src/ProtocolClient.ts#L5)
 
 Base configuration for all L2 Business Clients
 
@@ -12,7 +12,7 @@ Base configuration for all L2 Business Clients
 
 > `optional` **blsAggregatorAddress**: `` `0x${string}` ``
 
-Defined in: [operator/src/ProtocolClient.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/operator/src/ProtocolClient.ts#L7)
+Defined in: [operator/src/ProtocolClient.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/operator/src/ProtocolClient.ts#L7)
 
 ***
 
@@ -35,7 +35,7 @@ Must have an account attached.
 
 > **dvtValidatorAddress**: `` `0x${string}` ``
 
-Defined in: [operator/src/ProtocolClient.ts:6](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/operator/src/ProtocolClient.ts#L6)
+Defined in: [operator/src/ProtocolClient.ts:6](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/operator/src/ProtocolClient.ts#L6)
 
 ***
 
@@ -144,7 +144,7 @@ Essential for looking up other contracts if not provided explicitly.
 
 > `optional` **superPaymasterAddress**: `` `0x${string}` ``
 
-Defined in: [operator/src/ProtocolClient.ts:8](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/operator/src/ProtocolClient.ts#L8)
+Defined in: [operator/src/ProtocolClient.ts:8](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/operator/src/ProtocolClient.ts#L8)
 
 ***
 

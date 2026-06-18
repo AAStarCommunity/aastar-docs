@@ -1,6 +1,6 @@
 > `const` **CANONICAL\_ADDRESSES**: `object`
 
-Defined in: [packages/core/src/addresses.ts:17](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/addresses.ts#L17)
+Defined in: [packages/core/src/addresses.ts:17](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/core/src/addresses.ts#L17)
 
 ## Type Declaration
 

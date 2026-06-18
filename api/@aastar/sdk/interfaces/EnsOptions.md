@@ -1,4 +1,4 @@
-Defined in: [packages/core/src/utils/ens.ts:27](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/utils/ens.ts#L27)
+Defined in: [packages/core/src/utils/ens.ts:27](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/core/src/utils/ens.ts#L27)
 
 Options accepted by resolveEns and lookupAddress.
 
@@ -8,7 +8,7 @@ Options accepted by resolveEns and lookupAddress.
 
 > `optional` **client**: `object`
 
-Defined in: [packages/core/src/utils/ens.ts:33](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/utils/ens.ts#L33)
+Defined in: [packages/core/src/utils/ens.ts:33](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/core/src/utils/ens.ts#L33)
 
 viem PublicClient configured for the ENS registry chain (usually mainnet).
 If omitted, a default mainnet client using the public RPC is created.
@@ -2575,7 +2575,7 @@ const unwatch = await client.watchPendingTransactions({
 
 > `optional` **rpcUrl**: `string`
 
-Defined in: [packages/core/src/utils/ens.ts:39](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/utils/ens.ts#L39)
+Defined in: [packages/core/src/utils/ens.ts:39](https://github.com/AAStarCommunity/aastar-sdk/blob/37c6572664338d9261a1ffb8ec4038bb35e44ea6/packages/core/src/utils/ens.ts#L39)
 
 Mainnet JSON-RPC URL. Only used when `client` is not provided.
 Defaults to the viem public mainnet RPC.

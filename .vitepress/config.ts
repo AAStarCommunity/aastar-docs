@@ -274,9 +274,9 @@ export default defineConfig({
       { text: 'Deployments', link: '/guide/deployments/' },
       { text: 'History', link: '/changelog' },
       {
-        text: 'v0.20.8 (latest)',
+        text: 'v0.20.9 (latest)',
         items: [
-          { text: 'v0.20.8 (latest)', link: '/' },
+          { text: 'v0.20.9 (latest)', link: '/' },
           { text: 'v0.16.23', link: '/0.16.23/' }
         ]
       }
