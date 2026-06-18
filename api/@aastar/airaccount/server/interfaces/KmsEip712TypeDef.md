@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/services/kms-signer.ts:110](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/kms-signer.ts#L110)
+Defined in: [packages/airaccount/src/server/services/kms-signer.ts:110](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/kms-signer.ts#L110)
 
 One entry in a `types` definition: a struct name and its ordered fields.
 
@@ -8,7 +8,7 @@ One entry in a `types` definition: a struct name and its ordered fields.
 
 > **fields**: `object`[]
 
-Defined in: [packages/airaccount/src/server/services/kms-signer.ts:112](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/kms-signer.ts#L112)
+Defined in: [packages/airaccount/src/server/services/kms-signer.ts:112](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/kms-signer.ts#L112)
 
 #### name
 
@@ -24,4 +24,4 @@ Defined in: [packages/airaccount/src/server/services/kms-signer.ts:112](https://
 
 > **name**: `string`
 
-Defined in: [packages/airaccount/src/server/services/kms-signer.ts:111](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/kms-signer.ts#L111)
+Defined in: [packages/airaccount/src/server/services/kms-signer.ts:111](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/kms-signer.ts#L111)

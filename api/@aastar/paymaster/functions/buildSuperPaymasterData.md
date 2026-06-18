@@ -1,6 +1,6 @@
 > **buildSuperPaymasterData**(`paymasterAddress`, `operator`, `options?`): `` `0x${string}` ``
 
-Defined in: [V4/PaymasterUtils.ts:94](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/paymaster/src/V4/PaymasterUtils.ts#L94)
+Defined in: [V4/PaymasterUtils.ts:94](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/paymaster/src/V4/PaymasterUtils.ts#L94)
 
 Build paymasterAndData for SuperPaymaster V3.
 Layout: [Paymaster(20)] [verGas(16)] [postGas(16)] [operator(20)] [maxRate(32)]

@@ -1,4 +1,4 @@
-Defined in: [packages/core/src/clients/doc-types.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/clients/doc-types.ts#L7)
+Defined in: [packages/core/src/clients/doc-types.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/clients/doc-types.ts#L7)
 
 Public Client Interface
 Standardized interface for reading from the blockchain.
@@ -2131,7 +2131,7 @@ Frequency (in ms) for polling enabled actions & events. Defaults to 4_000 millis
 
 ### prepareTransactionRequest()
 
-> **prepareTransactionRequest**: \<`request`, `chainOverride`, `accountOverride`\>(`args`) => `Promise`\<\{ \[K in string \| number \| symbol\]: (UnionRequiredBy\&lt;Extract\&lt;UnionOmit\<ExtractChainFormatterParameters\<(...), (...), (...)\&gt;, "from"\&gt; & (DeriveChain\<(...), (...)\> extends Chain ? \{ chain: ... \} : \{ chain?: ... \}) & (DeriveAccount\<(...), (...)\> extends Account ? \{ account: ...; from: ... \} : \{ account?: ...; from?: ... \}), IsNever\<(...) \| (...) \| (...) \| (...) \| (...)\> extends true ? unknown : ExactPartial\<(...) \| (...) \| (...) \| (...) \| (...)\>\> & \{ chainId?: number \}, ParameterTypeToParameters\&lt;request\["parameters"\] extends readonly PrepareTransactionRequestParameterType\[\] ? any\[any\]\[number\] : "type" \| "chainId" \| "gas" \| "nonce" \| "blobVersionedHashes" \| "fees"\&gt;\> & (unknown extends request\["kzg"\] ? \{\} : Pick\&lt;request, "kzg"\&gt;))\[K\] \}\>
+> **prepareTransactionRequest**: \<`request`, `chainOverride`, `accountOverride`\>(`args`) => `Promise`\<\{ \[K in string \| number \| symbol\]: (UnionRequiredBy\&lt;Extract\<UnionOmit\<ExtractChainFormatterParameters\<(...), (...), (...)\&gt;, "from"\> & (DeriveChain\<(...), (...)\> extends Chain ? \{ chain: ... \} : \{ chain?: ... \}) & (DeriveAccount\<(...), (...)\> extends Account ? \{ account: ...; from: ... \} : \{ account?: ...; from?: ... \}), IsNever\<(...) \| (...) \| (...) \| (...) \| (...)\> extends true ? unknown : ExactPartial\<(...) \| (...) \| (...) \| (...) \| (...)\>\> & \{ chainId?: number \}, ParameterTypeToParameters\&lt;request\["parameters"\] extends readonly PrepareTransactionRequestParameterType\[\] ? any\[any\]\[number\] : "type" \| "chainId" \| "gas" \| "nonce" \| "blobVersionedHashes" \| "fees"\&gt;\> & (unknown extends request\["kzg"\] ? \{\} : Pick\&lt;request, "kzg"\&gt;))\[K\] \}\>
 
 Defined in: node\_modules/.pnpm/viem@2.43.3\_typescript@5.7.2\_zod@3.25.76/node\_modules/viem/\_types/clients/decorators/public.d.ts:1069
 
@@ -2155,7 +2155,7 @@ Prepares a transaction request for signing.
 
 #### Returns
 
-`Promise`\<\{ \[K in string \| number \| symbol\]: (UnionRequiredBy\&lt;Extract\&lt;UnionOmit\<ExtractChainFormatterParameters\<(...), (...), (...)\&gt;, "from"\&gt; & (DeriveChain\<(...), (...)\> extends Chain ? \{ chain: ... \} : \{ chain?: ... \}) & (DeriveAccount\<(...), (...)\> extends Account ? \{ account: ...; from: ... \} : \{ account?: ...; from?: ... \}), IsNever\<(...) \| (...) \| (...) \| (...) \| (...)\> extends true ? unknown : ExactPartial\<(...) \| (...) \| (...) \| (...) \| (...)\>\> & \{ chainId?: number \}, ParameterTypeToParameters\&lt;request\["parameters"\] extends readonly PrepareTransactionRequestParameterType\[\] ? any\[any\]\[number\] : "type" \| "chainId" \| "gas" \| "nonce" \| "blobVersionedHashes" \| "fees"\&gt;\> & (unknown extends request\["kzg"\] ? \{\} : Pick\&lt;request, "kzg"\&gt;))\[K\] \}\>
+`Promise`\<\{ \[K in string \| number \| symbol\]: (UnionRequiredBy\&lt;Extract\<UnionOmit\<ExtractChainFormatterParameters\<(...), (...), (...)\&gt;, "from"\> & (DeriveChain\<(...), (...)\> extends Chain ? \{ chain: ... \} : \{ chain?: ... \}) & (DeriveAccount\<(...), (...)\> extends Account ? \{ account: ...; from: ... \} : \{ account?: ...; from?: ... \}), IsNever\<(...) \| (...) \| (...) \| (...) \| (...)\> extends true ? unknown : ExactPartial\<(...) \| (...) \| (...) \| (...) \| (...)\>\> & \{ chainId?: number \}, ParameterTypeToParameters\&lt;request\["parameters"\] extends readonly PrepareTransactionRequestParameterType\[\] ? any\[any\]\[number\] : "type" \| "chainId" \| "gas" \| "nonce" \| "blobVersionedHashes" \| "fees"\&gt;\> & (unknown extends request\["kzg"\] ? \{\} : Pick\&lt;request, "kzg"\&gt;))\[K\] \}\>
 
 The transaction request. [PrepareTransactionRequestReturnType](https://viem.sh/docs/index.html)
 

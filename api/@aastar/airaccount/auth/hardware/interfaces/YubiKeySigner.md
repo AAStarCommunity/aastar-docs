@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/auth/hardware/yubikey.ts:32](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/auth/hardware/yubikey.ts#L32)
+Defined in: [packages/airaccount/src/auth/hardware/yubikey.ts:32](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/auth/hardware/yubikey.ts#L32)
 
 yubikey.ts — YubiKey / FIDO2 hardware wallet signer for AirAccount M7.
 
@@ -35,7 +35,7 @@ Requirements:
 
 > **sign**(`userOpHash`): `Promise`\<`` `0x${string}` ``\>
 
-Defined in: [packages/airaccount/src/auth/hardware/yubikey.ts:43](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/auth/hardware/yubikey.ts#L43)
+Defined in: [packages/airaccount/src/auth/hardware/yubikey.ts:43](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/auth/hardware/yubikey.ts#L43)
 
 Trigger a WebAuthn assertion and return the raw P256 signature bytes
 formatted as [0x03][r(32)][s(32)] for AirAccount algId=0x03.

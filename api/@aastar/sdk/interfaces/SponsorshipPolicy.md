@@ -1,4 +1,4 @@
-Defined in: [packages/operator/src/PaymasterOperatorClient.ts:10](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/operator/src/PaymasterOperatorClient.ts#L10)
+Defined in: [packages/operator/src/PaymasterOperatorClient.ts:10](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/operator/src/PaymasterOperatorClient.ts#L10)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [packages/operator/src/PaymasterOperatorClient.ts:10](https://github
 
 > **globalLimit**: `bigint`
 
-Defined in: [packages/operator/src/PaymasterOperatorClient.ts:11](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/operator/src/PaymasterOperatorClient.ts#L11)
+Defined in: [packages/operator/src/PaymasterOperatorClient.ts:11](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/operator/src/PaymasterOperatorClient.ts#L11)
 
 ***
 
@@ -14,7 +14,7 @@ Defined in: [packages/operator/src/PaymasterOperatorClient.ts:11](https://github
 
 > **itemPrice**: `bigint`
 
-Defined in: [packages/operator/src/PaymasterOperatorClient.ts:13](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/operator/src/PaymasterOperatorClient.ts#L13)
+Defined in: [packages/operator/src/PaymasterOperatorClient.ts:13](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/operator/src/PaymasterOperatorClient.ts#L13)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [packages/operator/src/PaymasterOperatorClient.ts:13](https://github
 
 > **userLimit**: `bigint`
 
-Defined in: [packages/operator/src/PaymasterOperatorClient.ts:12](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/operator/src/PaymasterOperatorClient.ts#L12)
+Defined in: [packages/operator/src/PaymasterOperatorClient.ts:12](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/operator/src/PaymasterOperatorClient.ts#L12)

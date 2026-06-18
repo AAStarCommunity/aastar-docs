@@ -1,6 +1,6 @@
 > **SBTData** = `object`
 
-Defined in: [packages/core/src/actions/sbt.ts:14](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/actions/sbt.ts#L14)
+Defined in: [packages/core/src/actions/sbt.ts:14](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/sbt.ts#L14)
 
 ## Properties
 
@@ -8,7 +8,7 @@ Defined in: [packages/core/src/actions/sbt.ts:14](https://github.com/AAStarCommu
 
 > **firstCommunity**: `Address`
 
-Defined in: [packages/core/src/actions/sbt.ts:16](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/actions/sbt.ts#L16)
+Defined in: [packages/core/src/actions/sbt.ts:16](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/sbt.ts#L16)
 
 ***
 
@@ -16,7 +16,7 @@ Defined in: [packages/core/src/actions/sbt.ts:16](https://github.com/AAStarCommu
 
 > **holder**: `Address`
 
-Defined in: [packages/core/src/actions/sbt.ts:15](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/actions/sbt.ts#L15)
+Defined in: [packages/core/src/actions/sbt.ts:15](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/sbt.ts#L15)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [packages/core/src/actions/sbt.ts:15](https://github.com/AAStarCommu
 
 > **mintedAt**: `bigint`
 
-Defined in: [packages/core/src/actions/sbt.ts:17](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/actions/sbt.ts#L17)
+Defined in: [packages/core/src/actions/sbt.ts:17](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/sbt.ts#L17)
 
 ***
 
@@ -32,4 +32,4 @@ Defined in: [packages/core/src/actions/sbt.ts:17](https://github.com/AAStarCommu
 
 > **totalCommunities**: `bigint`
 
-Defined in: [packages/core/src/actions/sbt.ts:18](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/actions/sbt.ts#L18)
+Defined in: [packages/core/src/actions/sbt.ts:18](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/sbt.ts#L18)

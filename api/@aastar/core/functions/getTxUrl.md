@@ -1,6 +1,6 @@
 > **getTxUrl**(`network`, `txHash`): `string`
 
-Defined in: [packages/core/src/networks.ts:114](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/networks.ts#L114)
+Defined in: [packages/core/src/networks.ts:114](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/networks.ts#L114)
 
 Get transaction URL on block explorer
 

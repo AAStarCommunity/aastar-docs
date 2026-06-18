@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:96](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/erc8004-service.ts#L96)
+Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:96](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/erc8004-service.ts#L96)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:96](http
 
 > **count**: `bigint`
 
-Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:97](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/erc8004-service.ts#L97)
+Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:97](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/erc8004-service.ts#L97)
 
 ***
 
@@ -14,7 +14,7 @@ Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:97](http
 
 > **summaryDecimals**: `number`
 
-Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:99](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/erc8004-service.ts#L99)
+Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:99](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/erc8004-service.ts#L99)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:99](http
 
 > **summaryValue**: `bigint`
 
-Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:98](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/erc8004-service.ts#L98)
+Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:98](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/erc8004-service.ts#L98)

@@ -1,6 +1,6 @@
 > **getNetwork**(`network`): \{ `blockExplorer`: `"https://sepolia.etherscan.io"`; `chainId`: `11155111`; `name`: `"Sepolia"`; `nativeCurrency`: \{ `decimals`: `18`; `name`: `"Sepolia ETH"`; `symbol`: `"ETH"`; \}; `rpcUrl`: `"https://rpc.sepolia.org"`; \} \| \{ `blockExplorer`: `""`; `chainId`: `31337`; `name`: `"Anvil"`; `nativeCurrency`: \{ `decimals`: `18`; `name`: `"ETH"`; `symbol`: `"ETH"`; \}; `rpcUrl`: `"http://127.0.0.1:8545"`; \} \| \{ `blockExplorer`: `"https://optimistic.etherscan.io"`; `chainId`: `10`; `name`: `"Optimism"`; `nativeCurrency`: \{ `decimals`: `18`; `name`: `"Ether"`; `symbol`: `"ETH"`; \}; `rpcUrl`: `"https://mainnet.optimism.io"`; \} \| \{ `blockExplorer`: `"https://sepolia-optimism.etherscan.io"`; `chainId`: `11155420`; `name`: `"Optimism Sepolia"`; `nativeCurrency`: \{ `decimals`: `18`; `name`: `"Sepolia Ether"`; `symbol`: `"ETH"`; \}; `rpcUrl`: `"https://sepolia.optimism.io"`; \}
 
-Defined in: [packages/core/src/networks.ts:66](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/networks.ts#L66)
+Defined in: [packages/core/src/networks.ts:66](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/networks.ts#L66)
 
 Get network configuration
 

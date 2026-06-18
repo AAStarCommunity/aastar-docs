@@ -1,6 +1,6 @@
 > **LegacyCommunityClient** = [`Client`](https://viem.sh/docs/index.html)\<[`Transport`](https://viem.sh/docs/index.html), [`Chain`](https://viem.sh/docs/index.html), [`Account`](https://viem.sh/docs/index.html) \| `undefined`\> & [`PublicActions`](https://viem.sh/docs/index.html)\<[`Transport`](https://viem.sh/docs/index.html), [`Chain`](https://viem.sh/docs/index.html), [`Account`](https://viem.sh/docs/index.html) \| `undefined`\> & [`WalletActions`](https://viem.sh/docs/index.html)\<[`Chain`](https://viem.sh/docs/index.html), [`Account`](https://viem.sh/docs/index.html) \| `undefined`\> & [`RegistryActions`](RegistryActions.md) & [`SBTActions`](SBTActions.md) & `object`
 
-Defined in: [packages/sdk/src/clients/community.ts:32](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/sdk/src/clients/community.ts#L32)
+Defined in: [packages/sdk/src/clients/community.ts:32](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/sdk/src/clients/community.ts#L32)
 
 ## Type Declaration
 

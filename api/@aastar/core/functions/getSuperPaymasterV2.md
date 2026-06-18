@@ -1,6 +1,6 @@
 > **getSuperPaymasterV2**(`network`): `string`
 
-Defined in: [packages/core/src/contracts.ts:278](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/contracts.ts#L278)
+Defined in: [packages/core/src/contracts.ts:278](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/contracts.ts#L278)
 
 Get SuperPaymaster V2 address (AOA+ mode)
 

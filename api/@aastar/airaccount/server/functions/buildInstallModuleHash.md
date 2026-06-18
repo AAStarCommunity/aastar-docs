@@ -1,6 +1,6 @@
 > **buildInstallModuleHash**(`chainId`, `account`, `moduleTypeId`, `module`, `moduleInitData`): `string`
 
-Defined in: [packages/airaccount/src/server/services/module-manager.ts:63](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/module-manager.ts#L63)
+Defined in: [packages/airaccount/src/server/services/module-manager.ts:63](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/module-manager.ts#L63)
 
 Build the EIP-191 install hash that guardians must sign.
 

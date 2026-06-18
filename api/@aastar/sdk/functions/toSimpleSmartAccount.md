@@ -1,6 +1,6 @@
 > **toSimpleSmartAccount**(`parameters`): `Promise`\<[`SimpleSmartAccount`](../type-aliases/SimpleSmartAccount.md)\>
 
-Defined in: [packages/account/src/accounts/simple.ts:22](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/account/src/accounts/simple.ts#L22)
+Defined in: [packages/account/src/accounts/simple.ts:22](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/account/src/accounts/simple.ts#L22)
 
 ## Parameters
 

@@ -1,6 +1,6 @@
 > **createYubiKeySigner**(`config`): [`YubiKeySigner`](../interfaces/YubiKeySigner.md)
 
-Defined in: [packages/airaccount/src/auth/hardware/yubikey.ts:86](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/auth/hardware/yubikey.ts#L86)
+Defined in: [packages/airaccount/src/auth/hardware/yubikey.ts:86](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/auth/hardware/yubikey.ts#L86)
 
 Create a YubiKey / FIDO2 P256 signer using WebAuthn.
 

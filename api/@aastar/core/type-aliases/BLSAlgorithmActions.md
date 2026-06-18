@@ -1,6 +1,6 @@
 > **BLSAlgorithmActions** = `object`
 
-Defined in: [packages/core/src/actions/blsAlgorithm.ts:6](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/actions/blsAlgorithm.ts#L6)
+Defined in: [packages/core/src/actions/blsAlgorithm.ts:6](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/blsAlgorithm.ts#L6)
 
 ## Properties
 
@@ -8,7 +8,7 @@ Defined in: [packages/core/src/actions/blsAlgorithm.ts:6](https://github.com/AAS
 
 > **validate**: (`args`) => `Promise`\<`bigint`\>
 
-Defined in: [packages/core/src/actions/blsAlgorithm.ts:9](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/actions/blsAlgorithm.ts#L9)
+Defined in: [packages/core/src/actions/blsAlgorithm.ts:9](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/blsAlgorithm.ts#L9)
 
 #### Parameters
 

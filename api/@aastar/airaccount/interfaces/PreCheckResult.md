@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/core/tier/types.ts:38](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/core/tier/types.ts#L38)
+Defined in: [packages/airaccount/src/core/tier/types.ts:38](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/core/tier/types.ts#L38)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [packages/airaccount/src/core/tier/types.ts:38](https://github.com/A
 
 > **algId**: [`AlgId`](../type-aliases/AlgId.md)
 
-Defined in: [packages/airaccount/src/core/tier/types.ts:42](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/core/tier/types.ts#L42)
+Defined in: [packages/airaccount/src/core/tier/types.ts:42](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/core/tier/types.ts#L42)
 
 ***
 
@@ -14,7 +14,7 @@ Defined in: [packages/airaccount/src/core/tier/types.ts:42](https://github.com/A
 
 > **errors**: `string`[]
 
-Defined in: [packages/airaccount/src/core/tier/types.ts:40](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/core/tier/types.ts#L40)
+Defined in: [packages/airaccount/src/core/tier/types.ts:40](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/core/tier/types.ts#L40)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/airaccount/src/core/tier/types.ts:40](https://github.com/A
 
 > **ok**: `boolean`
 
-Defined in: [packages/airaccount/src/core/tier/types.ts:39](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/core/tier/types.ts#L39)
+Defined in: [packages/airaccount/src/core/tier/types.ts:39](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/core/tier/types.ts#L39)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: [packages/airaccount/src/core/tier/types.ts:39](https://github.com/A
 
 > **tier**: [`TierLevel`](../type-aliases/TierLevel.md)
 
-Defined in: [packages/airaccount/src/core/tier/types.ts:41](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/core/tier/types.ts#L41)
+Defined in: [packages/airaccount/src/core/tier/types.ts:41](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/core/tier/types.ts#L41)

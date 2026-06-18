@@ -1,6 +1,6 @@
 > **TokenConfig** = `object`
 
-Defined in: [packages/core/src/actions/airAccount.ts:12](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/actions/airAccount.ts#L12)
+Defined in: [packages/core/src/actions/airAccount.ts:12](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/airAccount.ts#L12)
 
 ## Properties
 
@@ -8,7 +8,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:12](https://github.com/AASt
 
 > **dailyLimit**: `bigint`
 
-Defined in: [packages/core/src/actions/airAccount.ts:15](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/actions/airAccount.ts#L15)
+Defined in: [packages/core/src/actions/airAccount.ts:15](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/airAccount.ts#L15)
 
 ***
 
@@ -16,7 +16,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:15](https://github.com/AASt
 
 > **tier1Limit**: `bigint`
 
-Defined in: [packages/core/src/actions/airAccount.ts:13](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/actions/airAccount.ts#L13)
+Defined in: [packages/core/src/actions/airAccount.ts:13](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/airAccount.ts#L13)
 
 ***
 
@@ -24,4 +24,4 @@ Defined in: [packages/core/src/actions/airAccount.ts:13](https://github.com/AASt
 
 > **tier2Limit**: `bigint`
 
-Defined in: [packages/core/src/actions/airAccount.ts:14](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/actions/airAccount.ts#L14)
+Defined in: [packages/core/src/actions/airAccount.ts:14](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/airAccount.ts#L14)

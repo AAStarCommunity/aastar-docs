@@ -1,6 +1,6 @@
 > **getCanonicalAddresses**(`chainId`): CanonicalAddresses & \{ gTokenStaking: \`0x$\{string\}\`; mySBT: \`0x$\{string\}\`; \} \| `undefined`
 
-Defined in: [packages/core/src/addresses.ts:225](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/core/src/addresses.ts#L225)
+Defined in: [packages/core/src/addresses.ts:225](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/addresses.ts#L225)
 
 Resolve the canonical contract address book for a chain, keyed by `chainId`,
 normalized to the key names the role-based client factories expect.

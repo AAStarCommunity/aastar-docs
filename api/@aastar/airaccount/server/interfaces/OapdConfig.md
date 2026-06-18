@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/utils/oapd.ts:23](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/utils/oapd.ts#L23)
+Defined in: [packages/airaccount/src/server/utils/oapd.ts:23](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/utils/oapd.ts#L23)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [packages/airaccount/src/server/utils/oapd.ts:23](https://github.com
 
 > **dappId**: `string`
 
-Defined in: [packages/airaccount/src/server/utils/oapd.ts:27](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/utils/oapd.ts#L27)
+Defined in: [packages/airaccount/src/server/utils/oapd.ts:27](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/utils/oapd.ts#L27)
 
 DApp identifier — use the DApp's domain or contract address
 
@@ -16,7 +16,7 @@ DApp identifier — use the DApp's domain or contract address
 
 > `optional` **factoryAddress**: `string`
 
-Defined in: [packages/airaccount/src/server/utils/oapd.ts:29](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/utils/oapd.ts#L29)
+Defined in: [packages/airaccount/src/server/utils/oapd.ts:29](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/utils/oapd.ts#L29)
 
 Factory address (defaults to M7 Sepolia)
 
@@ -26,7 +26,7 @@ Factory address (defaults to M7 Sepolia)
 
 > **initConfig**: `object`
 
-Defined in: [packages/airaccount/src/server/utils/oapd.ts:34](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/utils/oapd.ts#L34)
+Defined in: [packages/airaccount/src/server/utils/oapd.ts:34](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/utils/oapd.ts#L34)
 
 InitConfig for the OAPD account.
 Typically lower daily limits than the main account.
@@ -61,6 +61,6 @@ Typically lower daily limits than the main account.
 
 > **owner**: `string`
 
-Defined in: [packages/airaccount/src/server/utils/oapd.ts:25](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/utils/oapd.ts#L25)
+Defined in: [packages/airaccount/src/server/utils/oapd.ts:25](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/utils/oapd.ts#L25)
 
 Account owner address

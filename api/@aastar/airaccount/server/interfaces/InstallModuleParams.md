@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/services/module-manager.ts:21](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/module-manager.ts#L21)
+Defined in: [packages/airaccount/src/server/services/module-manager.ts:21](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/module-manager.ts#L21)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [packages/airaccount/src/server/services/module-manager.ts:21](https
 
 > **account**: `string`
 
-Defined in: [packages/airaccount/src/server/services/module-manager.ts:23](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/module-manager.ts#L23)
+Defined in: [packages/airaccount/src/server/services/module-manager.ts:23](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/module-manager.ts#L23)
 
 The deployed AirAccount address
 
@@ -16,7 +16,7 @@ The deployed AirAccount address
 
 > `optional` **guardianSigs**: `string`[]
 
-Defined in: [packages/airaccount/src/server/services/module-manager.ts:38](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/module-manager.ts#L38)
+Defined in: [packages/airaccount/src/server/services/module-manager.ts:38](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/module-manager.ts#L38)
 
 Guardian signatures + module init data, packed as:
   bytes[0..65*sigsRequired] = guardian ECDSA sigs
@@ -33,7 +33,7 @@ sigsRequired: 0 if threshold<=40, 1 if <=70, 2 if =100
 
 > **module**: `string`
 
-Defined in: [packages/airaccount/src/server/services/module-manager.ts:27](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/module-manager.ts#L27)
+Defined in: [packages/airaccount/src/server/services/module-manager.ts:27](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/module-manager.ts#L27)
 
 Module contract address to install
 
@@ -43,7 +43,7 @@ Module contract address to install
 
 > `optional` **moduleInitData**: `string`
 
-Defined in: [packages/airaccount/src/server/services/module-manager.ts:40](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/module-manager.ts#L40)
+Defined in: [packages/airaccount/src/server/services/module-manager.ts:40](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/module-manager.ts#L40)
 
 Raw bytes passed to module.onInstall() after guardian sigs
 
@@ -53,6 +53,6 @@ Raw bytes passed to module.onInstall() after guardian sigs
 
 > **moduleTypeId**: [`ModuleTypeId`](../type-aliases/ModuleTypeId.md)
 
-Defined in: [packages/airaccount/src/server/services/module-manager.ts:25](https://github.com/AAStarCommunity/aastar-sdk/blob/605127e5698e83b701be3a068b636f758e1cef9c/packages/airaccount/src/server/services/module-manager.ts#L25)
+Defined in: [packages/airaccount/src/server/services/module-manager.ts:25](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/module-manager.ts#L25)
 
 ERC-7579 module type: 1=Validator, 2=Executor, 3=Fallback, 4=Hook
