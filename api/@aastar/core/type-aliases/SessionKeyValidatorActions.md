@@ -1,14 +1,57 @@
 > **SessionKeyValidatorActions** = `object`
 
-Defined in: [packages/core/src/actions/sessionKeyValidator.ts:13](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/sessionKeyValidator.ts#L13)
+Defined in: [packages/core/src/actions/sessionKeyValidator.ts:27](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/sessionKeyValidator.ts#L27)
 
 ## Properties
+
+### buildGrantHash()
+
+> **buildGrantHash**: (`args`) => `Promise`\<[`Hex`](https://viem.sh/docs/index.html)\>
+
+Defined in: [packages/core/src/actions/sessionKeyValidator.ts:38](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/sessionKeyValidator.ts#L38)
+
+#### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `args` | \{ `account`: `Address`; `cfg`: [`SessionConfig`](SessionConfig.md); `sessionKey`: `Address`; \} |
+| `args.account` | `Address` |
+| `args.cfg` | [`SessionConfig`](SessionConfig.md) |
+| `args.sessionKey` | `Address` |
+
+#### Returns
+
+`Promise`\<[`Hex`](https://viem.sh/docs/index.html)\>
+
+***
+
+### buildP256GrantHash()
+
+> **buildP256GrantHash**: (`args`) => `Promise`\<[`Hex`](https://viem.sh/docs/index.html)\>
+
+Defined in: [packages/core/src/actions/sessionKeyValidator.ts:39](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/sessionKeyValidator.ts#L39)
+
+#### Parameters
+
+| Parameter | Type |
+| ------ | ------ |
+| `args` | \{ `account`: `Address`; `cfg`: [`SessionConfig`](SessionConfig.md); `p256KeyX`: [`Hex`](https://viem.sh/docs/index.html); `p256KeyY`: [`Hex`](https://viem.sh/docs/index.html); \} |
+| `args.account` | `Address` |
+| `args.cfg` | [`SessionConfig`](SessionConfig.md) |
+| `args.p256KeyX` | [`Hex`](https://viem.sh/docs/index.html) |
+| `args.p256KeyY` | [`Hex`](https://viem.sh/docs/index.html) |
+
+#### Returns
+
+`Promise`\<[`Hex`](https://viem.sh/docs/index.html)\>
+
+***
 
 ### checkSessionScope()
 
 > **checkSessionScope**: (`args`) => `Promise`\<`void`\>
 
-Defined in: [packages/core/src/actions/sessionKeyValidator.ts:15](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/sessionKeyValidator.ts#L15)
+Defined in: [packages/core/src/actions/sessionKeyValidator.ts:29](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/sessionKeyValidator.ts#L29)
 
 #### Parameters
 
@@ -31,7 +74,7 @@ Defined in: [packages/core/src/actions/sessionKeyValidator.ts:15](https://github
 
 > **grantNonces**: (`args`) => `Promise`\<`bigint`\>
 
-Defined in: [packages/core/src/actions/sessionKeyValidator.ts:16](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/sessionKeyValidator.ts#L16)
+Defined in: [packages/core/src/actions/sessionKeyValidator.ts:30](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/sessionKeyValidator.ts#L30)
 
 #### Parameters
 
@@ -51,7 +94,7 @@ Defined in: [packages/core/src/actions/sessionKeyValidator.ts:16](https://github
 
 > **grantNonces\_p256**: (`args`) => `Promise`\<`bigint`\>
 
-Defined in: [packages/core/src/actions/sessionKeyValidator.ts:17](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/sessionKeyValidator.ts#L17)
+Defined in: [packages/core/src/actions/sessionKeyValidator.ts:31](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/sessionKeyValidator.ts#L31)
 
 #### Parameters
 
@@ -71,7 +114,7 @@ Defined in: [packages/core/src/actions/sessionKeyValidator.ts:17](https://github
 
 > **recordCallForVelocity**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/sessionKeyValidator.ts:21](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/sessionKeyValidator.ts#L21)
+Defined in: [packages/core/src/actions/sessionKeyValidator.ts:35](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/sessionKeyValidator.ts#L35)
 
 #### Parameters
 
@@ -93,7 +136,7 @@ Defined in: [packages/core/src/actions/sessionKeyValidator.ts:21](https://github
 
 > **sessionKeyCount**: (`args`) => `Promise`\<`bigint`\>
 
-Defined in: [packages/core/src/actions/sessionKeyValidator.ts:18](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/sessionKeyValidator.ts#L18)
+Defined in: [packages/core/src/actions/sessionKeyValidator.ts:32](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/sessionKeyValidator.ts#L32)
 
 #### Parameters
 
@@ -112,7 +155,7 @@ Defined in: [packages/core/src/actions/sessionKeyValidator.ts:18](https://github
 
 > **sessionStates\_p256**: (`args`) => `Promise`\<[`P256SessionState`](P256SessionState.md)\>
 
-Defined in: [packages/core/src/actions/sessionKeyValidator.ts:19](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/sessionKeyValidator.ts#L19)
+Defined in: [packages/core/src/actions/sessionKeyValidator.ts:33](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/sessionKeyValidator.ts#L33)
 
 #### Parameters
 

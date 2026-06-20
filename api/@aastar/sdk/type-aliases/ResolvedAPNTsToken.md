@@ -1,6 +1,6 @@
 > **ResolvedAPNTsToken** = `object`
 
-Defined in: [packages/core/src/actions/superPaymaster.ts:62](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/superPaymaster.ts#L62)
+Defined in: [packages/core/src/actions/superPaymaster.ts:62](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/superPaymaster.ts#L62)
 
 Runtime-resolved aPNTs token state read live from the SuperPaymaster contract.
 
@@ -15,7 +15,7 @@ upcoming migration.
 
 > **active**: `Address`
 
-Defined in: [packages/core/src/actions/superPaymaster.ts:64](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/superPaymaster.ts#L64)
+Defined in: [packages/core/src/actions/superPaymaster.ts:64](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/superPaymaster.ts#L64)
 
 Currently active aPNTs token address, read from `APNTS_TOKEN()`.
 
@@ -25,7 +25,7 @@ Currently active aPNTs token address, read from `APNTS_TOKEN()`.
 
 > **fallbackUsed**: `boolean`
 
-Defined in: [packages/core/src/actions/superPaymaster.ts:70](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/superPaymaster.ts#L70)
+Defined in: [packages/core/src/actions/superPaymaster.ts:70](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/superPaymaster.ts#L70)
 
 True only when `active` came from the explicit `fallback` option after a failed chain read.
 
@@ -35,7 +35,7 @@ True only when `active` came from the explicit `fallback` option after a failed 
 
 > **pending**: `Address`
 
-Defined in: [packages/core/src/actions/superPaymaster.ts:66](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/superPaymaster.ts#L66)
+Defined in: [packages/core/src/actions/superPaymaster.ts:66](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/superPaymaster.ts#L66)
 
 aPNTs token queued for migration; `zeroAddress` when none is queued.
 
@@ -45,6 +45,6 @@ aPNTs token queued for migration; `zeroAddress` when none is queued.
 
 > **pendingEta**: `bigint`
 
-Defined in: [packages/core/src/actions/superPaymaster.ts:68](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/actions/superPaymaster.ts#L68)
+Defined in: [packages/core/src/actions/superPaymaster.ts:68](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/superPaymaster.ts#L68)
 
 Unix-second ETA when the pending change becomes executable; `0n` when none is queued.

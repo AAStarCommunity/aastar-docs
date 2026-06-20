@@ -1,4 +1,4 @@
-Defined in: [packages/account/src/index.ts:40](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/account/src/index.ts#L40)
+Defined in: [packages/account/src/index.ts:40](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/account/src/index.ts#L40)
 
 UserOperation Client for handling high-level flows
 
@@ -18,7 +18,7 @@ UserOperation Client for handling high-level flows
 
 > `static` **estimateGas**(`bundler`, `op`, `entryPoint`): `Promise`\<`any`\>
 
-Defined in: [packages/account/src/index.ts:41](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/account/src/index.ts#L41)
+Defined in: [packages/account/src/index.ts:41](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/account/src/index.ts#L41)
 
 #### Parameters
 
@@ -38,7 +38,7 @@ Defined in: [packages/account/src/index.ts:41](https://github.com/AAStarCommunit
 
 > `static` **getReceipt**(`bundler`, `hash`): `Promise`\<`any`\>
 
-Defined in: [packages/account/src/index.ts:55](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/account/src/index.ts#L55)
+Defined in: [packages/account/src/index.ts:55](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/account/src/index.ts#L55)
 
 #### Parameters
 
@@ -57,7 +57,7 @@ Defined in: [packages/account/src/index.ts:55](https://github.com/AAStarCommunit
 
 > `static` **sendUserOp**(`bundler`, `op`, `entryPoint`): `Promise`\<`any`\>
 
-Defined in: [packages/account/src/index.ts:48](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/account/src/index.ts#L48)
+Defined in: [packages/account/src/index.ts:48](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/account/src/index.ts#L48)
 
 #### Parameters
 

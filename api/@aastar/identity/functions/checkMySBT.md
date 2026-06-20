@@ -1,6 +1,6 @@
 > **checkMySBT**(`client`, `sbtAddress`, `user`): `Promise`\<\{ `balance`: `bigint`; `hasSBT`: `boolean`; \}\>
 
-Defined in: [mysbt.ts:14](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/identity/src/mysbt.ts#L14)
+Defined in: [mysbt.ts:14](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/identity/src/mysbt.ts#L14)
 
 Check if user holds MySBT token (identity verification).
 

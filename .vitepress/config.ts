@@ -215,6 +215,8 @@ export default defineConfig({
   lang: 'en',
   ignoreDeadLinks: true,
   lastUpdated: true,
+  // CLAUDE.md is an internal maintainer/agent runbook, not a public page.
+  srcExclude: ['CLAUDE.md', '**/CLAUDE.md'],
   vite: {
     plugins: [
       {
@@ -274,9 +276,9 @@ export default defineConfig({
       { text: 'Deployments', link: '/guide/deployments/' },
       { text: 'History', link: '/changelog' },
       {
-        text: 'v0.20.9 (latest)',
+        text: 'v0.22.0 (latest)',
         items: [
-          { text: 'v0.20.9 (latest)', link: '/' },
+          { text: 'v0.22.0 (latest)', link: '/' },
           { text: 'v0.16.23', link: '/0.16.23/' }
         ]
       }

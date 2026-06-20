@@ -1,4 +1,4 @@
-Defined in: [packages/dapp/src/eip1193.ts:115](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/dapp/src/eip1193.ts#L115)
+Defined in: [packages/dapp/src/eip1193.ts:115](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/dapp/src/eip1193.ts#L115)
 
 AirAccountEIP1193Provider — drop-in EIP-1193 wallet backed by an AirAccount M7 smart account.
 
@@ -20,7 +20,7 @@ const provider = new AirAccountEIP1193Provider({
 
 > **new AirAccountEIP1193Provider**(`config`): `AirAccountEIP1193Provider`
 
-Defined in: [packages/dapp/src/eip1193.ts:120](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/dapp/src/eip1193.ts#L120)
+Defined in: [packages/dapp/src/eip1193.ts:120](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/dapp/src/eip1193.ts#L120)
 
 #### Parameters
 
@@ -38,7 +38,7 @@ Defined in: [packages/dapp/src/eip1193.ts:120](https://github.com/AAStarCommunit
 
 > **on**(`event`, `listener`): `this`
 
-Defined in: [packages/dapp/src/eip1193.ts:169](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/dapp/src/eip1193.ts#L169)
+Defined in: [packages/dapp/src/eip1193.ts:169](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/dapp/src/eip1193.ts#L169)
 
 #### Parameters
 
@@ -57,7 +57,7 @@ Defined in: [packages/dapp/src/eip1193.ts:169](https://github.com/AAStarCommunit
 
 > **removeListener**(`event`, `listener`): `this`
 
-Defined in: [packages/dapp/src/eip1193.ts:175](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/dapp/src/eip1193.ts#L175)
+Defined in: [packages/dapp/src/eip1193.ts:175](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/dapp/src/eip1193.ts#L175)
 
 #### Parameters
 
@@ -76,7 +76,7 @@ Defined in: [packages/dapp/src/eip1193.ts:175](https://github.com/AAStarCommunit
 
 > **request**(`__namedParameters`): `Promise`\<`unknown`\>
 
-Defined in: [packages/dapp/src/eip1193.ts:125](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/dapp/src/eip1193.ts#L125)
+Defined in: [packages/dapp/src/eip1193.ts:125](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/dapp/src/eip1193.ts#L125)
 
 #### Parameters
 

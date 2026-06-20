@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/core/bls/types.ts:44](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/core/bls/types.ts#L44)
+Defined in: [packages/airaccount/src/core/bls/types.ts:44](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/core/bls/types.ts#L44)
 
 Data for cumulative Tier 3 signature (algId 0x05): P256 + BLS + Guardian.
 
@@ -12,7 +12,7 @@ Data for cumulative Tier 3 signature (algId 0x05): P256 + BLS + Guardian.
 
 > **blsSignature**: `string`
 
-Defined in: [packages/airaccount/src/core/bls/types.ts:36](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/core/bls/types.ts#L36)
+Defined in: [packages/airaccount/src/core/bls/types.ts:36](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/core/bls/types.ts#L36)
 
 #### Inherited from
 
@@ -24,7 +24,7 @@ Defined in: [packages/airaccount/src/core/bls/types.ts:36](https://github.com/AA
 
 > **guardianSignature**: `string`
 
-Defined in: [packages/airaccount/src/core/bls/types.ts:45](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/core/bls/types.ts#L45)
+Defined in: [packages/airaccount/src/core/bls/types.ts:45](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/core/bls/types.ts#L45)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [packages/airaccount/src/core/bls/types.ts:45](https://github.com/AA
 
 > **messagePoint**: `string`
 
-Defined in: [packages/airaccount/src/core/bls/types.ts:37](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/core/bls/types.ts#L37)
+Defined in: [packages/airaccount/src/core/bls/types.ts:37](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/core/bls/types.ts#L37)
 
 #### Inherited from
 
@@ -44,7 +44,7 @@ Defined in: [packages/airaccount/src/core/bls/types.ts:37](https://github.com/AA
 
 > **messagePointSignature**: `string`
 
-Defined in: [packages/airaccount/src/core/bls/types.ts:38](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/core/bls/types.ts#L38)
+Defined in: [packages/airaccount/src/core/bls/types.ts:38](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/core/bls/types.ts#L38)
 
 #### Inherited from
 
@@ -56,7 +56,7 @@ Defined in: [packages/airaccount/src/core/bls/types.ts:38](https://github.com/AA
 
 > **nodeIds**: `string`[]
 
-Defined in: [packages/airaccount/src/core/bls/types.ts:35](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/core/bls/types.ts#L35)
+Defined in: [packages/airaccount/src/core/bls/types.ts:35](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/core/bls/types.ts#L35)
 
 #### Inherited from
 
@@ -68,7 +68,7 @@ Defined in: [packages/airaccount/src/core/bls/types.ts:35](https://github.com/AA
 
 > **p256Signature**: `string`
 
-Defined in: [packages/airaccount/src/core/bls/types.ts:34](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/core/bls/types.ts#L34)
+Defined in: [packages/airaccount/src/core/bls/types.ts:34](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/core/bls/types.ts#L34)
 
 #### Inherited from
 

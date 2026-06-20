@@ -1,6 +1,6 @@
 > **getOapdAddressWithChainId**(`provider`, `config`): `Promise`\<\{ `address`: `string`; `chainQualified`: `string`; \}\>
 
-Defined in: [packages/airaccount/src/server/utils/oapd.ts:79](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/utils/oapd.ts#L79)
+Defined in: [packages/airaccount/src/server/utils/oapd.ts:83](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/utils/oapd.ts#L83)
 
 Get the OAPD address and its ERC-7828 chain-qualified identifier.
 

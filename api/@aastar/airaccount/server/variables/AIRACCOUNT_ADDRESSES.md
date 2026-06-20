@@ -1,6 +1,6 @@
 > `const` **AIRACCOUNT\_ADDRESSES**: `object`
 
-Defined in: [packages/airaccount/src/server/constants/entrypoint.ts:75](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/constants/entrypoint.ts#L75)
+Defined in: [packages/airaccount/src/server/constants/entrypoint.ts:75](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/constants/entrypoint.ts#L75)
 
 ## Type Declaration
 
@@ -10,7 +10,7 @@ Defined in: [packages/airaccount/src/server/constants/entrypoint.ts:75](https://
 
 #### sepolia.accountImpl
 
-> **accountImpl**: `"0x7fe62d512f0b8238DE6Ff17175DcE40eA312bBF2"` = `CORE_SEPOLIA.airAccountV7Impl`
+> **accountImpl**: `"0xd51db7eB20FF99c8588281CBe1785681Bb17D473"` = `CORE_SEPOLIA.airAccountV7Impl`
 
 #### sepolia.accountImplM7r4
 
@@ -28,7 +28,7 @@ Use [accountImpl](#sepolia) (r4 audit-final).
 
 #### sepolia.agentRegistry
 
-> **agentRegistry**: `"0x3895b3E6fEf4e121E6289dC7881A0eEd5283C652"` = `CORE_SEPOLIA.agentRegistry`
+> **agentRegistry**: `"0xbcE1163817EEBA2E07d39424427B10937bF1D121"` = `CORE_SEPOLIA.agentRegistry`
 
 #### sepolia.agentSessionKeyValidatorM7r4
 
@@ -46,23 +46,23 @@ Use agentSessionKeyValidator (r4 audit-final).
 
 #### sepolia.airAccountDelegate
 
-> **airAccountDelegate**: `"0xA8D7f70c9D36bC4a4eb14F0dCEE19053FCB3309f"` = `CORE_SEPOLIA.airAccountDelegate`
+> **airAccountDelegate**: `"0xd2735E54C5f5f2BF523b8a9ddd0E183624c3f2c0"` = `CORE_SEPOLIA.airAccountDelegate`
 
 #### sepolia.airAccountExtension
 
-> **airAccountExtension**: `"0xD61C0F3DE6D98070E9986743d35A56d56855A249"` = `CORE_SEPOLIA.airAccountExtension`
+> **airAccountExtension**: `"0x5529f50811814E0a4966cFC21200DCeF9C3FCb5B"` = `CORE_SEPOLIA.airAccountExtension`
 
 #### sepolia.blsAggregator
 
-> **blsAggregator**: `"0x77f7bf95B8602b7851f392F412257539242947e0"` = `CORE_SEPOLIA.aaStarBLSAggregator`
+> **blsAggregator**: `"0x35775df9a4f4dB42Ea0C46118a12dDd0cEc70609"` = `CORE_SEPOLIA.aaStarBLSAggregator`
 
 #### sepolia.blsAlgorithm
 
-> **blsAlgorithm**: `"0x68c381Ad3A2e3380F22840008027E9Ec2783F43A"` = `CORE_SEPOLIA.aaStarBLSAlgorithm`
+> **blsAlgorithm**: `"0xAF525A161CB17e0A1b6254ef0B8d8473bdA05174"` = `CORE_SEPOLIA.aaStarBLSAlgorithm`
 
 #### sepolia.calldataParserRegistry
 
-> **calldataParserRegistry**: `"0xb8Af1C039dF88F6bD9fE36Ca683492a3c09e7D17"` = `CORE_SEPOLIA.calldataParserRegistry`
+> **calldataParserRegistry**: `"0x7dEea4544446826601014bD94d0F6432A67496F5"` = `CORE_SEPOLIA.calldataParserRegistry`
 
 #### sepolia.compositeValidatorM7r4
 
@@ -80,7 +80,7 @@ Use compositeValidator (r4 audit-final).
 
 #### sepolia.factory
 
-> **factory**: `"0x52c5190E7308Ea9B149157FF016cC99B6C6bf984"` = `CORE_SEPOLIA.airAccountFactoryV7`
+> **factory**: `"0x99C9300d52EDD9f4B7135DEd1811fBa6FFa1DDC6"` = `CORE_SEPOLIA.airAccountFactoryV7`
 
 #### sepolia.factoryM4
 
@@ -92,7 +92,7 @@ Use compositeValidator (r4 audit-final).
 
 #### sepolia.factoryM7
 
-> **factoryM7**: `"0x52c5190E7308Ea9B149157FF016cC99B6C6bf984"` = `CORE_SEPOLIA.airAccountFactoryV7`
+> **factoryM7**: `"0x99C9300d52EDD9f4B7135DEd1811fBa6FFa1DDC6"` = `CORE_SEPOLIA.airAccountFactoryV7`
 
 #### sepolia.factoryM7r4
 
@@ -120,11 +120,11 @@ Use [factory](#sepolia) (r4 audit-final) for new accounts.
 
 #### sepolia.forceExitModule
 
-> **forceExitModule**: `"0xd882a16Ea37Be463D1885EF4a397Dbbf157dC211"` = `CORE_SEPOLIA.forceExitModule`
+> **forceExitModule**: `"0x3fDe77868b74a7979A40a2293a1CD265fbe66EEc"` = `CORE_SEPOLIA.forceExitModule`
 
 #### sepolia.sessionKeyValidator
 
-> **sessionKeyValidator**: `"0x70de2e36004d6Ddc24DEB80e1Ef76c03EdC0c2AE"` = `CORE_SEPOLIA.sessionKeyValidator`
+> **sessionKeyValidator**: `"0x6810CfB7c72D16e044a17694fAa8076e517264D0"` = `CORE_SEPOLIA.sessionKeyValidator`
 
 #### sepolia.superPaymaster
 
@@ -150,7 +150,7 @@ Use tierGuardHook (r4 audit-final).
 
 #### sepolia.validatorRouter
 
-> **validatorRouter**: `"0xC20A986Bcd5bF5Cc2fE5fFde6b155B8419E0389e"` = `CORE_SEPOLIA.aaStarValidator`
+> **validatorRouter**: `"0xfcDfd17a373E037c3F9C8ffE2c781915E7Ae6e11"` = `CORE_SEPOLIA.aaStarValidator`
 
 #### sepolia.validatorRouterM7r4
 

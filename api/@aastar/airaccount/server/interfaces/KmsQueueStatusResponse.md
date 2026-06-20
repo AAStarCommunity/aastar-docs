@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/services/kms-monitor-service.ts:35](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/kms-monitor-service.ts#L35)
+Defined in: [packages/airaccount/src/server/services/kms-monitor-service.ts:35](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-monitor-service.ts#L35)
 
 KMS request-queue health, including circuit-breaker state. Useful for
 back-pressure decisions before submitting signing operations.
@@ -9,7 +9,7 @@ back-pressure decisions before submitting signing operations.
 
 > **circuit\_breaker\_open**: `boolean`
 
-Defined in: [packages/airaccount/src/server/services/kms-monitor-service.ts:38](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/kms-monitor-service.ts#L38)
+Defined in: [packages/airaccount/src/server/services/kms-monitor-service.ts:38](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-monitor-service.ts#L38)
 
 ***
 
@@ -17,7 +17,7 @@ Defined in: [packages/airaccount/src/server/services/kms-monitor-service.ts:38](
 
 > **consecutive\_failures**: `number`
 
-Defined in: [packages/airaccount/src/server/services/kms-monitor-service.ts:39](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/kms-monitor-service.ts#L39)
+Defined in: [packages/airaccount/src/server/services/kms-monitor-service.ts:39](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-monitor-service.ts#L39)
 
 ***
 
@@ -25,7 +25,7 @@ Defined in: [packages/airaccount/src/server/services/kms-monitor-service.ts:39](
 
 > **estimated\_wait\_seconds**: `number`
 
-Defined in: [packages/airaccount/src/server/services/kms-monitor-service.ts:37](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/kms-monitor-service.ts#L37)
+Defined in: [packages/airaccount/src/server/services/kms-monitor-service.ts:37](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-monitor-service.ts#L37)
 
 ***
 
@@ -33,4 +33,4 @@ Defined in: [packages/airaccount/src/server/services/kms-monitor-service.ts:37](
 
 > **queue\_depth**: `number`
 
-Defined in: [packages/airaccount/src/server/services/kms-monitor-service.ts:36](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/kms-monitor-service.ts#L36)
+Defined in: [packages/airaccount/src/server/services/kms-monitor-service.ts:36](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-monitor-service.ts#L36)

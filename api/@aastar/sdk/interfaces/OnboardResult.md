@@ -1,4 +1,4 @@
-Defined in: [packages/enduser/src/UserLifecycle.ts:20](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/enduser/src/UserLifecycle.ts#L20)
+Defined in: [packages/enduser/src/UserLifecycle.ts:20](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/enduser/src/UserLifecycle.ts#L20)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [packages/enduser/src/UserLifecycle.ts:20](https://github.com/AAStar
 
 > `optional` **sbtId**: `bigint`
 
-Defined in: [packages/enduser/src/UserLifecycle.ts:22](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/enduser/src/UserLifecycle.ts#L22)
+Defined in: [packages/enduser/src/UserLifecycle.ts:22](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/enduser/src/UserLifecycle.ts#L22)
 
 ***
 
@@ -14,7 +14,7 @@ Defined in: [packages/enduser/src/UserLifecycle.ts:22](https://github.com/AAStar
 
 > **success**: `boolean`
 
-Defined in: [packages/enduser/src/UserLifecycle.ts:21](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/enduser/src/UserLifecycle.ts#L21)
+Defined in: [packages/enduser/src/UserLifecycle.ts:21](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/enduser/src/UserLifecycle.ts#L21)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [packages/enduser/src/UserLifecycle.ts:21](https://github.com/AAStar
 
 > `optional` **txHash**: `` `0x${string}` ``
 
-Defined in: [packages/enduser/src/UserLifecycle.ts:23](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/enduser/src/UserLifecycle.ts#L23)
+Defined in: [packages/enduser/src/UserLifecycle.ts:23](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/enduser/src/UserLifecycle.ts#L23)

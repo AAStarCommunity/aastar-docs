@@ -1,6 +1,6 @@
 > `const` **CustomErrors**: `object`
 
-Defined in: [packages/sdk/src/errors/decoder.ts:4](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/sdk/src/errors/decoder.ts#L4)
+Defined in: [packages/sdk/src/errors/decoder.ts:4](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/errors/decoder.ts#L4)
 
 ## Type Declaration
 

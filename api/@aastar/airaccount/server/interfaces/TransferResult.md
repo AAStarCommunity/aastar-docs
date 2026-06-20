@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:122](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/transfer-manager.ts#L122)
+Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:127](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/transfer-manager.ts#L127)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:122](ht
 
 > **amount**: `string`
 
-Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:130](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/transfer-manager.ts#L130)
+Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:135](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/transfer-manager.ts#L135)
 
 ***
 
@@ -14,7 +14,7 @@ Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:130](ht
 
 > **from**: `string`
 
-Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:128](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/transfer-manager.ts#L128)
+Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:133](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/transfer-manager.ts#L133)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:128](ht
 
 > **message**: `string`
 
-Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:127](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/transfer-manager.ts#L127)
+Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:132](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/transfer-manager.ts#L132)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:127](ht
 
 > **status**: `string`
 
-Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:126](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/transfer-manager.ts#L126)
+Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:131](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/transfer-manager.ts#L131)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:126](ht
 
 > **success**: `boolean`
 
-Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:123](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/transfer-manager.ts#L123)
+Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:128](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/transfer-manager.ts#L128)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:123](ht
 
 > **to**: `string`
 
-Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:129](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/transfer-manager.ts#L129)
+Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:134](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/transfer-manager.ts#L134)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:129](ht
 
 > **transferId**: `string`
 
-Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:124](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/transfer-manager.ts#L124)
+Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:129](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/transfer-manager.ts#L129)
 
 ***
 
@@ -62,4 +62,4 @@ Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:124](ht
 
 > **userOpHash**: `string`
 
-Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:125](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/transfer-manager.ts#L125)
+Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:130](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/transfer-manager.ts#L130)
