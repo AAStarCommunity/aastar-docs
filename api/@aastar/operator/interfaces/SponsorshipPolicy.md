@@ -1,4 +1,4 @@
-Defined in: [operator/src/PaymasterOperatorClient.ts:10](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/operator/src/PaymasterOperatorClient.ts#L10)
+Defined in: [operator/src/PaymasterOperatorClient.ts:10](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/operator/src/PaymasterOperatorClient.ts#L10)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [operator/src/PaymasterOperatorClient.ts:10](https://github.com/AASt
 
 > **globalLimit**: `bigint`
 
-Defined in: [operator/src/PaymasterOperatorClient.ts:11](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/operator/src/PaymasterOperatorClient.ts#L11)
+Defined in: [operator/src/PaymasterOperatorClient.ts:11](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/operator/src/PaymasterOperatorClient.ts#L11)
 
 ***
 
@@ -14,7 +14,7 @@ Defined in: [operator/src/PaymasterOperatorClient.ts:11](https://github.com/AASt
 
 > **itemPrice**: `bigint`
 
-Defined in: [operator/src/PaymasterOperatorClient.ts:13](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/operator/src/PaymasterOperatorClient.ts#L13)
+Defined in: [operator/src/PaymasterOperatorClient.ts:13](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/operator/src/PaymasterOperatorClient.ts#L13)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [operator/src/PaymasterOperatorClient.ts:13](https://github.com/AASt
 
 > **userLimit**: `bigint`
 
-Defined in: [operator/src/PaymasterOperatorClient.ts:12](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/operator/src/PaymasterOperatorClient.ts#L12)
+Defined in: [operator/src/PaymasterOperatorClient.ts:12](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/operator/src/PaymasterOperatorClient.ts#L12)

@@ -1,5 +1,5 @@
 > `const` **DEFAULT\_PASSKEY\_ROUTES**: [`PasskeyRoutes`](../interfaces/PasskeyRoutes.md)
 
-Defined in: [packages/airaccount/src/auth/passkey/passkey.manager.ts:41](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/auth/passkey/passkey.manager.ts#L41)
+Defined in: [packages/airaccount/src/auth/passkey/passkey.manager.ts:41](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/auth/passkey/passkey.manager.ts#L41)
 
 Default passkey routes — the standardized `@aastar/passkey-server` contract.

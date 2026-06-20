@@ -1,6 +1,6 @@
 > **FacilitatorConfig** = `object`
 
-Defined in: [packages/x402/src/types.ts:137](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/x402/src/types.ts#L137)
+Defined in: [packages/x402/src/types.ts:137](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/x402/src/types.ts#L137)
 
 Facilitator client configuration
 
@@ -10,7 +10,7 @@ Facilitator client configuration
 
 > `optional` **createAuthHeaders**: () => `Promise`\<\{ `settle?`: `Record`\<`string`, `string`\>; `supported?`: `Record`\<`string`, `string`\>; `verify?`: `Record`\<`string`, `string`\>; \}\>
 
-Defined in: [packages/x402/src/types.ts:139](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/x402/src/types.ts#L139)
+Defined in: [packages/x402/src/types.ts:139](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/x402/src/types.ts#L139)
 
 #### Returns
 
@@ -22,4 +22,4 @@ Defined in: [packages/x402/src/types.ts:139](https://github.com/AAStarCommunity/
 
 > **url**: `string`
 
-Defined in: [packages/x402/src/types.ts:138](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/x402/src/types.ts#L138)
+Defined in: [packages/x402/src/types.ts:138](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/x402/src/types.ts#L138)

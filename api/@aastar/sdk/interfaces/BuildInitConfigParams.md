@@ -1,4 +1,4 @@
-Defined in: [packages/core/src/actions/initConfig.ts:39](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/initConfig.ts#L39)
+Defined in: [packages/core/src/actions/initConfig.ts:43](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/actions/initConfig.ts#L43)
 
 Parameters for [buildInitConfig](../functions/buildInitConfig.md).
 
@@ -8,11 +8,11 @@ Parameters for [buildInitConfig](../functions/buildInitConfig.md).
 
 > `optional` **approvedAlgIds**: readonly `number`[]
 
-Defined in: [packages/core/src/actions/initConfig.ts:49](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/initConfig.ts#L49)
+Defined in: [packages/core/src/actions/initConfig.ts:53](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/actions/initConfig.ts#L53)
 
-Validator algorithm ids approved at init (e.g. 2 = ECDSA, 1 = P-256/passkey). If omitted,
-derived from the owner/guardian mix is NOT possible (owner alg is separate), so it defaults
-to `[2]` (ECDSA) plus `1` (P-256) when any P-256 guardian is present.
+Validator algorithm ids approved at init (0x02 = ECDSA, 0x03 = P-256/passkey). If omitted,
+deriving from the owner/guardian mix is NOT possible (owner alg is separate), so it defaults
+to `[0x02]` (ECDSA) plus `0x03` (P-256) when any P-256 guardian is present — i.e. `[0x02, 0x03]`.
 
 ***
 
@@ -20,7 +20,7 @@ to `[2]` (ECDSA) plus `1` (P-256) when any P-256 guardian is present.
 
 > **dailyLimit**: `bigint`
 
-Defined in: [packages/core/src/actions/initConfig.ts:43](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/initConfig.ts#L43)
+Defined in: [packages/core/src/actions/initConfig.ts:47](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/actions/initConfig.ts#L47)
 
 Per-account daily spend limit (wei). Must be > 0 to enable the on-chain GUARD.
 
@@ -30,7 +30,7 @@ Per-account daily spend limit (wei). Must be > 0 to enable the on-chain GUARD.
 
 > `optional` **guardians**: readonly [`GuardianSpec`](GuardianSpec.md)[]
 
-Defined in: [packages/core/src/actions/initConfig.ts:41](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/initConfig.ts#L41)
+Defined in: [packages/core/src/actions/initConfig.ts:45](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/actions/initConfig.ts#L45)
 
 Up to 3 guardian slots (ECDSA and/or P-256, freely mixed). Empty/omitted ⇒ no guardians.
 
@@ -40,7 +40,7 @@ Up to 3 guardian slots (ECDSA and/or P-256, freely mixed). Empty/omitted ⇒ no 
 
 > `optional` **initialTokenConfigs**: readonly [`TokenConfig`](../type-aliases/TokenConfig.md)[]
 
-Defined in: [packages/core/src/actions/initConfig.ts:55](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/initConfig.ts#L55)
+Defined in: [packages/core/src/actions/initConfig.ts:59](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/actions/initConfig.ts#L59)
 
 Per-token tier configs, index-aligned with `initialTokens`. Defaults to none.
 
@@ -50,7 +50,7 @@ Per-token tier configs, index-aligned with `initialTokens`. Defaults to none.
 
 > `optional` **initialTokens**: readonly `` `0x${string}` ``[]
 
-Defined in: [packages/core/src/actions/initConfig.ts:53](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/initConfig.ts#L53)
+Defined in: [packages/core/src/actions/initConfig.ts:57](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/actions/initConfig.ts#L57)
 
 ERC-20 tokens to pre-register with the guard. Defaults to none.
 
@@ -60,6 +60,6 @@ ERC-20 tokens to pre-register with the guard. Defaults to none.
 
 > `optional` **minDailyLimit**: `bigint`
 
-Defined in: [packages/core/src/actions/initConfig.ts:51](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/initConfig.ts#L51)
+Defined in: [packages/core/src/actions/initConfig.ts:55](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/actions/initConfig.ts#L55)
 
 Floor the daily limit can be decreased to via the guard. Defaults to 0.

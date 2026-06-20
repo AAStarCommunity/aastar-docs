@@ -1,6 +1,6 @@
 > `const` **BLS\_POP\_DST**: `"BLS_SIG_BLS12381G2_XMD:SHA-256_SSWU_RO_POP_"` = `'BLS_SIG_BLS12381G2_XMD:SHA-256_SSWU_RO_POP_'`
 
-Defined in: [packages/core/src/crypto/hashToField.ts:16](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/crypto/hashToField.ts#L16)
+Defined in: [packages/core/src/crypto/hashToField.ts:16](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/crypto/hashToField.ts#L16)
 
 Frozen cross-repo DST (Domain Separation Tag) for the BLS-signature
 Proof-of-Possession (POP) scheme. This MUST be byte-identical across:

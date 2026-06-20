@@ -1,6 +1,6 @@
 > **watchProviders**(`onProvider`): () => `void`
 
-Defined in: [packages/dapp/src/eip6963.ts:84](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/dapp/src/eip6963.ts#L84)
+Defined in: [packages/dapp/src/eip6963.ts:84](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/dapp/src/eip6963.ts#L84)
 
 Listen for EIP-6963 wallet announcements from other providers in the page.
 Useful for composing AirAccount with MetaMask fallback, etc.

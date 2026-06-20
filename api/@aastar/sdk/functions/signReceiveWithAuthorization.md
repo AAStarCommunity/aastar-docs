@@ -1,6 +1,6 @@
 > **signReceiveWithAuthorization**(`walletClient`, `params`): `Promise`\<`` `0x${string}` ``\>
 
-Defined in: [packages/x402/src/eip3009.ts:134](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/x402/src/eip3009.ts#L134)
+Defined in: [packages/x402/src/eip3009.ts:134](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/x402/src/eip3009.ts#L134)
 
 Sign a ReceiveWithAuthorization for GTokenAuthorization (EIP-3009).
 The signed `to` address must be the one submitting the transaction on-chain.

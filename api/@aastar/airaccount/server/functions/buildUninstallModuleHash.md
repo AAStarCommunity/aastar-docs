@@ -1,6 +1,6 @@
 > **buildUninstallModuleHash**(`chainId`, `account`, `moduleTypeId`, `module`): `string`
 
-Defined in: [packages/airaccount/src/server/services/module-manager.ts:83](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/module-manager.ts#L83)
+Defined in: [packages/airaccount/src/server/services/module-manager.ts:83](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/module-manager.ts#L83)
 
 Build the EIP-191 uninstall hash that guardians must sign.
 

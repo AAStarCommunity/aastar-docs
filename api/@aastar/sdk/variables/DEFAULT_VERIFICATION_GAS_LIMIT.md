@@ -1,3 +1,3 @@
 > `const` **DEFAULT\_VERIFICATION\_GAS\_LIMIT**: `200000n` = `200000n`
 
-Defined in: [packages/core/src/constants.ts:105](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/constants.ts#L105)
+Defined in: [packages/core/src/constants.ts:105](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/constants.ts#L105)

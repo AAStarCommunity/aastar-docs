@@ -1,6 +1,6 @@
 > **VoucherParams** = `object`
 
-Defined in: [packages/channel/src/types.ts:6](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/channel/src/types.ts#L6)
+Defined in: [packages/channel/src/types.ts:6](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/channel/src/types.ts#L6)
 
 ## Properties
 
@@ -8,7 +8,7 @@ Defined in: [packages/channel/src/types.ts:6](https://github.com/AAStarCommunity
 
 > **channelId**: [`Hex`](https://viem.sh/docs/index.html)
 
-Defined in: [packages/channel/src/types.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/channel/src/types.ts#L7)
+Defined in: [packages/channel/src/types.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/channel/src/types.ts#L7)
 
 ***
 
@@ -16,4 +16,4 @@ Defined in: [packages/channel/src/types.ts:7](https://github.com/AAStarCommunity
 
 > **cumulativeAmount**: `bigint`
 
-Defined in: [packages/channel/src/types.ts:8](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/channel/src/types.ts#L8)
+Defined in: [packages/channel/src/types.ts:8](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/channel/src/types.ts#L8)

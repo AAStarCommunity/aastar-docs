@@ -1,4 +1,4 @@
-Defined in: [packages/core/src/config/ContractConfigManager.ts:4](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/config/ContractConfigManager.ts#L4)
+Defined in: [packages/core/src/config/ContractConfigManager.ts:4](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/config/ContractConfigManager.ts#L4)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [packages/core/src/config/ContractConfigManager.ts:4](https://github
 
 > **entryPoint**: `` `0x${string}` ``
 
-Defined in: [packages/core/src/config/ContractConfigManager.ts:11](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/config/ContractConfigManager.ts#L11)
+Defined in: [packages/core/src/config/ContractConfigManager.ts:11](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/config/ContractConfigManager.ts#L11)
 
 ***
 
@@ -14,7 +14,7 @@ Defined in: [packages/core/src/config/ContractConfigManager.ts:11](https://githu
 
 > **gToken**: `` `0x${string}` ``
 
-Defined in: [packages/core/src/config/ContractConfigManager.ts:6](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/config/ContractConfigManager.ts#L6)
+Defined in: [packages/core/src/config/ContractConfigManager.ts:6](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/config/ContractConfigManager.ts#L6)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/core/src/config/ContractConfigManager.ts:6](https://github
 
 > **gTokenStaking**: `` `0x${string}` ``
 
-Defined in: [packages/core/src/config/ContractConfigManager.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/config/ContractConfigManager.ts#L7)
+Defined in: [packages/core/src/config/ContractConfigManager.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/config/ContractConfigManager.ts#L7)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/core/src/config/ContractConfigManager.ts:7](https://github
 
 > **paymasterFactory**: `` `0x${string}` ``
 
-Defined in: [packages/core/src/config/ContractConfigManager.ts:9](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/config/ContractConfigManager.ts#L9)
+Defined in: [packages/core/src/config/ContractConfigManager.ts:9](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/config/ContractConfigManager.ts#L9)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/core/src/config/ContractConfigManager.ts:9](https://github
 
 > **paymasterV4**: `` `0x${string}` ``
 
-Defined in: [packages/core/src/config/ContractConfigManager.ts:10](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/config/ContractConfigManager.ts#L10)
+Defined in: [packages/core/src/config/ContractConfigManager.ts:10](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/config/ContractConfigManager.ts#L10)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [packages/core/src/config/ContractConfigManager.ts:10](https://githu
 
 > **registry**: `` `0x${string}` ``
 
-Defined in: [packages/core/src/config/ContractConfigManager.ts:5](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/config/ContractConfigManager.ts#L5)
+Defined in: [packages/core/src/config/ContractConfigManager.ts:5](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/config/ContractConfigManager.ts#L5)
 
 ***
 
@@ -54,4 +54,4 @@ Defined in: [packages/core/src/config/ContractConfigManager.ts:5](https://github
 
 > **superPaymaster**: `` `0x${string}` ``
 
-Defined in: [packages/core/src/config/ContractConfigManager.ts:8](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/config/ContractConfigManager.ts#L8)
+Defined in: [packages/core/src/config/ContractConfigManager.ts:8](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/config/ContractConfigManager.ts#L8)

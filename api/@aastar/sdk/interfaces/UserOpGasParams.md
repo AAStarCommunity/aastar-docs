@@ -1,4 +1,4 @@
-Defined in: [packages/sdk/src/utils/userOp.ts:18](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/utils/userOp.ts#L18)
+Defined in: [packages/sdk/src/utils/userOp.ts:18](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/sdk/src/utils/userOp.ts#L18)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [packages/sdk/src/utils/userOp.ts:18](https://github.com/AAStarCommu
 
 > **callGasLimit**: `bigint`
 
-Defined in: [packages/sdk/src/utils/userOp.ts:20](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/utils/userOp.ts#L20)
+Defined in: [packages/sdk/src/utils/userOp.ts:20](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/sdk/src/utils/userOp.ts#L20)
 
 ***
 
@@ -14,7 +14,7 @@ Defined in: [packages/sdk/src/utils/userOp.ts:20](https://github.com/AAStarCommu
 
 > **maxFeePerGas**: `bigint`
 
-Defined in: [packages/sdk/src/utils/userOp.ts:23](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/utils/userOp.ts#L23)
+Defined in: [packages/sdk/src/utils/userOp.ts:23](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/sdk/src/utils/userOp.ts#L23)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/sdk/src/utils/userOp.ts:23](https://github.com/AAStarCommu
 
 > **maxPriorityFeePerGas**: `bigint`
 
-Defined in: [packages/sdk/src/utils/userOp.ts:22](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/utils/userOp.ts#L22)
+Defined in: [packages/sdk/src/utils/userOp.ts:22](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/sdk/src/utils/userOp.ts#L22)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/sdk/src/utils/userOp.ts:22](https://github.com/AAStarCommu
 
 > **preVerificationGas**: `bigint`
 
-Defined in: [packages/sdk/src/utils/userOp.ts:21](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/utils/userOp.ts#L21)
+Defined in: [packages/sdk/src/utils/userOp.ts:21](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/sdk/src/utils/userOp.ts#L21)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [packages/sdk/src/utils/userOp.ts:21](https://github.com/AAStarCommu
 
 > **verificationGasLimit**: `bigint`
 
-Defined in: [packages/sdk/src/utils/userOp.ts:19](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/utils/userOp.ts#L19)
+Defined in: [packages/sdk/src/utils/userOp.ts:19](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/sdk/src/utils/userOp.ts#L19)

@@ -1,6 +1,6 @@
 > **AirAccountExtensionActions** = `object`
 
-Defined in: [packages/core/src/actions/airAccountExtension.ts:55](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccountExtension.ts#L55)
+Defined in: [packages/core/src/actions/airAccountExtension.ts:55](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/actions/airAccountExtension.ts#L55)
 
 ## Properties
 
@@ -8,7 +8,7 @@ Defined in: [packages/core/src/actions/airAccountExtension.ts:55](https://github
 
 > **addGuardianWithMixedSigs**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/airAccountExtension.ts:84](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccountExtension.ts#L84)
+Defined in: [packages/core/src/actions/airAccountExtension.ts:84](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/actions/airAccountExtension.ts#L84)
 
 `addGuardianWithMixedSigs(guardian, signerIdxs, sigs)` — add an ECDSA guardian with mixed-type guardian consensus.
 
@@ -34,7 +34,7 @@ Defined in: [packages/core/src/actions/airAccountExtension.ts:84](https://github
 
 > **addP256Guardian**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/airAccountExtension.ts:80](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccountExtension.ts#L80)
+Defined in: [packages/core/src/actions/airAccountExtension.ts:80](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/actions/airAccountExtension.ts#L80)
 
 `addP256Guardian(x, y)` — owner-only bootstrap of a passkey guardian (no guardianSig while `count < threshold`).
 
@@ -59,7 +59,7 @@ Defined in: [packages/core/src/actions/airAccountExtension.ts:80](https://github
 
 > **addP256GuardianWithMixedSigs**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/airAccountExtension.ts:82](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccountExtension.ts#L82)
+Defined in: [packages/core/src/actions/airAccountExtension.ts:82](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/actions/airAccountExtension.ts#L82)
 
 `addP256GuardianWithMixedSigs(x, y, signerIdxs, sigs)` — add a passkey guardian once `count >= threshold` (consensus required).
 
@@ -86,7 +86,7 @@ Defined in: [packages/core/src/actions/airAccountExtension.ts:82](https://github
 
 > **approveRecoveryWithSig**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/airAccountExtension.ts:88](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccountExtension.ts#L88)
+Defined in: [packages/core/src/actions/airAccountExtension.ts:88](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/actions/airAccountExtension.ts#L88)
 
 `approveRecoveryWithSig(gIdx, sig)` — passkey guardian approves the active recovery proposal.
 
@@ -111,7 +111,7 @@ Defined in: [packages/core/src/actions/airAccountExtension.ts:88](https://github
 
 > **cancelRecoveryWithSig**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/airAccountExtension.ts:90](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccountExtension.ts#L90)
+Defined in: [packages/core/src/actions/airAccountExtension.ts:90](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/actions/airAccountExtension.ts#L90)
 
 `cancelRecoveryWithSig(gIdx, sig)` — passkey guardian votes to cancel the active recovery proposal.
 
@@ -136,7 +136,7 @@ Defined in: [packages/core/src/actions/airAccountExtension.ts:90](https://github
 
 > **getGuardianAdditionNonce**: () => `Promise`\<`bigint`\>
 
-Defined in: [packages/core/src/actions/airAccountExtension.ts:66](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccountExtension.ts#L66)
+Defined in: [packages/core/src/actions/airAccountExtension.ts:66](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/actions/airAccountExtension.ts#L66)
 
 `_guardianAdditionNonce` — the nonce bound into ADD_GUARDIAN / ADD_P256_GUARDIAN challenges.
 Read from internal storage slot 39 (no public getter). MUST be re-fetched immediately before
@@ -152,7 +152,7 @@ collecting guardian signatures for `add*WithMixedSigs` (any successful add incre
 
 > **getGuardianP256Key**: (`args`) => `Promise`\<\{ `x`: [`Hex`](https://viem.sh/docs/index.html); `y`: [`Hex`](https://viem.sh/docs/index.html); \}\>
 
-Defined in: [packages/core/src/actions/airAccountExtension.ts:60](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccountExtension.ts#L60)
+Defined in: [packages/core/src/actions/airAccountExtension.ts:60](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/actions/airAccountExtension.ts#L60)
 
 `getGuardianP256Key(index)` — the (x, y) secp256r1 pubkey of guardian slot `index` (zero pair ⇒ not a P-256 guardian).
 
@@ -173,7 +173,7 @@ Defined in: [packages/core/src/actions/airAccountExtension.ts:60](https://github
 
 > **getGuardianRemovalNonce**: () => `Promise`\<`bigint`\>
 
-Defined in: [packages/core/src/actions/airAccountExtension.ts:71](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccountExtension.ts#L71)
+Defined in: [packages/core/src/actions/airAccountExtension.ts:71](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/actions/airAccountExtension.ts#L71)
 
 `_guardianRemovalNonce` — the nonce bound into REMOVE_GUARDIAN challenges. Read from internal
 storage slot 15 (no public getter). Re-fetch immediately before signing `removeGuardianWithMixedSigs`.
@@ -188,7 +188,7 @@ storage slot 15 (no public getter). Re-fetch immediately before signing `removeG
 
 > **getRecoveryNonce**: () => `Promise`\<`bigint`\>
 
-Defined in: [packages/core/src/actions/airAccountExtension.ts:58](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccountExtension.ts#L58)
+Defined in: [packages/core/src/actions/airAccountExtension.ts:58](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/actions/airAccountExtension.ts#L58)
 
 `getRecoveryNonce()` — monotonic nonce that domain-separates P-256 / mixed-sig recovery payloads.
 
@@ -202,7 +202,7 @@ Defined in: [packages/core/src/actions/airAccountExtension.ts:58](https://github
 
 > **getTierLimitNonce**: () => `Promise`\<`bigint`\>
 
-Defined in: [packages/core/src/actions/airAccountExtension.ts:76](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccountExtension.ts#L76)
+Defined in: [packages/core/src/actions/airAccountExtension.ts:76](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/actions/airAccountExtension.ts#L76)
 
 `_tierLimitNonce` — the nonce bound into MODIFY_TIER_LIMITS challenges. Read from internal
 storage slot 16 (no public getter). Re-fetch immediately before signing `modifyTierLimitsWithMixedGuardians`.
@@ -217,7 +217,7 @@ storage slot 16 (no public getter). Re-fetch immediately before signing `modifyT
 
 > **modifyTierLimitsWithMixedGuardians**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/airAccountExtension.ts:94](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccountExtension.ts#L94)
+Defined in: [packages/core/src/actions/airAccountExtension.ts:94](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/actions/airAccountExtension.ts#L94)
 
 `modifyTierLimitsWithMixedGuardians(tier1, tier2, deadline, signerIdxs, sigs)` — owner-only tier change with mixed consensus.
 
@@ -245,7 +245,7 @@ Defined in: [packages/core/src/actions/airAccountExtension.ts:94](https://github
 
 > **proposeRecoveryWithSig**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/airAccountExtension.ts:86](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccountExtension.ts#L86)
+Defined in: [packages/core/src/actions/airAccountExtension.ts:86](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/actions/airAccountExtension.ts#L86)
 
 `proposeRecoveryWithSig(newOwner, gIdx, sig)` — passkey guardian proposes recovery (any relayer submits).
 
@@ -271,7 +271,7 @@ Defined in: [packages/core/src/actions/airAccountExtension.ts:86](https://github
 
 > **removeGuardianWithMixedSigs**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/airAccountExtension.ts:92](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccountExtension.ts#L92)
+Defined in: [packages/core/src/actions/airAccountExtension.ts:92](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/actions/airAccountExtension.ts#L92)
 
 `removeGuardianWithMixedSigs(index, signerIdxs, sigs)` — owner-only removal with mixed-type guardian consensus.
 

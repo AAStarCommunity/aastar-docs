@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/constants/entrypoint.ts:15](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/constants/entrypoint.ts#L15)
+Defined in: [packages/airaccount/src/server/constants/entrypoint.ts:15](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/constants/entrypoint.ts#L15)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [packages/airaccount/src/server/constants/entrypoint.ts:15](https://
 
 > **address**: `string`
 
-Defined in: [packages/airaccount/src/server/constants/entrypoint.ts:17](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/constants/entrypoint.ts#L17)
+Defined in: [packages/airaccount/src/server/constants/entrypoint.ts:17](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/constants/entrypoint.ts#L17)
 
 ***
 
@@ -14,7 +14,7 @@ Defined in: [packages/airaccount/src/server/constants/entrypoint.ts:17](https://
 
 > **factoryAddress**: `string`
 
-Defined in: [packages/airaccount/src/server/constants/entrypoint.ts:18](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/constants/entrypoint.ts#L18)
+Defined in: [packages/airaccount/src/server/constants/entrypoint.ts:18](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/constants/entrypoint.ts#L18)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/airaccount/src/server/constants/entrypoint.ts:18](https://
 
 > **validatorAddress**: `string`
 
-Defined in: [packages/airaccount/src/server/constants/entrypoint.ts:19](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/constants/entrypoint.ts#L19)
+Defined in: [packages/airaccount/src/server/constants/entrypoint.ts:19](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/constants/entrypoint.ts#L19)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: [packages/airaccount/src/server/constants/entrypoint.ts:19](https://
 
 > **version**: [`EntryPointVersion`](../enumerations/EntryPointVersion.md)
 
-Defined in: [packages/airaccount/src/server/constants/entrypoint.ts:16](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/constants/entrypoint.ts#L16)
+Defined in: [packages/airaccount/src/server/constants/entrypoint.ts:16](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/constants/entrypoint.ts#L16)

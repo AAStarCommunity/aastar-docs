@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/services/token-service.ts:17](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/token-service.ts#L17)
+Defined in: [packages/airaccount/src/server/services/token-service.ts:17](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/token-service.ts#L17)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [packages/airaccount/src/server/services/token-service.ts:17](https:
 
 > **balance**: `string`
 
-Defined in: [packages/airaccount/src/server/services/token-service.ts:19](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/token-service.ts#L19)
+Defined in: [packages/airaccount/src/server/services/token-service.ts:19](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/token-service.ts#L19)
 
 ***
 
@@ -14,7 +14,7 @@ Defined in: [packages/airaccount/src/server/services/token-service.ts:19](https:
 
 > **formattedBalance**: `string`
 
-Defined in: [packages/airaccount/src/server/services/token-service.ts:20](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/token-service.ts#L20)
+Defined in: [packages/airaccount/src/server/services/token-service.ts:20](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/token-service.ts#L20)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [packages/airaccount/src/server/services/token-service.ts:20](https:
 
 > **token**: [`TokenInfo`](TokenInfo.md)
 
-Defined in: [packages/airaccount/src/server/services/token-service.ts:18](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/token-service.ts#L18)
+Defined in: [packages/airaccount/src/server/services/token-service.ts:18](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/token-service.ts#L18)

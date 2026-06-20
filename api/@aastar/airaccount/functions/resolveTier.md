@@ -1,6 +1,6 @@
 > **resolveTier**(`value`, `config`): [`TierLevel`](../type-aliases/TierLevel.md)
 
-Defined in: [packages/airaccount/src/core/tier/tier-router.ts:19](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/core/tier/tier-router.ts#L19)
+Defined in: [packages/airaccount/src/core/tier/tier-router.ts:19](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/core/tier/tier-router.ts#L19)
 
 Determine the required tier for a given transaction value.
 

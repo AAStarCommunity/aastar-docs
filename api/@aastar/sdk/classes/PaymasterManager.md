@@ -1,4 +1,4 @@
-Defined in: [packages/paymaster/src/PaymasterManager.ts:62](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/paymaster/src/PaymasterManager.ts#L62)
+Defined in: [packages/paymaster/src/PaymasterManager.ts:62](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/paymaster/src/PaymasterManager.ts#L62)
 
 PaymasterManager — unifies the per-type `paymasterAndData` packers behind a
 single `buildPaymasterData` entry point that AUTO-SELECTS the correct byte
@@ -18,7 +18,7 @@ does NOT reimplement byte-packing.
 
 > **new PaymasterManager**(`opts?`): `PaymasterManager`
 
-Defined in: [packages/paymaster/src/PaymasterManager.ts:65](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/paymaster/src/PaymasterManager.ts#L65)
+Defined in: [packages/paymaster/src/PaymasterManager.ts:65](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/paymaster/src/PaymasterManager.ts#L65)
 
 #### Parameters
 
@@ -37,7 +37,7 @@ Defined in: [packages/paymaster/src/PaymasterManager.ts:65](https://github.com/A
 
 > **buildPaymasterData**(`params`): `` `0x${string}` ``
 
-Defined in: [packages/paymaster/src/PaymasterManager.ts:113](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/paymaster/src/PaymasterManager.ts#L113)
+Defined in: [packages/paymaster/src/PaymasterManager.ts:113](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/paymaster/src/PaymasterManager.ts#L113)
 
 Build `paymasterAndData`, auto-selecting the correct byte layout for the
 paymaster type. Dispatches to the existing per-type packers.
@@ -58,7 +58,7 @@ paymaster type. Dispatches to the existing per-type packers.
 
 > **registerPaymaster**(`address`, `type`): `void`
 
-Defined in: [packages/paymaster/src/PaymasterManager.ts:78](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/paymaster/src/PaymasterManager.ts#L78)
+Defined in: [packages/paymaster/src/PaymasterManager.ts:78](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/paymaster/src/PaymasterManager.ts#L78)
 
 Register a known paymaster address → type mapping so that callers can
 omit the explicit `type` and have it resolved from the address.
@@ -80,7 +80,7 @@ omit the explicit `type` and have it resolved from the address.
 
 > **resolveType**(`address`): [`PaymasterType`](../type-aliases/PaymasterType.md) \| `undefined`
 
-Defined in: [packages/paymaster/src/PaymasterManager.ts:105](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/paymaster/src/PaymasterManager.ts#L105)
+Defined in: [packages/paymaster/src/PaymasterManager.ts:105](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/paymaster/src/PaymasterManager.ts#L105)
 
 Resolve a paymaster's type from a registered address. Returns undefined
 if the address is not registered.
@@ -101,7 +101,7 @@ if the address is not registered.
 
 > `static` **buildPaymasterData**(`type`, `params`): `` `0x${string}` ``
 
-Defined in: [packages/paymaster/src/PaymasterManager.ts:128](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/paymaster/src/PaymasterManager.ts#L128)
+Defined in: [packages/paymaster/src/PaymasterManager.ts:128](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/paymaster/src/PaymasterManager.ts#L128)
 
 Static helper: build `paymasterAndData` for an explicit type without an
 instance. Useful when the caller already knows the type.

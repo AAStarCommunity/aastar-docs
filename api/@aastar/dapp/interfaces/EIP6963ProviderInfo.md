@@ -1,4 +1,4 @@
-Defined in: [packages/dapp/src/eip6963.ts:12](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/dapp/src/eip6963.ts#L12)
+Defined in: [packages/dapp/src/eip6963.ts:12](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/dapp/src/eip6963.ts#L12)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [packages/dapp/src/eip6963.ts:12](https://github.com/AAStarCommunity
 
 > **icon**: `string`
 
-Defined in: [packages/dapp/src/eip6963.ts:18](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/dapp/src/eip6963.ts#L18)
+Defined in: [packages/dapp/src/eip6963.ts:18](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/dapp/src/eip6963.ts#L18)
 
 Wallet icon as a data URI (SVG or PNG, base64)
 
@@ -16,7 +16,7 @@ Wallet icon as a data URI (SVG or PNG, base64)
 
 > **name**: `string`
 
-Defined in: [packages/dapp/src/eip6963.ts:16](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/dapp/src/eip6963.ts#L16)
+Defined in: [packages/dapp/src/eip6963.ts:16](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/dapp/src/eip6963.ts#L16)
 
 Human-readable wallet name displayed in DApp UI
 
@@ -26,7 +26,7 @@ Human-readable wallet name displayed in DApp UI
 
 > **rdns**: `string`
 
-Defined in: [packages/dapp/src/eip6963.ts:20](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/dapp/src/eip6963.ts#L20)
+Defined in: [packages/dapp/src/eip6963.ts:20](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/dapp/src/eip6963.ts#L20)
 
 Reverse-DNS identifier, e.g. "community.aastar.airaccount"
 
@@ -36,6 +36,6 @@ Reverse-DNS identifier, e.g. "community.aastar.airaccount"
 
 > **uuid**: `string`
 
-Defined in: [packages/dapp/src/eip6963.ts:14](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/dapp/src/eip6963.ts#L14)
+Defined in: [packages/dapp/src/eip6963.ts:14](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/dapp/src/eip6963.ts#L14)
 
 Globally unique wallet identifier (UUID v4). Must not change across sessions.

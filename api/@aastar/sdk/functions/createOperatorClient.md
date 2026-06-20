@@ -1,6 +1,6 @@
 > **createOperatorClient**(`__namedParameters`): [`OperatorClient`](../type-aliases/OperatorClient.md)
 
-Defined in: [packages/sdk/src/clients/operator.ts:60](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/clients/operator.ts#L60)
+Defined in: [packages/sdk/src/clients/operator.ts:60](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/sdk/src/clients/operator.ts#L60)
 
 ## Parameters
 

@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/core/crypto/crypto.util.ts:3](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/core/crypto/crypto.util.ts#L3)
+Defined in: [packages/airaccount/src/core/crypto/crypto.util.ts:3](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/core/crypto/crypto.util.ts#L3)
 
 ## Constructors
 
@@ -16,7 +16,7 @@ Defined in: [packages/airaccount/src/core/crypto/crypto.util.ts:3](https://githu
 
 > `static` **decrypt**(`encryptedData`, `secretKey`): `string`
 
-Defined in: [packages/airaccount/src/core/crypto/crypto.util.ts:28](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/core/crypto/crypto.util.ts#L28)
+Defined in: [packages/airaccount/src/core/crypto/crypto.util.ts:28](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/core/crypto/crypto.util.ts#L28)
 
 #### Parameters
 
@@ -35,7 +35,7 @@ Defined in: [packages/airaccount/src/core/crypto/crypto.util.ts:28](https://gith
 
 > `static` **encrypt**(`text`, `secretKey`): `string`
 
-Defined in: [packages/airaccount/src/core/crypto/crypto.util.ts:9](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/core/crypto/crypto.util.ts#L9)
+Defined in: [packages/airaccount/src/core/crypto/crypto.util.ts:9](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/core/crypto/crypto.util.ts#L9)
 
 #### Parameters
 
@@ -54,7 +54,7 @@ Defined in: [packages/airaccount/src/core/crypto/crypto.util.ts:9](https://githu
 
 > `static` **generateSecretKey**(): `string`
 
-Defined in: [packages/airaccount/src/core/crypto/crypto.util.ts:53](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/core/crypto/crypto.util.ts#L53)
+Defined in: [packages/airaccount/src/core/crypto/crypto.util.ts:53](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/core/crypto/crypto.util.ts#L53)
 
 #### Returns
 
