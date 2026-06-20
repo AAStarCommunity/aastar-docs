@@ -1,6 +1,6 @@
 > **getContracts**(`network`): `object`
 
-Defined in: [packages/core/src/contracts.ts:130](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/contracts.ts#L130)
+Defined in: [packages/core/src/contracts.ts:130](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/contracts.ts#L130)
 
 Get all contracts for a specific network
 

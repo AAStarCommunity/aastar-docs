@@ -57,6 +57,7 @@
 - [EntryPointVersionConfig](interfaces/EntryPointVersionConfig.md)
 - [EstimateGasParams](interfaces/EstimateGasParams.md)
 - [ExecuteTransferParams](interfaces/ExecuteTransferParams.md)
+- [FullConfigGuardianParams](interfaces/FullConfigGuardianParams.md)
 - [GrantP256SessionParams](interfaces/GrantP256SessionParams.md)
 - [GrantSessionParams](interfaces/GrantSessionParams.md)
 - [GuardState](interfaces/GuardState.md)
@@ -118,6 +119,7 @@
 - [LegacyPasskeyAssertion](interfaces/LegacyPasskeyAssertion.md)
 - [MintAgentIdentityParams](interfaces/MintAgentIdentityParams.md)
 - [OapdConfig](interfaces/OapdConfig.md)
+- [P256GuardianKey](interfaces/P256GuardianKey.md)
 - [PasskeyAssertionContext](interfaces/PasskeyAssertionContext.md)
 - [PasskeyCeremonySigner](interfaces/PasskeyCeremonySigner.md)
 - [PaymasterRecord](interfaces/PaymasterRecord.md)
@@ -149,6 +151,7 @@
 - [KmsPaymentAuth](type-aliases/KmsPaymentAuth.md)
 - [L2Type](type-aliases/L2Type.md)
 - [ModuleTypeId](type-aliases/ModuleTypeId.md)
+- [SerializedGuardianSpec](type-aliases/SerializedGuardianSpec.md)
 
 ## Variables
 
@@ -200,12 +203,15 @@
 - [buildAuthenticationCredential](functions/buildAuthenticationCredential.md)
 - [buildAuthenticatorData](functions/buildAuthenticatorData.md)
 - [buildClientDataJSON](functions/buildClientDataJSON.md)
+- [buildFullInitConfig](functions/buildFullInitConfig.md)
 - [buildInstallModuleHash](functions/buildInstallModuleHash.md)
 - [buildUninstallModuleHash](functions/buildUninstallModuleHash.md)
 - [computeOapdSalt](functions/computeOapdSalt.md)
 - [erc8004AddressesForChain](functions/erc8004AddressesForChain.md)
 - [getOapdAddress](functions/getOapdAddress.md)
 - [getOapdAddressWithChainId](functions/getOapdAddressWithChainId.md)
+- [initConfigFromRecord](functions/initConfigFromRecord.md)
+- [initConfigToTuple](functions/initConfigToTuple.md)
 - [isExecuteUserOpWrapped](functions/isExecuteUserOpWrapped.md)
 - [isOapdDeployed](functions/isOapdDeployed.md)
 - [isPendingConfirmation](functions/isPendingConfirmation.md)
@@ -215,6 +221,8 @@
 - [runGrantSessionCeremony](functions/runGrantSessionCeremony.md)
 - [runWebAuthnCeremony](functions/runWebAuthnCeremony.md)
 - [sepoliaV07Config](functions/sepoliaV07Config.md)
+- [serializeGuardianSpecs](functions/serializeGuardianSpecs.md)
+- [toGuardianSpecs](functions/toGuardianSpecs.md)
 - [validateConfig](functions/validateConfig.md)
 - [wrapExecuteUserOp](functions/wrapExecuteUserOp.md)
 

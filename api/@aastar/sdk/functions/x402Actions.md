@@ -1,6 +1,6 @@
 > **x402Actions**(`address`): (`client`) => [`X402Actions`](../type-aliases/X402Actions.md)
 
-Defined in: [packages/core/src/actions/x402.ts:75](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/x402.ts#L75)
+Defined in: [packages/core/src/actions/x402.ts:75](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/x402.ts#L75)
 
 x402 settlement actions. As of SP v5.4 these functions live on the standalone
 X402Facilitator contract (NOT SuperPaymaster), so `address` MUST be the deployed

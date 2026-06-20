@@ -1,6 +1,6 @@
 > **getCommunity**(`network`, `communityName`): \{ `ensName`: `"aastar.eth"`; `gasToken`: `` `0x${string}` ``; `name`: `"AAStar"`; `owner`: `"0x411BD567E46C0781248dbB6a9211891C032885e5"`; `stake`: `"50"`; \} \| \{ `ensName`: `"bread.eth"`; `gasToken`: `` `0x${string}` ``; `name`: `"BreadCommunity"`; `owner`: `"0xe24b6f321B0140716a2b671ed0D983bb64E7DaFA"`; `stake`: `"50"`; \}
 
-Defined in: [packages/core/src/contracts.ts:412](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/contracts.ts#L412)
+Defined in: [packages/core/src/contracts.ts:412](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/contracts.ts#L412)
 
 Get a specific community
 

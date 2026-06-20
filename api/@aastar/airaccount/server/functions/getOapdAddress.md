@@ -1,6 +1,6 @@
 > **getOapdAddress**(`provider`, `config`): `Promise`\<`string`\>
 
-Defined in: [packages/airaccount/src/server/utils/oapd.ts:65](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/utils/oapd.ts#L65)
+Defined in: [packages/airaccount/src/server/utils/oapd.ts:65](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/utils/oapd.ts#L65)
 
 Predict the counterfactual OAPD address without deploying.
 Uses the factory's getAddress() view function.

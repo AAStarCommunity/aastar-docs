@@ -1,6 +1,6 @@
 > `const` **TEST\_COMMUNITIES**: `object`
 
-Defined in: [packages/core/src/contract-addresses.ts:107](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/contract-addresses.ts#L107)
+Defined in: [packages/core/src/contract-addresses.ts:107](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/contract-addresses.ts#L107)
 
 Test Community Addresses (Registered in Registry v2.2.0 on 2025-11-08)
 

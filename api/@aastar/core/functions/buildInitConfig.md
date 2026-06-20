@@ -1,6 +1,6 @@
 > **buildInitConfig**(`params`): [`InitConfig`](../type-aliases/InitConfig.md)
 
-Defined in: [packages/core/src/actions/initConfig.ts:66](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/initConfig.ts#L66)
+Defined in: [packages/core/src/actions/initConfig.ts:70](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/initConfig.ts#L70)
 
 Build a v0.20.0 `InitConfig` with mixed ECDSA + P-256 guardians.
 

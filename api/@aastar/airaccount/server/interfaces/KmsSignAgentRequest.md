@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:40](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-agent-service.ts#L40)
+Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:40](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/kms-agent-service.ts#L40)
 
 Request to sign a userOpHash with an agent key, authenticated by the agent's
 TEE-JWT credential (Bearer). Used for gasless ERC-4337 sponsorship.
@@ -9,7 +9,7 @@ TEE-JWT credential (Bearer). Used for gasless ERC-4337 sponsorship.
 
 > **accountAddress**: `string`
 
-Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:44](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-agent-service.ts#L44)
+Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:44](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/kms-agent-service.ts#L44)
 
 ***
 
@@ -17,7 +17,7 @@ Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:44](ht
 
 > `optional` **algorithm**: `string`
 
-Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:43](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-agent-service.ts#L43)
+Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:43](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/kms-agent-service.ts#L43)
 
 ***
 
@@ -25,7 +25,7 @@ Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:43](ht
 
 > **keyId**: `string`
 
-Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:41](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-agent-service.ts#L41)
+Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:41](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/kms-agent-service.ts#L41)
 
 ***
 
@@ -33,4 +33,4 @@ Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:41](ht
 
 > **payload**: `string`
 
-Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:42](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-agent-service.ts#L42)
+Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:42](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/kms-agent-service.ts#L42)

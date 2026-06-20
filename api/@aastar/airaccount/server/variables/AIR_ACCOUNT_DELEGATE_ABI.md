@@ -1,3 +1,3 @@
 > `const` **AIR\_ACCOUNT\_DELEGATE\_ABI**: `string`[]
 
-Defined in: [packages/airaccount/src/server/constants/entrypoint.ts:412](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/constants/entrypoint.ts#L412)
+Defined in: [packages/airaccount/src/server/constants/entrypoint.ts:416](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/constants/entrypoint.ts#L416)

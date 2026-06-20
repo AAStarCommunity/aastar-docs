@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:90](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/transfer-manager.ts#L90)
+Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:91](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/transfer-manager.ts#L91)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:90](htt
 
 > **amount**: `string`
 
-Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:92](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/transfer-manager.ts#L92)
+Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:93](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/transfer-manager.ts#L93)
 
 ***
 
@@ -14,7 +14,7 @@ Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:92](htt
 
 > `optional` **data**: `string`
 
-Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:93](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/transfer-manager.ts#L93)
+Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:94](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/transfer-manager.ts#L94)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:93](htt
 
 > `optional` **guardianSigner**: `GuardianSigner`
 
-Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:106](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/transfer-manager.ts#L106)
+Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:107](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/transfer-manager.ts#L107)
 
 Guardian signer instance. Required for AirAccount Tier 3.
 
@@ -32,7 +32,7 @@ Guardian signer instance. Required for AirAccount Tier 3.
 
 > `optional` **p256Signature**: `string`
 
-Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:104](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/transfer-manager.ts#L104)
+Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:105](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/transfer-manager.ts#L105)
 
 P256 passkey signature (64 bytes hex). Required for AirAccount Tier 2/3.
 
@@ -42,7 +42,7 @@ P256 passkey signature (64 bytes hex). Required for AirAccount Tier 2/3.
 
 > `optional` **passkeyAssertion**: [`LegacyPasskeyAssertion`](LegacyPasskeyAssertion.md)
 
-Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:102](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/transfer-manager.ts#L102)
+Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:103](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/transfer-manager.ts#L103)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:102](ht
 
 > `optional` **paymasterAddress**: `string`
 
-Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:96](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/transfer-manager.ts#L96)
+Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:97](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/transfer-manager.ts#L97)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:96](htt
 
 > `optional` **paymasterData**: `string`
 
-Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:97](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/transfer-manager.ts#L97)
+Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:98](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/transfer-manager.ts#L98)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:97](htt
 
 > `optional` **paymasterTokenAddress**: `string`
 
-Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:101](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/transfer-manager.ts#L101)
+Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:102](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/transfer-manager.ts#L102)
 
 ERC-20 token address for deposit-pull paymasters (e.g. PMv4) that require
  the gas token address appended to paymasterData. Used when the paymaster
@@ -78,7 +78,7 @@ ERC-20 token address for deposit-pull paymasters (e.g. PMv4) that require
 
 > **to**: `string`
 
-Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:91](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/transfer-manager.ts#L91)
+Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:92](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/transfer-manager.ts#L92)
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:91](htt
 
 > `optional` **tokenAddress**: `string`
 
-Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:94](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/transfer-manager.ts#L94)
+Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:95](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/transfer-manager.ts#L95)
 
 ***
 
@@ -94,7 +94,7 @@ Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:94](htt
 
 > `optional` **useAirAccountTiering**: `boolean`
 
-Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:108](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/transfer-manager.ts#L108)
+Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:109](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/transfer-manager.ts#L109)
 
 Enable AirAccount tiered signature routing. Default: false (legacy BLS-only).
 
@@ -104,7 +104,7 @@ Enable AirAccount tiered signature routing. Default: false (legacy BLS-only).
 
 > `optional` **usePaymaster**: `boolean`
 
-Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:95](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/transfer-manager.ts#L95)
+Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:96](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/transfer-manager.ts#L96)
 
 ***
 
@@ -112,7 +112,7 @@ Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:95](htt
 
 > `optional` **wrapExecuteUserOp**: `boolean`
 
-Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:115](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/transfer-manager.ts#L115)
+Defined in: [packages/airaccount/src/server/services/transfer-manager.ts:116](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/transfer-manager.ts#L116)
 
 Wrap the execute()/executeBatch() callData with the `executeUserOp` selector
 (v0.17.2-beta.4 bundler-compat). REQUIRED for guard-enabled accounts submitted

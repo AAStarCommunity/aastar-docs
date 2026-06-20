@@ -1,6 +1,6 @@
 > **sepoliaV07Config**(`version`): [`EntryPointVersionConfig`](../interfaces/EntryPointVersionConfig.md)
 
-Defined in: [packages/airaccount/src/server/config.ts:77](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/config.ts#L77)
+Defined in: [packages/airaccount/src/server/config.ts:77](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/config.ts#L77)
 
 Build a pre-configured EntryPointVersionConfig for Sepolia using a known AirAccount deployment.
 Eliminates the need to look up contract addresses manually.

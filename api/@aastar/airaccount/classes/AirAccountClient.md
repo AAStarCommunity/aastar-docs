@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/client.ts:29](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/client.ts#L29)
+Defined in: [packages/airaccount/src/client.ts:29](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/client.ts#L29)
 
 ## Constructors
 
@@ -6,7 +6,7 @@ Defined in: [packages/airaccount/src/client.ts:29](https://github.com/AAStarComm
 
 > **new AirAccountClient**(`config`): `AirAccountClient`
 
-Defined in: [packages/airaccount/src/client.ts:33](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/client.ts#L33)
+Defined in: [packages/airaccount/src/client.ts:33](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/client.ts#L33)
 
 #### Parameters
 
@@ -24,7 +24,7 @@ Defined in: [packages/airaccount/src/client.ts:33](https://github.com/AAStarComm
 
 > `readonly` **bls**: [`BLSManager`](BLSManager.md)
 
-Defined in: [packages/airaccount/src/client.ts:31](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/client.ts#L31)
+Defined in: [packages/airaccount/src/client.ts:31](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/client.ts#L31)
 
 ***
 
@@ -32,4 +32,4 @@ Defined in: [packages/airaccount/src/client.ts:31](https://github.com/AAStarComm
 
 > `readonly` **passkey**: [`PasskeyManager`](PasskeyManager.md)
 
-Defined in: [packages/airaccount/src/client.ts:30](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/client.ts#L30)
+Defined in: [packages/airaccount/src/client.ts:30](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/client.ts#L30)

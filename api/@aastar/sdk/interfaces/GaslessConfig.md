@@ -1,4 +1,4 @@
-Defined in: [packages/enduser/src/UserLifecycle.ts:5](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/enduser/src/UserLifecycle.ts#L5)
+Defined in: [packages/enduser/src/UserLifecycle.ts:5](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/enduser/src/UserLifecycle.ts#L5)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [packages/enduser/src/UserLifecycle.ts:5](https://github.com/AAStarC
 
 > **paymasterUrl**: `string`
 
-Defined in: [packages/enduser/src/UserLifecycle.ts:6](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/enduser/src/UserLifecycle.ts#L6)
+Defined in: [packages/enduser/src/UserLifecycle.ts:6](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/enduser/src/UserLifecycle.ts#L6)
 
 ***
 
@@ -14,4 +14,4 @@ Defined in: [packages/enduser/src/UserLifecycle.ts:6](https://github.com/AAStarC
 
 > `optional` **policy**: `"CREDIT"` \| `"TOKEN"` \| `"SPONSORED"`
 
-Defined in: [packages/enduser/src/UserLifecycle.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/enduser/src/UserLifecycle.ts#L7)
+Defined in: [packages/enduser/src/UserLifecycle.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/enduser/src/UserLifecycle.ts#L7)

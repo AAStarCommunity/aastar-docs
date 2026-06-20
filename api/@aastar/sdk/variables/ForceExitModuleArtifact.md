@@ -1,3 +1,3 @@
 > `const` **ForceExitModuleArtifact**: (\{ `anonymous?`: `undefined`; `inputs`: `object`[]; `name`: `string`; `outputs`: `object`[]; `stateMutability`: `string`; `type`: `string`; \} \| \{ `anonymous`: `boolean`; `inputs`: `object`[]; `name`: `string`; `outputs?`: `undefined`; `stateMutability?`: `undefined`; `type`: `string`; \} \| \{ `anonymous?`: `undefined`; `inputs`: `object`[]; `name`: `string`; `outputs?`: `undefined`; `stateMutability?`: `undefined`; `type`: `string`; \})[] = `ForceExitModuleABIData`
 
-Defined in: [packages/core/src/abis/index.ts:198](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/abis/index.ts#L198)
+Defined in: [packages/core/src/abis/index.ts:198](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/abis/index.ts#L198)

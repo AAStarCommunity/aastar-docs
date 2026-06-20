@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/services/kms-payment-signer.ts:69](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-payment-signer.ts#L69)
+Defined in: [packages/airaccount/src/server/services/kms-payment-signer.ts:69](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/kms-payment-signer.ts#L69)
 
 Convenience signers for SuperPaymaster payment flows (v0.20.0 P2).
 
@@ -16,7 +16,7 @@ session / payment / monitor services.
 
 > **new KmsPaymentSigner**(`http`): `KmsPaymentSigner`
 
-Defined in: [packages/airaccount/src/server/services/kms-payment-signer.ts:70](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-payment-signer.ts#L70)
+Defined in: [packages/airaccount/src/server/services/kms-payment-signer.ts:70](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/kms-payment-signer.ts#L70)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: [packages/airaccount/src/server/services/kms-payment-signer.ts:70](h
 
 > **signGTokenAuthorization**(`params`, `auth`): `Promise`\<[`KmsPaymentSignatureResponse`](../interfaces/KmsPaymentSignatureResponse.md)\>
 
-Defined in: [packages/airaccount/src/server/services/kms-payment-signer.ts:106](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-payment-signer.ts#L106)
+Defined in: [packages/airaccount/src/server/services/kms-payment-signer.ts:106](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/kms-payment-signer.ts#L106)
 
 Sign an EIP-3009 TransferWithAuthorization for a GToken transfer
 via `POST /kms/SignGTokenAuthorization`. `from` MUST equal the derived address.
@@ -56,7 +56,7 @@ via `POST /kms/SignGTokenAuthorization`. `from` MUST equal the derived address.
 
 > **signMicropaymentVoucher**(`params`, `auth`): `Promise`\<[`KmsPaymentSignatureResponse`](../interfaces/KmsPaymentSignatureResponse.md)\>
 
-Defined in: [packages/airaccount/src/server/services/kms-payment-signer.ts:94](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-payment-signer.ts#L94)
+Defined in: [packages/airaccount/src/server/services/kms-payment-signer.ts:94](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/kms-payment-signer.ts#L94)
 
 Sign a MicroPaymentChannel voucher (cumulative-amount EIP-712 message)
 via `POST /kms/SignMicropaymentVoucher`.
@@ -78,7 +78,7 @@ via `POST /kms/SignMicropaymentVoucher`.
 
 > **signX402Payment**(`params`, `auth`): `Promise`\<[`KmsPaymentSignatureResponse`](../interfaces/KmsPaymentSignatureResponse.md)\>
 
-Defined in: [packages/airaccount/src/server/services/kms-payment-signer.ts:117](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-payment-signer.ts#L117)
+Defined in: [packages/airaccount/src/server/services/kms-payment-signer.ts:117](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/kms-payment-signer.ts#L117)
 
 Sign an x402 payment authorization via `POST /kms/SignX402Payment`.
 
