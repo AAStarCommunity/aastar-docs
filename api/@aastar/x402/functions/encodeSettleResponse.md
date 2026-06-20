@@ -1,6 +1,6 @@
 > **encodeSettleResponse**(`resp`): `string`
 
-Defined in: [packages/x402/src/payment-header.ts:61](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/x402/src/payment-header.ts#L61)
+Defined in: [packages/x402/src/payment-header.ts:61](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/x402/src/payment-header.ts#L61)
 
 ## Parameters
 

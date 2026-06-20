@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/services/bls-signature-service.ts:70](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/bls-signature-service.ts#L70)
+Defined in: [packages/airaccount/src/server/services/bls-signature-service.ts:70](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/bls-signature-service.ts#L70)
 
 BLS signature service — extracted from NestJS BlsService.
 Uses lazy initialization instead of onModuleInit.
@@ -9,7 +9,7 @@ Uses lazy initialization instead of onModuleInit.
 
 > **new BLSSignatureService**(`config`, `ethereum`, `storage`, `signer`, `logger?`): `BLSSignatureService`
 
-Defined in: [packages/airaccount/src/server/services/bls-signature-service.ts:74](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/bls-signature-service.ts#L74)
+Defined in: [packages/airaccount/src/server/services/bls-signature-service.ts:74](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/bls-signature-service.ts#L74)
 
 #### Parameters
 
@@ -31,7 +31,7 @@ Defined in: [packages/airaccount/src/server/services/bls-signature-service.ts:74
 
 > **generateBLSSignature**(`userId`, `userOpHash`, `ctx?`): `Promise`\<[`BLSSignatureData`](../../interfaces/BLSSignatureData.md)\>
 
-Defined in: [packages/airaccount/src/server/services/bls-signature-service.ts:115](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/bls-signature-service.ts#L115)
+Defined in: [packages/airaccount/src/server/services/bls-signature-service.ts:115](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/bls-signature-service.ts#L115)
 
 #### Parameters
 
@@ -51,7 +51,7 @@ Defined in: [packages/airaccount/src/server/services/bls-signature-service.ts:11
 
 > **generateTieredSignature**(`params`): `Promise`\<`string`\>
 
-Defined in: [packages/airaccount/src/server/services/bls-signature-service.ts:250](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/bls-signature-service.ts#L250)
+Defined in: [packages/airaccount/src/server/services/bls-signature-service.ts:250](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/bls-signature-service.ts#L250)
 
 Generate a tiered signature based on the required tier level.
 
@@ -81,7 +81,7 @@ Generate a tiered signature based on the required tier level.
 
 > **getActiveSignerNodes**(): `Promise`\<`unknown`[]\>
 
-Defined in: [packages/airaccount/src/server/services/bls-signature-service.ts:100](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/bls-signature-service.ts#L100)
+Defined in: [packages/airaccount/src/server/services/bls-signature-service.ts:100](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/bls-signature-service.ts#L100)
 
 #### Returns
 
@@ -93,7 +93,7 @@ Defined in: [packages/airaccount/src/server/services/bls-signature-service.ts:10
 
 > **packSignature**(`blsData`): `Promise`\<`string`\>
 
-Defined in: [packages/airaccount/src/server/services/bls-signature-service.ts:229](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/bls-signature-service.ts#L229)
+Defined in: [packages/airaccount/src/server/services/bls-signature-service.ts:229](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/bls-signature-service.ts#L229)
 
 #### Parameters
 

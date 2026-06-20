@@ -1,6 +1,6 @@
 > **SimpleSmartAccount** = [`LocalAccount`](https://viem.sh/docs/index.html) & `object`
 
-Defined in: [packages/account/src/accounts/simple.ts:15](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/account/src/accounts/simple.ts#L15)
+Defined in: [packages/account/src/accounts/simple.ts:15](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/account/src/accounts/simple.ts#L15)
 
 ## Type Declaration
 

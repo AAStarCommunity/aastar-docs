@@ -1,4 +1,4 @@
-Defined in: [packages/core/src/crypto/p256Guardian.ts:360](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/crypto/p256Guardian.ts#L360)
+Defined in: [packages/core/src/crypto/p256Guardian.ts:360](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/crypto/p256Guardian.ts#L360)
 
 Decoded view of an on-chain P-256 guardian `sig` blob.
 
@@ -8,7 +8,7 @@ Decoded view of an on-chain P-256 guardian `sig` blob.
 
 > **authenticatorData**: `` `0x${string}` ``
 
-Defined in: [packages/core/src/crypto/p256Guardian.ts:361](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/crypto/p256Guardian.ts#L361)
+Defined in: [packages/core/src/crypto/p256Guardian.ts:361](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/crypto/p256Guardian.ts#L361)
 
 ***
 
@@ -16,7 +16,7 @@ Defined in: [packages/core/src/crypto/p256Guardian.ts:361](https://github.com/AA
 
 > **clientDataJSONPrefix**: `` `0x${string}` ``
 
-Defined in: [packages/core/src/crypto/p256Guardian.ts:362](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/crypto/p256Guardian.ts#L362)
+Defined in: [packages/core/src/crypto/p256Guardian.ts:362](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/crypto/p256Guardian.ts#L362)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [packages/core/src/crypto/p256Guardian.ts:362](https://github.com/AA
 
 > **clientDataJSONSuffix**: `` `0x${string}` ``
 
-Defined in: [packages/core/src/crypto/p256Guardian.ts:363](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/crypto/p256Guardian.ts#L363)
+Defined in: [packages/core/src/crypto/p256Guardian.ts:363](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/crypto/p256Guardian.ts#L363)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [packages/core/src/crypto/p256Guardian.ts:363](https://github.com/AA
 
 > **r**: `` `0x${string}` ``
 
-Defined in: [packages/core/src/crypto/p256Guardian.ts:364](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/crypto/p256Guardian.ts#L364)
+Defined in: [packages/core/src/crypto/p256Guardian.ts:364](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/crypto/p256Guardian.ts#L364)
 
 ***
 
@@ -40,4 +40,4 @@ Defined in: [packages/core/src/crypto/p256Guardian.ts:364](https://github.com/AA
 
 > **s**: `` `0x${string}` ``
 
-Defined in: [packages/core/src/crypto/p256Guardian.ts:365](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/crypto/p256Guardian.ts#L365)
+Defined in: [packages/core/src/crypto/p256Guardian.ts:365](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/crypto/p256Guardian.ts#L365)

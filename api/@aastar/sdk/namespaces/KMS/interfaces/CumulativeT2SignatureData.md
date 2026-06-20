@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/core/bls/types.ts:33](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/core/bls/types.ts#L33)
+Defined in: [packages/airaccount/src/core/bls/types.ts:33](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/core/bls/types.ts#L33)
 
 Data for cumulative Tier 2 signature (algId 0x04): P256 + BLS.
 
@@ -12,7 +12,7 @@ Data for cumulative Tier 2 signature (algId 0x04): P256 + BLS.
 
 > **blsSignature**: `string`
 
-Defined in: [packages/airaccount/src/core/bls/types.ts:36](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/core/bls/types.ts#L36)
+Defined in: [packages/airaccount/src/core/bls/types.ts:36](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/core/bls/types.ts#L36)
 
 ***
 
@@ -20,7 +20,7 @@ Defined in: [packages/airaccount/src/core/bls/types.ts:36](https://github.com/AA
 
 > **messagePoint**: `string`
 
-Defined in: [packages/airaccount/src/core/bls/types.ts:37](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/core/bls/types.ts#L37)
+Defined in: [packages/airaccount/src/core/bls/types.ts:37](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/core/bls/types.ts#L37)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: [packages/airaccount/src/core/bls/types.ts:37](https://github.com/AA
 
 > **messagePointSignature**: `string`
 
-Defined in: [packages/airaccount/src/core/bls/types.ts:38](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/core/bls/types.ts#L38)
+Defined in: [packages/airaccount/src/core/bls/types.ts:38](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/core/bls/types.ts#L38)
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: [packages/airaccount/src/core/bls/types.ts:38](https://github.com/AA
 
 > **nodeIds**: `string`[]
 
-Defined in: [packages/airaccount/src/core/bls/types.ts:35](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/core/bls/types.ts#L35)
+Defined in: [packages/airaccount/src/core/bls/types.ts:35](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/core/bls/types.ts#L35)
 
 ***
 
@@ -44,4 +44,4 @@ Defined in: [packages/airaccount/src/core/bls/types.ts:35](https://github.com/AA
 
 > **p256Signature**: `string`
 
-Defined in: [packages/airaccount/src/core/bls/types.ts:34](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/core/bls/types.ts#L34)
+Defined in: [packages/airaccount/src/core/bls/types.ts:34](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/core/bls/types.ts#L34)

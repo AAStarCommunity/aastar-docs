@@ -1,3 +1,3 @@
 > `const` **PaymasterFactoryABI**: `any`
 
-Defined in: [packages/core/src/abis/index.ts:78](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/abis/index.ts#L78)
+Defined in: [packages/core/src/abis/index.ts:78](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/abis/index.ts#L78)

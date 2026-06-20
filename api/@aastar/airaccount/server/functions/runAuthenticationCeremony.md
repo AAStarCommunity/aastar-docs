@@ -1,6 +1,6 @@
 > **runAuthenticationCeremony**(`http`, `keyId`, `signer`, `options?`): `Promise`\<[`WebAuthnAssertion`](../interfaces/WebAuthnAssertion.md)\>
 
-Defined in: [packages/airaccount/src/server/services/webauthn-ceremony.ts:284](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/webauthn-ceremony.ts#L284)
+Defined in: [packages/airaccount/src/server/services/webauthn-ceremony.ts:284](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/webauthn-ceremony.ts#L284)
 
 Convenience: run a generic authentication ceremony over an [KmsHttpClient](../classes/KmsHttpClient.md).
 Covers DeriveAddress / Sign / SignHash / SignTypedData / agent-key /

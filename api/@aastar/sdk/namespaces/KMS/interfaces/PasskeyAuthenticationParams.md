@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/auth/passkey/types.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/auth/passkey/types.ts#L7)
+Defined in: [packages/airaccount/src/auth/passkey/types.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/auth/passkey/types.ts#L7)
 
 ## Properties
 
@@ -6,4 +6,4 @@ Defined in: [packages/airaccount/src/auth/passkey/types.ts:7](https://github.com
 
 > `optional` **email**: `string`
 
-Defined in: [packages/airaccount/src/auth/passkey/types.ts:8](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/auth/passkey/types.ts#L8)
+Defined in: [packages/airaccount/src/auth/passkey/types.ts:8](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/auth/passkey/types.ts#L8)

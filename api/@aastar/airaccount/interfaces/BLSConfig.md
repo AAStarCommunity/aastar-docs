@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/core/bls/types.ts:23](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/core/bls/types.ts#L23)
+Defined in: [packages/airaccount/src/core/bls/types.ts:23](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/core/bls/types.ts#L23)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [packages/airaccount/src/core/bls/types.ts:23](https://github.com/AA
 
 > `optional` **discoveryTimeout**: `number`
 
-Defined in: [packages/airaccount/src/core/bls/types.ts:25](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/core/bls/types.ts#L25)
+Defined in: [packages/airaccount/src/core/bls/types.ts:25](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/core/bls/types.ts#L25)
 
 ***
 
@@ -14,4 +14,4 @@ Defined in: [packages/airaccount/src/core/bls/types.ts:25](https://github.com/AA
 
 > **seedNodes**: `string`[]
 
-Defined in: [packages/airaccount/src/core/bls/types.ts:24](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/core/bls/types.ts#L24)
+Defined in: [packages/airaccount/src/core/bls/types.ts:24](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/core/bls/types.ts#L24)

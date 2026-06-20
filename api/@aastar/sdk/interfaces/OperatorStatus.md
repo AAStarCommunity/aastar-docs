@@ -1,4 +1,4 @@
-Defined in: [packages/operator/src/OperatorLifecycle.ts:6](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/operator/src/OperatorLifecycle.ts#L6)
+Defined in: [packages/operator/src/OperatorLifecycle.ts:6](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/operator/src/OperatorLifecycle.ts#L6)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [packages/operator/src/OperatorLifecycle.ts:6](https://github.com/AA
 
 > **balance**: `bigint`
 
-Defined in: [packages/operator/src/OperatorLifecycle.ts:9](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/operator/src/OperatorLifecycle.ts#L9)
+Defined in: [packages/operator/src/OperatorLifecycle.ts:9](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/operator/src/OperatorLifecycle.ts#L9)
 
 ***
 
@@ -14,7 +14,7 @@ Defined in: [packages/operator/src/OperatorLifecycle.ts:9](https://github.com/AA
 
 > **isActive**: `boolean`
 
-Defined in: [packages/operator/src/OperatorLifecycle.ts:8](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/operator/src/OperatorLifecycle.ts#L8)
+Defined in: [packages/operator/src/OperatorLifecycle.ts:8](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/operator/src/OperatorLifecycle.ts#L8)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [packages/operator/src/OperatorLifecycle.ts:8](https://github.com/AA
 
 > **isConfigured**: `boolean`
 
-Defined in: [packages/operator/src/OperatorLifecycle.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/operator/src/OperatorLifecycle.ts#L7)
+Defined in: [packages/operator/src/OperatorLifecycle.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/operator/src/OperatorLifecycle.ts#L7)

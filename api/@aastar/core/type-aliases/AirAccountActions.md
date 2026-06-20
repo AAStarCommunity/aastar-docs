@@ -1,6 +1,6 @@
 > **AirAccountActions** = `object`
 
-Defined in: [packages/core/src/actions/airAccount.ts:42](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L42)
+Defined in: [packages/core/src/actions/airAccount.ts:42](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L42)
 
 ## Properties
 
@@ -8,7 +8,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:42](https://github.com/AASt
 
 > **accountId**: () => `Promise`\<`string`\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:47](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L47)
+Defined in: [packages/core/src/actions/airAccount.ts:47](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L47)
 
 #### Returns
 
@@ -20,7 +20,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:47](https://github.com/AASt
 
 > **cancelModuleInstall**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:86](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L86)
+Defined in: [packages/core/src/actions/airAccount.ts:86](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L86)
 
 #### Parameters
 
@@ -39,7 +39,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:86](https://github.com/AASt
 
 > **executeFromExecutor**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:71](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L71)
+Defined in: [packages/core/src/actions/airAccount.ts:71](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L71)
 
 Execute calls via an installed executor module (ERC-7579 `executeFromExecutor`).
 NOTE: this is a state-changing tx, so it resolves to the transaction `Hash` — the
@@ -65,7 +65,7 @@ decoded return data, `simulateContract`/`call` the same function separately.
 
 > **executeModuleInstall**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:85](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L85)
+Defined in: [packages/core/src/actions/airAccount.ts:85](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L85)
 
 #### Parameters
 
@@ -85,7 +85,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:85](https://github.com/AASt
 
 > **guardAddTokenConfig**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:76](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L76)
+Defined in: [packages/core/src/actions/airAccount.ts:76](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L76)
 
 #### Parameters
 
@@ -106,7 +106,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:76](https://github.com/AASt
 
 > **guardApproveAlgorithm**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:77](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L77)
+Defined in: [packages/core/src/actions/airAccount.ts:77](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L77)
 
 #### Parameters
 
@@ -126,7 +126,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:77](https://github.com/AASt
 
 > **guardDecreaseDailyLimit**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:78](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L78)
+Defined in: [packages/core/src/actions/airAccount.ts:78](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L78)
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:78](https://github.com/AASt
 
 > **guardDecreaseTokenDailyLimit**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:79](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L79)
+Defined in: [packages/core/src/actions/airAccount.ts:79](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L79)
 
 #### Parameters
 
@@ -167,7 +167,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:79](https://github.com/AASt
 
 > **guardianCount**: () => `Promise`\<`number`\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:45](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L45)
+Defined in: [packages/core/src/actions/airAccount.ts:45](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L45)
 
 #### Returns
 
@@ -179,7 +179,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:45](https://github.com/AASt
 
 > **guardians**: (`args`) => `Promise`\<`Address`\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:46](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L46)
+Defined in: [packages/core/src/actions/airAccount.ts:46](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L46)
 
 #### Parameters
 
@@ -198,7 +198,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:46](https://github.com/AASt
 
 > **guardSetStrictMode**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:81](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L81)
+Defined in: [packages/core/src/actions/airAccount.ts:81](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L81)
 
 #### Parameters
 
@@ -218,7 +218,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:81](https://github.com/AASt
 
 > **initializeAgentAccount**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:73](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L73)
+Defined in: [packages/core/src/actions/airAccount.ts:73](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L73)
 
 #### Parameters
 
@@ -241,7 +241,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:73](https://github.com/AASt
 
 > **isValidSignature**: (`args`) => `Promise`\<[`Hex`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:48](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L48)
+Defined in: [packages/core/src/actions/airAccount.ts:48](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L48)
 
 #### Parameters
 
@@ -261,7 +261,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:48](https://github.com/AASt
 
 > **moduleInstallTimelock**: () => `Promise`\<`bigint`\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:55](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L55)
+Defined in: [packages/core/src/actions/airAccount.ts:55](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L55)
 
 #### Returns
 
@@ -273,7 +273,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:55](https://github.com/AASt
 
 > **moduleManagementNonce**: () => `Promise`\<`bigint`\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:54](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L54)
+Defined in: [packages/core/src/actions/airAccount.ts:54](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L54)
 
 #### Returns
 
@@ -285,7 +285,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:54](https://github.com/AASt
 
 > **owner**: () => `Promise`\<`Address`\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:44](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L44)
+Defined in: [packages/core/src/actions/airAccount.ts:44](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L44)
 
 #### Returns
 
@@ -297,7 +297,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:44](https://github.com/AASt
 
 > **p256KeyX**: () => `Promise`\<[`Hex`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:51](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L51)
+Defined in: [packages/core/src/actions/airAccount.ts:51](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L51)
 
 #### Returns
 
@@ -309,7 +309,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:51](https://github.com/AASt
 
 > **p256KeyY**: () => `Promise`\<[`Hex`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:52](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L52)
+Defined in: [packages/core/src/actions/airAccount.ts:52](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L52)
 
 #### Returns
 
@@ -321,7 +321,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:52](https://github.com/AASt
 
 > **parserRegistry**: () => `Promise`\<`Address`\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:53](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L53)
+Defined in: [packages/core/src/actions/airAccount.ts:53](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L53)
 
 #### Returns
 
@@ -333,7 +333,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:53](https://github.com/AASt
 
 > **pendingModuleInstall**: () => `Promise`\<[`PendingModuleInstall`](PendingModuleInstall.md)\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:56](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L56)
+Defined in: [packages/core/src/actions/airAccount.ts:56](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L56)
 
 #### Returns
 
@@ -345,7 +345,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:56](https://github.com/AASt
 
 > **proposeModuleInstall**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:84](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L84)
+Defined in: [packages/core/src/actions/airAccount.ts:84](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L84)
 
 #### Parameters
 
@@ -367,7 +367,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:84](https://github.com/AASt
 
 > **requiredTier**: (`args`) => `Promise`\<`number`\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:49](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L49)
+Defined in: [packages/core/src/actions/airAccount.ts:49](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L49)
 
 #### Parameters
 
@@ -386,7 +386,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:49](https://github.com/AASt
 
 > **setModuleInstallTimelock**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:87](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L87)
+Defined in: [packages/core/src/actions/airAccount.ts:87](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L87)
 
 #### Parameters
 
@@ -407,7 +407,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:87](https://github.com/AASt
 
 > **setP256Key**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:59](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L59)
+Defined in: [packages/core/src/actions/airAccount.ts:59](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L59)
 
 #### Parameters
 
@@ -428,7 +428,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:59](https://github.com/AASt
 
 > **setParserRegistry**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:62](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L62)
+Defined in: [packages/core/src/actions/airAccount.ts:62](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L62)
 
 #### Parameters
 
@@ -448,7 +448,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:62](https://github.com/AASt
 
 > **setTierLimits**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:60](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L60)
+Defined in: [packages/core/src/actions/airAccount.ts:60](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L60)
 
 #### Parameters
 
@@ -469,7 +469,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:60](https://github.com/AASt
 
 > **setValidator**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:61](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L61)
+Defined in: [packages/core/src/actions/airAccount.ts:61](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L61)
 
 #### Parameters
 
@@ -489,7 +489,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:61](https://github.com/AASt
 
 > **supportsModule**: (`args`) => `Promise`\<`boolean`\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:50](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L50)
+Defined in: [packages/core/src/actions/airAccount.ts:50](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L50)
 
 #### Parameters
 
@@ -508,7 +508,7 @@ Defined in: [packages/core/src/actions/airAccount.ts:50](https://github.com/AASt
 
 > **validateUserOp**: (`args`) => `Promise`\<[`Hash`](https://viem.sh/docs/index.html)\>
 
-Defined in: [packages/core/src/actions/airAccount.ts:72](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/airAccount.ts#L72)
+Defined in: [packages/core/src/actions/airAccount.ts:72](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/airAccount.ts#L72)
 
 #### Parameters
 

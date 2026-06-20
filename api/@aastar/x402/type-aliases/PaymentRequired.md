@@ -1,6 +1,6 @@
 > **PaymentRequired** = `object`
 
-Defined in: [packages/x402/src/types.ts:40](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/x402/src/types.ts#L40)
+Defined in: [packages/x402/src/types.ts:40](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/x402/src/types.ts#L40)
 
 402 response body / PAYMENT-REQUIRED header.
 Server sends this to indicate payment is needed.
@@ -11,7 +11,7 @@ Server sends this to indicate payment is needed.
 
 > **accepts**: [`PaymentRequirements`](PaymentRequirements.md)[]
 
-Defined in: [packages/x402/src/types.ts:44](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/x402/src/types.ts#L44)
+Defined in: [packages/x402/src/types.ts:44](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/x402/src/types.ts#L44)
 
 ***
 
@@ -19,7 +19,7 @@ Defined in: [packages/x402/src/types.ts:44](https://github.com/AAStarCommunity/a
 
 > `optional` **error**: `string`
 
-Defined in: [packages/x402/src/types.ts:42](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/x402/src/types.ts#L42)
+Defined in: [packages/x402/src/types.ts:42](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/x402/src/types.ts#L42)
 
 ***
 
@@ -27,7 +27,7 @@ Defined in: [packages/x402/src/types.ts:42](https://github.com/AAStarCommunity/a
 
 > `optional` **extensions**: `Record`\<`string`, `unknown`\>
 
-Defined in: [packages/x402/src/types.ts:45](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/x402/src/types.ts#L45)
+Defined in: [packages/x402/src/types.ts:45](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/x402/src/types.ts#L45)
 
 ***
 
@@ -35,7 +35,7 @@ Defined in: [packages/x402/src/types.ts:45](https://github.com/AAStarCommunity/a
 
 > **resource**: [`ResourceInfo`](ResourceInfo.md)
 
-Defined in: [packages/x402/src/types.ts:43](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/x402/src/types.ts#L43)
+Defined in: [packages/x402/src/types.ts:43](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/x402/src/types.ts#L43)
 
 ***
 
@@ -43,4 +43,4 @@ Defined in: [packages/x402/src/types.ts:43](https://github.com/AAStarCommunity/a
 
 > **x402Version**: `2`
 
-Defined in: [packages/x402/src/types.ts:41](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/x402/src/types.ts#L41)
+Defined in: [packages/x402/src/types.ts:41](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/x402/src/types.ts#L41)

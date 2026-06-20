@@ -1,4 +1,4 @@
-Defined in: [packages/sdk/src/utils/funding.ts:55](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/utils/funding.ts#L55)
+Defined in: [packages/sdk/src/utils/funding.ts:55](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/sdk/src/utils/funding.ts#L55)
 
 充值结果
 
@@ -8,7 +8,7 @@ Defined in: [packages/sdk/src/utils/funding.ts:55](https://github.com/AAStarComm
 
 > `optional` **error**: `string`
 
-Defined in: [packages/sdk/src/utils/funding.ts:58](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/utils/funding.ts#L58)
+Defined in: [packages/sdk/src/utils/funding.ts:58](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/sdk/src/utils/funding.ts#L58)
 
 ***
 
@@ -16,7 +16,7 @@ Defined in: [packages/sdk/src/utils/funding.ts:58](https://github.com/AAStarComm
 
 > **success**: `boolean`
 
-Defined in: [packages/sdk/src/utils/funding.ts:56](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/utils/funding.ts#L56)
+Defined in: [packages/sdk/src/utils/funding.ts:56](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/sdk/src/utils/funding.ts#L56)
 
 ***
 
@@ -24,4 +24,4 @@ Defined in: [packages/sdk/src/utils/funding.ts:56](https://github.com/AAStarComm
 
 > `optional` **txHash**: `` `0x${string}` ``
 
-Defined in: [packages/sdk/src/utils/funding.ts:57](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/utils/funding.ts#L57)
+Defined in: [packages/sdk/src/utils/funding.ts:57](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/sdk/src/utils/funding.ts#L57)

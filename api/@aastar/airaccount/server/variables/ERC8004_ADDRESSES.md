@@ -1,6 +1,6 @@
 > `const` **ERC8004\_ADDRESSES**: `object`
 
-Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:22](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/erc8004-service.ts#L22)
+Defined in: [packages/airaccount/src/server/services/erc8004-service.ts:22](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/erc8004-service.ts#L22)
 
 ## Type Declaration
 

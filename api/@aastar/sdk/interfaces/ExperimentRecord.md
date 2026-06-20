@@ -1,4 +1,4 @@
-Defined in: [packages/sdk/src/clients/ExperimentClient.ts:3](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/clients/ExperimentClient.ts#L3)
+Defined in: [packages/sdk/src/clients/ExperimentClient.ts:3](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/sdk/src/clients/ExperimentClient.ts#L3)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [packages/sdk/src/clients/ExperimentClient.ts:3](https://github.com/
 
 > **costETH**: `string`
 
-Defined in: [packages/sdk/src/clients/ExperimentClient.ts:10](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/clients/ExperimentClient.ts#L10)
+Defined in: [packages/sdk/src/clients/ExperimentClient.ts:10](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/sdk/src/clients/ExperimentClient.ts#L10)
 
 ***
 
@@ -14,7 +14,7 @@ Defined in: [packages/sdk/src/clients/ExperimentClient.ts:10](https://github.com
 
 > **gasPrice**: `bigint`
 
-Defined in: [packages/sdk/src/clients/ExperimentClient.ts:9](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/clients/ExperimentClient.ts#L9)
+Defined in: [packages/sdk/src/clients/ExperimentClient.ts:9](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/sdk/src/clients/ExperimentClient.ts#L9)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/sdk/src/clients/ExperimentClient.ts:9](https://github.com/
 
 > **gasUsed**: `bigint`
 
-Defined in: [packages/sdk/src/clients/ExperimentClient.ts:8](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/clients/ExperimentClient.ts#L8)
+Defined in: [packages/sdk/src/clients/ExperimentClient.ts:8](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/sdk/src/clients/ExperimentClient.ts#L8)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/sdk/src/clients/ExperimentClient.ts:8](https://github.com/
 
 > **group**: `"EOA"` \| `"AA"` \| `"SuperPaymaster"`
 
-Defined in: [packages/sdk/src/clients/ExperimentClient.ts:6](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/clients/ExperimentClient.ts#L6)
+Defined in: [packages/sdk/src/clients/ExperimentClient.ts:6](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/sdk/src/clients/ExperimentClient.ts#L6)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/sdk/src/clients/ExperimentClient.ts:6](https://github.com/
 
 > **id**: `string`
 
-Defined in: [packages/sdk/src/clients/ExperimentClient.ts:4](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/clients/ExperimentClient.ts#L4)
+Defined in: [packages/sdk/src/clients/ExperimentClient.ts:4](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/sdk/src/clients/ExperimentClient.ts#L4)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [packages/sdk/src/clients/ExperimentClient.ts:4](https://github.com/
 
 > `optional` **meta**: `any`
 
-Defined in: [packages/sdk/src/clients/ExperimentClient.ts:13](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/clients/ExperimentClient.ts#L13)
+Defined in: [packages/sdk/src/clients/ExperimentClient.ts:13](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/sdk/src/clients/ExperimentClient.ts#L13)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [packages/sdk/src/clients/ExperimentClient.ts:13](https://github.com
 
 > **scenario**: `string`
 
-Defined in: [packages/sdk/src/clients/ExperimentClient.ts:5](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/clients/ExperimentClient.ts#L5)
+Defined in: [packages/sdk/src/clients/ExperimentClient.ts:5](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/sdk/src/clients/ExperimentClient.ts#L5)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [packages/sdk/src/clients/ExperimentClient.ts:5](https://github.com/
 
 > **status**: `"Success"` \| `"Failed"`
 
-Defined in: [packages/sdk/src/clients/ExperimentClient.ts:11](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/clients/ExperimentClient.ts#L11)
+Defined in: [packages/sdk/src/clients/ExperimentClient.ts:11](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/sdk/src/clients/ExperimentClient.ts#L11)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: [packages/sdk/src/clients/ExperimentClient.ts:11](https://github.com
 
 > **timestamp**: `number`
 
-Defined in: [packages/sdk/src/clients/ExperimentClient.ts:12](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/clients/ExperimentClient.ts#L12)
+Defined in: [packages/sdk/src/clients/ExperimentClient.ts:12](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/sdk/src/clients/ExperimentClient.ts#L12)
 
 ***
 
@@ -78,4 +78,4 @@ Defined in: [packages/sdk/src/clients/ExperimentClient.ts:12](https://github.com
 
 > **txHash**: `string`
 
-Defined in: [packages/sdk/src/clients/ExperimentClient.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/clients/ExperimentClient.ts#L7)
+Defined in: [packages/sdk/src/clients/ExperimentClient.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/sdk/src/clients/ExperimentClient.ts#L7)

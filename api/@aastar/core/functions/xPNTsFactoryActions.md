@@ -1,6 +1,6 @@
 > **xPNTsFactoryActions**(`address`): (`client`) => [`XPNTsFactoryActions`](../type-aliases/XPNTsFactoryActions.md)
 
-Defined in: [packages/core/src/actions/factory.ts:94](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/factory.ts#L94)
+Defined in: [packages/core/src/actions/factory.ts:94](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/factory.ts#L94)
 
 ## Parameters
 

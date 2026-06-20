@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/services/bls-signature-service.ts:36](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/bls-signature-service.ts#L36)
+Defined in: [packages/airaccount/src/server/services/bls-signature-service.ts:36](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/bls-signature-service.ts#L36)
 
 Raised when a DVT node (aNode YetAnotherAA-Validator ≥ v1.3.0, running with
 `CONFIRM_ENABLED=true`) withholds its co-signature on a high-value op pending
@@ -19,7 +19,7 @@ confirm flow. Default-off nodes never emit this (behaviour == v1.2.0).
 
 > **new DvtPendingConfirmationError**(`userOpHash`, `nodeEndpoint`): `DvtPendingConfirmationError`
 
-Defined in: [packages/airaccount/src/server/services/bls-signature-service.ts:37](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/bls-signature-service.ts#L37)
+Defined in: [packages/airaccount/src/server/services/bls-signature-service.ts:37](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/bls-signature-service.ts#L37)
 
 #### Parameters
 
@@ -66,7 +66,7 @@ Defined in: node\_modules/.pnpm/typescript@5.6.3/node\_modules/typescript/lib/li
 
 > `readonly` **nodeEndpoint**: `string`
 
-Defined in: [packages/airaccount/src/server/services/bls-signature-service.ts:39](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/bls-signature-service.ts#L39)
+Defined in: [packages/airaccount/src/server/services/bls-signature-service.ts:39](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/bls-signature-service.ts#L39)
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: node\_modules/.pnpm/typescript@5.6.3/node\_modules/typescript/lib/li
 
 > `readonly` **userOpHash**: `string`
 
-Defined in: [packages/airaccount/src/server/services/bls-signature-service.ts:38](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/bls-signature-service.ts#L38)
+Defined in: [packages/airaccount/src/server/services/bls-signature-service.ts:38](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/bls-signature-service.ts#L38)
 
 ***
 

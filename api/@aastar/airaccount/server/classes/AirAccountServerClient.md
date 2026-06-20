@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/server-client.ts:37](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/server-client.ts#L37)
+Defined in: [packages/airaccount/src/server/server-client.ts:37](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/server-client.ts#L37)
 
 Main facade for the YAAA Server SDK.
 Wires all services together from a single config object.
@@ -32,7 +32,7 @@ const account = await client.accounts.createAccount('user-123');
 
 > **new AirAccountServerClient**(`config`): `AirAccountServerClient`
 
-Defined in: [packages/airaccount/src/server/server-client.ts:46](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/server-client.ts#L46)
+Defined in: [packages/airaccount/src/server/server-client.ts:46](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/server-client.ts#L46)
 
 #### Parameters
 
@@ -50,7 +50,7 @@ Defined in: [packages/airaccount/src/server/server-client.ts:46](https://github.
 
 > `readonly` **accounts**: [`AccountManager`](AccountManager.md)
 
-Defined in: [packages/airaccount/src/server/server-client.ts:39](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/server-client.ts#L39)
+Defined in: [packages/airaccount/src/server/server-client.ts:39](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/server-client.ts#L39)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [packages/airaccount/src/server/server-client.ts:39](https://github.
 
 > `readonly` **bls**: [`BLSSignatureService`](BLSSignatureService.md)
 
-Defined in: [packages/airaccount/src/server/server-client.ts:41](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/server-client.ts#L41)
+Defined in: [packages/airaccount/src/server/server-client.ts:41](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/server-client.ts#L41)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: [packages/airaccount/src/server/server-client.ts:41](https://github.
 
 > `readonly` **ethereum**: [`EthereumProvider`](EthereumProvider.md)
 
-Defined in: [packages/airaccount/src/server/server-client.ts:38](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/server-client.ts#L38)
+Defined in: [packages/airaccount/src/server/server-client.ts:38](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/server-client.ts#L38)
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: [packages/airaccount/src/server/server-client.ts:38](https://github.
 
 > `readonly` **paymaster**: [`PaymasterManager`](PaymasterManager.md)
 
-Defined in: [packages/airaccount/src/server/server-client.ts:42](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/server-client.ts#L42)
+Defined in: [packages/airaccount/src/server/server-client.ts:42](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/server-client.ts#L42)
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: [packages/airaccount/src/server/server-client.ts:42](https://github.
 
 > `readonly` **tokens**: [`TokenService`](TokenService.md)
 
-Defined in: [packages/airaccount/src/server/server-client.ts:43](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/server-client.ts#L43)
+Defined in: [packages/airaccount/src/server/server-client.ts:43](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/server-client.ts#L43)
 
 ***
 
@@ -90,7 +90,7 @@ Defined in: [packages/airaccount/src/server/server-client.ts:43](https://github.
 
 > `readonly` **transfers**: [`TransferManager`](TransferManager.md)
 
-Defined in: [packages/airaccount/src/server/server-client.ts:40](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/server-client.ts#L40)
+Defined in: [packages/airaccount/src/server/server-client.ts:40](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/server-client.ts#L40)
 
 ***
 
@@ -98,4 +98,4 @@ Defined in: [packages/airaccount/src/server/server-client.ts:40](https://github.
 
 > `readonly` **wallets**: [`WalletManager`](WalletManager.md)
 
-Defined in: [packages/airaccount/src/server/server-client.ts:44](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/server-client.ts#L44)
+Defined in: [packages/airaccount/src/server/server-client.ts:44](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/server-client.ts#L44)

@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:86](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-agent-service.ts#L86)
+Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:86](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/kms-agent-service.ts#L86)
 
 Request to revoke an agent's credential (WebAuthn-gated).
 
@@ -11,7 +11,7 @@ purpose="authentication"); the caller supplies the resulting assertion here.
 
 > **keyId**: `string`
 
-Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:87](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-agent-service.ts#L87)
+Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:87](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/kms-agent-service.ts#L87)
 
 ***
 
@@ -19,7 +19,7 @@ Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:87](ht
 
 > `optional` **passkeyAssertion**: [`LegacyPasskeyAssertion`](LegacyPasskeyAssertion.md)
 
-Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:89](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-agent-service.ts#L89)
+Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:89](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/kms-agent-service.ts#L89)
 
 ***
 
@@ -27,4 +27,4 @@ Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:89](ht
 
 > `optional` **webAuthnAssertion**: [`WebAuthnAssertion`](WebAuthnAssertion.md)
 
-Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:88](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-agent-service.ts#L88)
+Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:88](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/kms-agent-service.ts#L88)

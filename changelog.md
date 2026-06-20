@@ -2,6 +2,76 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.24.0] - 2026-06-20
+
+**DVT through-EntryPoint completion + validator-router wiring + default testnet nodes.** Closes the
+last open item of the v0.20.0 acceptance (the DVT BLS path proven THROUGH `EntryPoint.handleOps`,
+`UserOperationEvent success=true`) and ships the supporting SDK surface. Backward-compatible (additive).
+
+- **`encodeBLSAccountSignature` (`@aastar/core`)** — the account-level `ALG_BLS` (0x01) signature for
+  `EntryPoint.handleOps`: `[0x01][nodeIdsLength(32)][nodeIds(N×32)][blsSig(256)][ownerECDSA(65)]` per
+  contract `_validateTripleSignature`. The trailing 65 bytes are the owner's EIP-191 sig over
+  `userOpHash` (recovered==owner), so `ALG_BLS` is BLS **+ owner co-sign**, not BLS-only. (The earlier
+  `[0x01]‖verifierProof` was missing the length prefix + owner sig.) Real on-chain handleOps proven:
+  tx `0xc01eae6f…` (`UserOperationEvent success=true`).
+- **`DEFAULT_DVT_NODES` / `getDefaultDvtNodes(chainId)` (`@aastar/core`)** — AAStar's always-on testnet
+  DVT nodes (`dvt1/2/3.aastar.io`, independent production keys, registered on `AAStarBLSAlgorithm`
+  `0xAF525A…`). Source of truth: `YetAnotherAA-Validator/deploy/sdk-dvt-config.testnet.json`.
+- **`needsValidatorRouter` (`@aastar/core`) + `AccountManager.ensureValidatorRouter(userId, { router?,
+  walletClient? })`** — router-delegated algIds (BLS 0x01, T2/T3 0x04/0x05, weighted 0x07, session 0x08)
+  require `setValidator(router)` (the factory does NOT auto-wire it; `validator()==0` ⇒ BLS validation
+  returns 1). `ensureValidatorRouter` resolves the canonical `aaStarValidator`, verifies the account is
+  deployed + `validator()==0`, and sends `setValidator` via a caller-supplied owner wallet.
+- **Upstream sync: DVT `v1.4.0` → `v1.5.0`** (radar 4/4; wire-format unchanged — v1.5.0 adds the
+  always-on testnet nodes + clone-and-deploy package).
+- Full v0.23.0/v0.20.0 business-feature acceptance recorded (`docs/onchain-evidence/v0.23.0-acceptance.md`):
+  all 10 scenario rows FEATURE-MET (decoded-revert + post-state + 2-round Codex challenge).
+
+## [0.23.0] - 2026-06-20
+
+**Feature (#118): P-256 (passkey) MAIN-account creation in the server-client (the path YAA uses).**
+The server-client `AccountManager` could previously only deploy ECDSA-guardian accounts
+(`createAccountWithDefaults`), with no way to inject `InitConfig.guardianP256X/Y` — so a KMS-custodied
+/ counterfactual owner could not install a passkey guardian AT DEPLOY time. New method
+`AccountManager.createAccountWithP256Guardians(userId, { p256Guardians, ecdsaGuardians?, dailyLimit,
+approvedAlgIds?, minDailyLimit?, salt?, entryPointVersion? })` (and a `p256Guardians` option on
+`createAccount`) builds the full 8-field `InitConfig` via core `buildInitConfig` (reused, not
+hand-rolled), predicts the address via the factory's full-config `getAddress(owner, salt, config)`, and
+persists the resolved config on the account record. New shared helpers `account-init-config.ts`
+(`buildFullInitConfig`, `toGuardianSpecs`, `initConfigToTuple`, `serializeGuardianSpecs`,
+`initConfigFromRecord`) let `transfer-manager` rebuild the BYTE-IDENTICAL initCode at first-UserOp
+deploy time (config-hash-in-salt ⇒ deployed address == predicted address).
+
+- **Acceptance-hash semantics (verified vs `AAStarAirAccountFactoryV7.sol`):** the full-config
+  `createAccount` path performs NO guardian-acceptance signature check — for P-256 OR ECDSA guardians.
+  Front-run protection is the `keccak256(InitConfig)`-in-CREATE2-salt binding; P-256 guardians are an
+  owner-bootstrap (no quorum, no acceptance ceremony, #110④). This differs from
+  `createAccountWithGuardians()`, whose owner-only-salt `createAccountWithDefaults` path still requires
+  ECDSA `ACCEPT_GUARDIAN` signatures.
+- **Fix (#118 H1): wrong P-256 algId in `buildInitConfig`.** `core/actions/initConfig.ts` defined the
+  passkey constant as `0x01` (= `ALG_BLS`), so the default full-config `approvedAlgIds` for a P-256
+  account was `[0x02, 0x01]` = [ECDSA, BLS] — it wrongly whitelisted BLS and OMITTED P-256. Corrected to
+  `ALG_P256 = 0x03` (`AAStarAirAccountBase.sol:46`, route match `:604`); the default is now `[0x02, 0x03]`
+  (ECDSA owner + P-256, never BLS). Unit tests assert the default contains 0x02 & 0x03 and NOT 0x01.
+- **Fix (#118 M2): salt persisted as a lossless decimal string.** A `number | bigint` salt could
+  truncate (large JS number) or fail JSON serialization (bigint); the deploy-time `BigInt(account.salt)`
+  rebuild would then diverge from the predicted CREATE2 salt and strand funds. The P-256 path now rejects
+  an unsafe-integer number salt and persists `salt` as a decimal string, reconstructed losslessly for
+  both prediction and deploy. Round-trip unit test with a >2^53 salt; the on-chain run uses one too.
+- **Fix (#118 M1 / latent ABI selector bug).** The local human-readable `AIRACCOUNT_FACTORY_ABI` declared
+  `InitConfig.TokenConfig` as `(uint256,uint256,uint256)` while the deployed v0.20.0 factory packs it as
+  `(uint128 tier1Limit, uint128 tier2Limit, uint256 dailyLimit)` (#82). The type string feeds the 4-byte
+  selector, so `getAddress`/`createAccount`/`getAddressWithChainId` reverted on the live factory (the
+  existing ECDSA `createAccount`/basic-create paths too). Corrected to the canonical JSON ABI; the
+  selector-parity unit test now PINS the deployed factory's actual selectors (`getAddress 0x3989c6b8`,
+  `createAccount 0x5512953b`, `getAddressWithChainId 0x203df583`) so both SDK ABI sources drifting
+  together still fails the test.
+- **On-chain (Sepolia):** `createAccountWithP256Guardians` deployed account
+  `0x2727282d1E822e8Ae18750393636915ab1bbba72` WITH a passkey guardian (tx
+  `0x5e98c3fa…2308e1c8`, status 0x1) using a >2^53 salt and default `approvedAlgIds == [0x02, 0x03]`;
+  on-chain `getGuardianP256Key(0)` == the installed `(x, y)`, `guardianCount() == 1`. See
+  `docs/onchain-evidence/v0.20.0.md`.
+
 ## [0.22.0] - 2026-06-20
 
 **Feature (#110 Batch 2): P-256 (WebAuthn passkey) guardians.** Replaces the 8 `NOT_IMPLEMENTED`
@@ -218,8 +288,8 @@ Compatible upstreams: AirAccount v0.19.0-beta.2 / SuperPaymaster v5.4.0-beta.1 (
 - **[ADDED]** MicroPaymentChannel ABI
 - **[ADDED]** Address constants: microPaymentChannel, agentIdentityRegistry, agentReputationRegistry (Sepolia deployed)
 
-## [0.22.0] - 2026-06-20
-**SDK Code Integrity Hash**: `42b3a7765f5bf7021f58329783e01ed7399751d86c1ded6427e021b44408d529`
+## [0.24.0] - 2026-06-20
+**SDK Code Integrity Hash**: `170b24e3477f9e79420f5e5e0c3843bf32ae758585fe410bbcfd74170d45a072`
 *(Excludes metadata/markdown to ensure stability / 排除文档文件以确保哈希稳定)*
 ### ⛽ Gas Fee Strategy (PaymasterClient)
 - **[FIX]** **Testnet/Mainnet Split Gas Pricing**:

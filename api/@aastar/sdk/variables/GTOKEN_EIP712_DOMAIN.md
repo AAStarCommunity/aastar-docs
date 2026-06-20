@@ -1,6 +1,6 @@
 > `const` **GTOKEN\_EIP712\_DOMAIN**: `object`
 
-Defined in: [packages/x402/src/eip3009.ts:44](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/x402/src/eip3009.ts#L44)
+Defined in: [packages/x402/src/eip3009.ts:44](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/x402/src/eip3009.ts#L44)
 
 ## Type Declaration
 

@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/adapters/local-wallet-signer.ts:11](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/adapters/local-wallet-signer.ts#L11)
+Defined in: [packages/airaccount/src/server/adapters/local-wallet-signer.ts:11](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/adapters/local-wallet-signer.ts#L11)
 
 Local wallet signer — backs all users with a single private key.
 Suitable for testing, demos, and single-tenant server setups.
@@ -16,7 +16,7 @@ per-user key management (e.g., KMS, HSM, or encrypted database).
 
 > **new LocalWalletSigner**(`privateKey`): `LocalWalletSigner`
 
-Defined in: [packages/airaccount/src/server/adapters/local-wallet-signer.ts:14](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/adapters/local-wallet-signer.ts#L14)
+Defined in: [packages/airaccount/src/server/adapters/local-wallet-signer.ts:14](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/adapters/local-wallet-signer.ts#L14)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: [packages/airaccount/src/server/adapters/local-wallet-signer.ts:14](
 
 > **ensureSigner**(`_userId`): `Promise`\<\{ `address`: `` `0x${string}` ``; \}\>
 
-Defined in: [packages/airaccount/src/server/adapters/local-wallet-signer.ts:33](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/adapters/local-wallet-signer.ts#L33)
+Defined in: [packages/airaccount/src/server/adapters/local-wallet-signer.ts:33](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/adapters/local-wallet-signer.ts#L33)
 
 Ensure a signer exists for the user (create on demand if needed).
 Returns the signer's address.
@@ -59,7 +59,7 @@ Returns the signer's address.
 
 > **getAddress**(`_userId`): `Promise`\<`` `0x${string}` ``\>
 
-Defined in: [packages/airaccount/src/server/adapters/local-wallet-signer.ts:18](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/adapters/local-wallet-signer.ts#L18)
+Defined in: [packages/airaccount/src/server/adapters/local-wallet-signer.ts:18](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/adapters/local-wallet-signer.ts#L18)
 
 Get the EOA address for a given user.
 
@@ -83,7 +83,7 @@ Get the EOA address for a given user.
 
 > **signMessage**(`_userId`, `message`, `_ctx?`): `Promise`\<`` `0x${string}` ``\>
 
-Defined in: [packages/airaccount/src/server/adapters/local-wallet-signer.ts:22](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/adapters/local-wallet-signer.ts#L22)
+Defined in: [packages/airaccount/src/server/adapters/local-wallet-signer.ts:22](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/adapters/local-wallet-signer.ts#L22)
 
 Sign a message for a given user, applying EIP-191 personal-sign semantics
 (equivalent to ethers `signer.signMessage(bytes)` / viem

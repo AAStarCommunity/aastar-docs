@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/interfaces/logger.ts:38](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/interfaces/logger.ts#L38)
+Defined in: [packages/airaccount/src/server/interfaces/logger.ts:38](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/interfaces/logger.ts#L38)
 
 Silent logger that suppresses all output.
 
@@ -22,7 +22,7 @@ Silent logger that suppresses all output.
 
 > **debug**(): `void`
 
-Defined in: [packages/airaccount/src/server/interfaces/logger.ts:39](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/interfaces/logger.ts#L39)
+Defined in: [packages/airaccount/src/server/interfaces/logger.ts:39](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/interfaces/logger.ts#L39)
 
 #### Returns
 
@@ -38,7 +38,7 @@ Defined in: [packages/airaccount/src/server/interfaces/logger.ts:39](https://git
 
 > **error**(): `void`
 
-Defined in: [packages/airaccount/src/server/interfaces/logger.ts:42](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/interfaces/logger.ts#L42)
+Defined in: [packages/airaccount/src/server/interfaces/logger.ts:42](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/interfaces/logger.ts#L42)
 
 #### Returns
 
@@ -54,7 +54,7 @@ Defined in: [packages/airaccount/src/server/interfaces/logger.ts:42](https://git
 
 > **log**(): `void`
 
-Defined in: [packages/airaccount/src/server/interfaces/logger.ts:40](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/interfaces/logger.ts#L40)
+Defined in: [packages/airaccount/src/server/interfaces/logger.ts:40](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/interfaces/logger.ts#L40)
 
 #### Returns
 
@@ -70,7 +70,7 @@ Defined in: [packages/airaccount/src/server/interfaces/logger.ts:40](https://git
 
 > **warn**(): `void`
 
-Defined in: [packages/airaccount/src/server/interfaces/logger.ts:41](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/interfaces/logger.ts#L41)
+Defined in: [packages/airaccount/src/server/interfaces/logger.ts:41](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/interfaces/logger.ts#L41)
 
 #### Returns
 

@@ -1,6 +1,6 @@
 > **signCancelAuthorization**(`walletClient`, `params`): `Promise`\<`` `0x${string}` ``\>
 
-Defined in: [packages/x402/src/eip3009.ts:186](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/x402/src/eip3009.ts#L186)
+Defined in: [packages/x402/src/eip3009.ts:186](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/x402/src/eip3009.ts#L186)
 
 Sign a CancelAuthorization for GTokenAuthorization (EIP-3009).
 Must be signed by the original `authorizer` address.

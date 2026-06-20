@@ -1,4 +1,4 @@
-Defined in: [packages/core/src/clients/BundlerClient.ts:16](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/clients/BundlerClient.ts#L16)
+Defined in: [packages/core/src/clients/BundlerClient.ts:16](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/clients/BundlerClient.ts#L16)
 
 ## Type Parameters
 
@@ -12,7 +12,7 @@ Defined in: [packages/core/src/clients/BundlerClient.ts:16](https://github.com/A
 
 > `optional` **error**: `object`
 
-Defined in: [packages/core/src/clients/BundlerClient.ts:20](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/clients/BundlerClient.ts#L20)
+Defined in: [packages/core/src/clients/BundlerClient.ts:20](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/clients/BundlerClient.ts#L20)
 
 #### code
 
@@ -32,7 +32,7 @@ Defined in: [packages/core/src/clients/BundlerClient.ts:20](https://github.com/A
 
 > **id**: `number`
 
-Defined in: [packages/core/src/clients/BundlerClient.ts:18](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/clients/BundlerClient.ts#L18)
+Defined in: [packages/core/src/clients/BundlerClient.ts:18](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/clients/BundlerClient.ts#L18)
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: [packages/core/src/clients/BundlerClient.ts:18](https://github.com/A
 
 > **jsonrpc**: `"2.0"`
 
-Defined in: [packages/core/src/clients/BundlerClient.ts:17](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/clients/BundlerClient.ts#L17)
+Defined in: [packages/core/src/clients/BundlerClient.ts:17](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/clients/BundlerClient.ts#L17)
 
 ***
 
@@ -48,4 +48,4 @@ Defined in: [packages/core/src/clients/BundlerClient.ts:17](https://github.com/A
 
 > `optional` **result**: `T`
 
-Defined in: [packages/core/src/clients/BundlerClient.ts:19](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/clients/BundlerClient.ts#L19)
+Defined in: [packages/core/src/clients/BundlerClient.ts:19](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/clients/BundlerClient.ts#L19)

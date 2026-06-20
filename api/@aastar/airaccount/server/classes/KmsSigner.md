@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/services/kms-signer.ts:775](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-signer.ts#L775)
+Defined in: [packages/airaccount/src/server/services/kms-signer.ts:775](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/kms-signer.ts#L775)
 
 KMS-backed signer with Passkey assertion.
 
@@ -17,7 +17,7 @@ provider) has been dropped.
 
 > **new KmsSigner**(`keyId`, `_address`, `kmsManager`, `assertionProvider`): `KmsSigner`
 
-Defined in: [packages/airaccount/src/server/services/kms-signer.ts:776](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-signer.ts#L776)
+Defined in: [packages/airaccount/src/server/services/kms-signer.ts:776](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/kms-signer.ts#L776)
 
 #### Parameters
 
@@ -38,7 +38,7 @@ Defined in: [packages/airaccount/src/server/services/kms-signer.ts:776](https://
 
 > **getAddress**(): `Promise`\<`string`\>
 
-Defined in: [packages/airaccount/src/server/services/kms-signer.ts:783](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-signer.ts#L783)
+Defined in: [packages/airaccount/src/server/services/kms-signer.ts:783](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/kms-signer.ts#L783)
 
 #### Returns
 
@@ -50,7 +50,7 @@ Defined in: [packages/airaccount/src/server/services/kms-signer.ts:783](https://
 
 > **signMessage**(`message`): `Promise`\<`string`\>
 
-Defined in: [packages/airaccount/src/server/services/kms-signer.ts:787](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-signer.ts#L787)
+Defined in: [packages/airaccount/src/server/services/kms-signer.ts:787](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/airaccount/src/server/services/kms-signer.ts#L787)
 
 #### Parameters
 

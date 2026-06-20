@@ -1,6 +1,6 @@
 > **x402IsNonceUsed**(`client`, `superPaymasterAddress`, `params`): `Promise`\<`boolean`\>
 
-Defined in: [packages/core/src/actions/x402.ts:23](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/x402.ts#L23)
+Defined in: [packages/core/src/actions/x402.ts:23](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/actions/x402.ts#L23)
 
 Checks if an x402 settlement nonce has been used.
 Queries the triple-key slot: keccak256(abi.encode(asset, from, nonce)).

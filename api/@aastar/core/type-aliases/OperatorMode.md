@@ -1,6 +1,6 @@
 > **OperatorMode** = `"AOA"` \| `"AOA+"`
 
-Defined in: [packages/core/src/requirementChecker.ts:20](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/requirementChecker.ts#L20)
+Defined in: [packages/core/src/requirementChecker.ts:20](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/requirementChecker.ts#L20)
 
 Operator onboarding mode (matches the codebase's paymaster model).
 - `AOA`  — an INDEPENDENT paymaster operator running their own PaymasterV4

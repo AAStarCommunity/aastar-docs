@@ -1,6 +1,6 @@
 > **signP256GuardianAssertion**(`params`): [`SignedP256GuardianAssertion`](../interfaces/SignedP256GuardianAssertion.md)
 
-Defined in: [packages/core/src/crypto/p256Guardian.ts:542](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/crypto/p256Guardian.ts#L542)
+Defined in: [packages/core/src/crypto/p256Guardian.ts:542](https://github.com/AAStarCommunity/aastar-sdk/blob/938c487df6936d7bd6bee1014bc343b4b9023f9e/packages/core/src/crypto/p256Guardian.ts#L542)
 
 Software P-256 authenticator — produces a FULL WebAuthn assertion over `challenge`, byte-for-byte
 in the format `navigator.credentials.get()` returns (mirrors the contract's
