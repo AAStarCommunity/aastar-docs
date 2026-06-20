@@ -1,6 +1,6 @@
 > **decodeContractError**(`error`): `string` \| `null`
 
-Defined in: [packages/sdk/src/errors/decoder.ts:10](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/errors/decoder.ts#L10)
+Defined in: [packages/sdk/src/errors/decoder.ts:10](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/sdk/src/errors/decoder.ts#L10)
 
 ## Parameters
 

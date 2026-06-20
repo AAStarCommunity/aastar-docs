@@ -1,4 +1,4 @@
-Defined in: [packages/core/src/actions/gTokenAuthorization.ts:6](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/gTokenAuthorization.ts#L6)
+Defined in: [packages/core/src/actions/gTokenAuthorization.ts:6](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/actions/gTokenAuthorization.ts#L6)
 
 ## Enumeration Members
 
@@ -6,7 +6,7 @@ Defined in: [packages/core/src/actions/gTokenAuthorization.ts:6](https://github.
 
 > **Canceled**: `2`
 
-Defined in: [packages/core/src/actions/gTokenAuthorization.ts:9](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/gTokenAuthorization.ts#L9)
+Defined in: [packages/core/src/actions/gTokenAuthorization.ts:9](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/actions/gTokenAuthorization.ts#L9)
 
 ***
 
@@ -14,7 +14,7 @@ Defined in: [packages/core/src/actions/gTokenAuthorization.ts:9](https://github.
 
 > **Unused**: `0`
 
-Defined in: [packages/core/src/actions/gTokenAuthorization.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/gTokenAuthorization.ts#L7)
+Defined in: [packages/core/src/actions/gTokenAuthorization.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/actions/gTokenAuthorization.ts#L7)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [packages/core/src/actions/gTokenAuthorization.ts:7](https://github.
 
 > **Used**: `1`
 
-Defined in: [packages/core/src/actions/gTokenAuthorization.ts:8](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/actions/gTokenAuthorization.ts#L8)
+Defined in: [packages/core/src/actions/gTokenAuthorization.ts:8](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/actions/gTokenAuthorization.ts#L8)

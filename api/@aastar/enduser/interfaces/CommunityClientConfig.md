@@ -1,4 +1,4 @@
-Defined in: [enduser/src/CommunityClient.ts:5](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/enduser/src/CommunityClient.ts#L5)
+Defined in: [enduser/src/CommunityClient.ts:5](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/enduser/src/CommunityClient.ts#L5)
 
 Base configuration for all L2 Business Clients
 
@@ -51,7 +51,7 @@ Defined in: core/dist/clients/types.d.ts:40
 
 > `optional` **factoryAddress**: `` `0x${string}` ``
 
-Defined in: [enduser/src/CommunityClient.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/enduser/src/CommunityClient.ts#L7)
+Defined in: [enduser/src/CommunityClient.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/enduser/src/CommunityClient.ts#L7)
 
 ***
 
@@ -136,7 +136,7 @@ Essential for looking up other contracts if not provided explicitly.
 
 > `optional` **reputationAddress**: `` `0x${string}` ``
 
-Defined in: [enduser/src/CommunityClient.ts:8](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/enduser/src/CommunityClient.ts#L8)
+Defined in: [enduser/src/CommunityClient.ts:8](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/enduser/src/CommunityClient.ts#L8)
 
 ***
 
@@ -144,7 +144,7 @@ Defined in: [enduser/src/CommunityClient.ts:8](https://github.com/AAStarCommunit
 
 > `optional` **sbtAddress**: `` `0x${string}` ``
 
-Defined in: [enduser/src/CommunityClient.ts:6](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/enduser/src/CommunityClient.ts#L6)
+Defined in: [enduser/src/CommunityClient.ts:6](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/enduser/src/CommunityClient.ts#L6)
 
 ***
 

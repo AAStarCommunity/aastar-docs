@@ -1,4 +1,4 @@
-Defined in: [enduser/src/UserClient.ts:6](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/enduser/src/UserClient.ts#L6)
+Defined in: [enduser/src/UserClient.ts:6](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/enduser/src/UserClient.ts#L6)
 
 Base configuration for all L2 Business Clients
 
@@ -12,7 +12,7 @@ Base configuration for all L2 Business Clients
 
 > **accountAddress**: `` `0x${string}` ``
 
-Defined in: [enduser/src/UserClient.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/enduser/src/UserClient.ts#L7)
+Defined in: [enduser/src/UserClient.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/enduser/src/UserClient.ts#L7)
 
 ***
 
@@ -20,7 +20,7 @@ Defined in: [enduser/src/UserClient.ts:7](https://github.com/AAStarCommunity/aas
 
 > `optional` **bundlerClient**: `any`
 
-Defined in: [enduser/src/UserClient.ts:14](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/enduser/src/UserClient.ts#L14)
+Defined in: [enduser/src/UserClient.ts:14](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/enduser/src/UserClient.ts#L14)
 
 ***
 
@@ -43,7 +43,7 @@ Must have an account attached.
 
 > `optional` **entryPointAddress**: `` `0x${string}` ``
 
-Defined in: [enduser/src/UserClient.ts:9](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/enduser/src/UserClient.ts#L9)
+Defined in: [enduser/src/UserClient.ts:9](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/enduser/src/UserClient.ts#L9)
 
 #### Overrides
 
@@ -67,7 +67,7 @@ Defined in: core/dist/clients/types.d.ts:40
 
 > `optional` **gTokenAddress**: `` `0x${string}` ``
 
-Defined in: [enduser/src/UserClient.ts:13](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/enduser/src/UserClient.ts#L13)
+Defined in: [enduser/src/UserClient.ts:13](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/enduser/src/UserClient.ts#L13)
 
 GToken contract address.
 Required for operations involving token approvals and transfers.
@@ -82,7 +82,7 @@ Required for operations involving token approvals and transfers.
 
 > `optional` **gTokenStakingAddress**: `` `0x${string}` ``
 
-Defined in: [enduser/src/UserClient.ts:11](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/enduser/src/UserClient.ts#L11)
+Defined in: [enduser/src/UserClient.ts:11](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/enduser/src/UserClient.ts#L11)
 
 GTokenStaking contract address.
 Required for role registration that involves staking.
@@ -129,7 +129,7 @@ However, explicitly accepting PublicClient encourages separation.
 
 > `optional` **registryAddress**: `` `0x${string}` ``
 
-Defined in: [enduser/src/UserClient.ts:12](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/enduser/src/UserClient.ts#L12)
+Defined in: [enduser/src/UserClient.ts:12](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/enduser/src/UserClient.ts#L12)
 
 Registry contract address.
 Essential for looking up other contracts if not provided explicitly.
@@ -144,7 +144,7 @@ Essential for looking up other contracts if not provided explicitly.
 
 > `optional` **sbtAddress**: `` `0x${string}` ``
 
-Defined in: [enduser/src/UserClient.ts:8](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/enduser/src/UserClient.ts#L8)
+Defined in: [enduser/src/UserClient.ts:8](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/enduser/src/UserClient.ts#L8)
 
 ***
 
@@ -152,7 +152,7 @@ Defined in: [enduser/src/UserClient.ts:8](https://github.com/AAStarCommunity/aas
 
 > `optional` **superPaymasterAddress**: `` `0x${string}` ``
 
-Defined in: [enduser/src/UserClient.ts:10](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/enduser/src/UserClient.ts#L10)
+Defined in: [enduser/src/UserClient.ts:10](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/enduser/src/UserClient.ts#L10)
 
 ***
 

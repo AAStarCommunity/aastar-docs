@@ -1,6 +1,6 @@
 > `const` **ENTRYPOINT\_ADDRESSES**: `object`
 
-Defined in: [packages/airaccount/src/server/constants/entrypoint.ts:23](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/constants/entrypoint.ts#L23)
+Defined in: [packages/airaccount/src/server/constants/entrypoint.ts:23](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/constants/entrypoint.ts#L23)
 
 Default EntryPoint addresses (same on Sepolia, Mainnet, and OP Mainnet).
 

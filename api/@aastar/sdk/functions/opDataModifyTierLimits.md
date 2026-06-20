@@ -1,6 +1,6 @@
 > **opDataModifyTierLimits**(`nonce`, `tier1`, `tier2`, `deadline`): `` `0x${string}` ``
 
-Defined in: [packages/core/src/crypto/p256Guardian.ts:198](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/crypto/p256Guardian.ts#L198)
+Defined in: [packages/core/src/crypto/p256Guardian.ts:198](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/crypto/p256Guardian.ts#L198)
 
 `opData` for MODIFY_TIER_LIMITS: `abi.encode(uint256 nonce, uint256 tier1, uint256 tier2, uint256 deadline)`.
 

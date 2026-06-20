@@ -1,4 +1,4 @@
-Defined in: [packages/sdk/src/utils/testScenarios.ts:5](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/utils/testScenarios.ts#L5)
+Defined in: [packages/sdk/src/utils/testScenarios.ts:5](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/sdk/src/utils/testScenarios.ts#L5)
 
 ## Enumeration Members
 
@@ -6,7 +6,7 @@ Defined in: [packages/sdk/src/utils/testScenarios.ts:5](https://github.com/AASta
 
 > **GASLESS\_V4**: `"GASLESS_V4"`
 
-Defined in: [packages/sdk/src/utils/testScenarios.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/utils/testScenarios.ts#L7)
+Defined in: [packages/sdk/src/utils/testScenarios.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/sdk/src/utils/testScenarios.ts#L7)
 
 ***
 
@@ -14,7 +14,7 @@ Defined in: [packages/sdk/src/utils/testScenarios.ts:7](https://github.com/AASta
 
 > **NATIVE**: `"NATIVE"`
 
-Defined in: [packages/sdk/src/utils/testScenarios.ts:6](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/utils/testScenarios.ts#L6)
+Defined in: [packages/sdk/src/utils/testScenarios.ts:6](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/sdk/src/utils/testScenarios.ts#L6)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/sdk/src/utils/testScenarios.ts:6](https://github.com/AASta
 
 > **SUPER\_BPNT**: `"SUPER_BPNT"`
 
-Defined in: [packages/sdk/src/utils/testScenarios.ts:8](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/utils/testScenarios.ts#L8)
+Defined in: [packages/sdk/src/utils/testScenarios.ts:8](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/sdk/src/utils/testScenarios.ts#L8)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/sdk/src/utils/testScenarios.ts:8](https://github.com/AASta
 
 > **SUPER\_CPNT**: `"SUPER_CPNT"`
 
-Defined in: [packages/sdk/src/utils/testScenarios.ts:9](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/utils/testScenarios.ts#L9)
+Defined in: [packages/sdk/src/utils/testScenarios.ts:9](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/sdk/src/utils/testScenarios.ts#L9)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [packages/sdk/src/utils/testScenarios.ts:9](https://github.com/AASta
 
 > **SUPER\_CUSTOM**: `"SUPER_CUSTOM"`
 
-Defined in: [packages/sdk/src/utils/testScenarios.ts:10](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/sdk/src/utils/testScenarios.ts#L10)
+Defined in: [packages/sdk/src/utils/testScenarios.ts:10](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/sdk/src/utils/testScenarios.ts#L10)

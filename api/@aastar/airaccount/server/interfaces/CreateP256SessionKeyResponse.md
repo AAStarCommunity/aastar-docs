@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:24](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-session-service.ts#L24)
+Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:24](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/kms-session-service.ts#L24)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:24](
 
 > **agentCredential**: `string`
 
-Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:29](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-session-service.ts#L29)
+Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:29](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/kms-session-service.ts#L29)
 
 ***
 
@@ -14,7 +14,7 @@ Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:29](
 
 > **algorithm**: `string`
 
-Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:28](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-session-service.ts#L28)
+Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:28](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/kms-session-service.ts#L28)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:28](
 
 > **expiresAt**: `number`
 
-Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:30](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-session-service.ts#L30)
+Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:30](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/kms-session-service.ts#L30)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:30](
 
 > **keyId**: `string`
 
-Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:25](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-session-service.ts#L25)
+Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:25](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/kms-session-service.ts#L25)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:25](
 
 > **pubKeyX**: `string`
 
-Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:26](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-session-service.ts#L26)
+Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:26](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/kms-session-service.ts#L26)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:26](
 
 > **pubKeyY**: `string`
 
-Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:27](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-session-service.ts#L27)
+Defined in: [packages/airaccount/src/server/services/kms-session-service.ts:27](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/kms-session-service.ts#L27)

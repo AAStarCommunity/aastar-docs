@@ -1,4 +1,4 @@
-Defined in: [enduser/src/UserLifecycle.ts:26](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/enduser/src/UserLifecycle.ts#L26)
+Defined in: [enduser/src/UserLifecycle.ts:26](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/enduser/src/UserLifecycle.ts#L26)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [enduser/src/UserLifecycle.ts:26](https://github.com/AAStarCommunity
 
 > **creditLimit**: `bigint`
 
-Defined in: [enduser/src/UserLifecycle.ts:29](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/enduser/src/UserLifecycle.ts#L29)
+Defined in: [enduser/src/UserLifecycle.ts:29](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/enduser/src/UserLifecycle.ts#L29)
 
 ***
 
@@ -14,7 +14,7 @@ Defined in: [enduser/src/UserLifecycle.ts:29](https://github.com/AAStarCommunity
 
 > **level**: `bigint`
 
-Defined in: [enduser/src/UserLifecycle.ts:28](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/enduser/src/UserLifecycle.ts#L28)
+Defined in: [enduser/src/UserLifecycle.ts:28](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/enduser/src/UserLifecycle.ts#L28)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [enduser/src/UserLifecycle.ts:28](https://github.com/AAStarCommunity
 
 > **score**: `bigint`
 
-Defined in: [enduser/src/UserLifecycle.ts:27](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/enduser/src/UserLifecycle.ts#L27)
+Defined in: [enduser/src/UserLifecycle.ts:27](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/enduser/src/UserLifecycle.ts#L27)

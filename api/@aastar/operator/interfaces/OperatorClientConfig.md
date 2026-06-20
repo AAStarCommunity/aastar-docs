@@ -1,4 +1,4 @@
-Defined in: [operator/src/PaymasterOperatorClient.ts:5](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/operator/src/PaymasterOperatorClient.ts#L5)
+Defined in: [operator/src/PaymasterOperatorClient.ts:5](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/operator/src/PaymasterOperatorClient.ts#L5)
 
 Base configuration for all L2 Business Clients
 
@@ -128,7 +128,7 @@ Essential for looking up other contracts if not provided explicitly.
 
 > **superPaymasterAddress**: `` `0x${string}` ``
 
-Defined in: [operator/src/PaymasterOperatorClient.ts:6](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/operator/src/PaymasterOperatorClient.ts#L6)
+Defined in: [operator/src/PaymasterOperatorClient.ts:6](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/operator/src/PaymasterOperatorClient.ts#L6)
 
 ***
 
@@ -136,7 +136,7 @@ Defined in: [operator/src/PaymasterOperatorClient.ts:6](https://github.com/AASta
 
 > `optional` **tokenAddress**: `` `0x${string}` ``
 
-Defined in: [operator/src/PaymasterOperatorClient.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/operator/src/PaymasterOperatorClient.ts#L7)
+Defined in: [operator/src/PaymasterOperatorClient.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/operator/src/PaymasterOperatorClient.ts#L7)
 
 ***
 

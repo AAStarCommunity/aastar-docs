@@ -1,6 +1,6 @@
 > **resolveEns**(`name`, `options`): `Promise`\<`` `0x${string}` `` \| `null`\>
 
-Defined in: [packages/core/src/utils/ens.ts:49](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/utils/ens.ts#L49)
+Defined in: [packages/core/src/utils/ens.ts:49](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/core/src/utils/ens.ts#L49)
 
 Forward-resolve an ENS name to an Ethereum address.
 Returns null if the name has no address record.

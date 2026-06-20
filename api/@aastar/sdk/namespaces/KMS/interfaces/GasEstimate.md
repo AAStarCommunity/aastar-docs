@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/core/types/index.ts:27](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/core/types/index.ts#L27)
+Defined in: [packages/airaccount/src/core/types/index.ts:27](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/core/types/index.ts#L27)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [packages/airaccount/src/core/types/index.ts:27](https://github.com/
 
 > **callGasLimit**: `string`
 
-Defined in: [packages/airaccount/src/core/types/index.ts:28](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/core/types/index.ts#L28)
+Defined in: [packages/airaccount/src/core/types/index.ts:28](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/core/types/index.ts#L28)
 
 ***
 
@@ -14,7 +14,7 @@ Defined in: [packages/airaccount/src/core/types/index.ts:28](https://github.com/
 
 > **preVerificationGas**: `string`
 
-Defined in: [packages/airaccount/src/core/types/index.ts:30](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/core/types/index.ts#L30)
+Defined in: [packages/airaccount/src/core/types/index.ts:30](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/core/types/index.ts#L30)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [packages/airaccount/src/core/types/index.ts:30](https://github.com/
 
 > **verificationGasLimit**: `string`
 
-Defined in: [packages/airaccount/src/core/types/index.ts:29](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/core/types/index.ts#L29)
+Defined in: [packages/airaccount/src/core/types/index.ts:29](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/core/types/index.ts#L29)

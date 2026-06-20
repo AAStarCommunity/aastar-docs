@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/services/kms-monitor-service.ts:94](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-monitor-service.ts#L94)
+Defined in: [packages/airaccount/src/server/services/kms-monitor-service.ts:94](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/kms-monitor-service.ts#L94)
 
 `GET /.well-known/attestation-measurements-proof.json` — Sigsum proof sidecar (#87).
 
@@ -12,4 +12,4 @@ Defined in: [packages/airaccount/src/server/services/kms-monitor-service.ts:94](
 
 > `optional` **proof**: `Record`\<`string`, `unknown`\>
 
-Defined in: [packages/airaccount/src/server/services/kms-monitor-service.ts:95](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-monitor-service.ts#L95)
+Defined in: [packages/airaccount/src/server/services/kms-monitor-service.ts:95](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/kms-monitor-service.ts#L95)

@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:19](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-agent-service.ts#L19)
+Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:19](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/kms-agent-service.ts#L19)
 
 Request to mint a new agent key under an existing human key.
 
@@ -13,7 +13,7 @@ the caller supplies the resulting assertion here.
 
 > **humanKeyId**: `string`
 
-Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:20](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-agent-service.ts#L20)
+Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:20](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/kms-agent-service.ts#L20)
 
 ***
 
@@ -21,7 +21,7 @@ Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:20](ht
 
 > `optional` **label**: `string`
 
-Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:21](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-agent-service.ts#L21)
+Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:21](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/kms-agent-service.ts#L21)
 
 ***
 
@@ -29,7 +29,7 @@ Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:21](ht
 
 > `optional` **passkeyAssertion**: [`LegacyPasskeyAssertion`](LegacyPasskeyAssertion.md)
 
-Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:23](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-agent-service.ts#L23)
+Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:23](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/kms-agent-service.ts#L23)
 
 ***
 
@@ -37,4 +37,4 @@ Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:23](ht
 
 > `optional` **webAuthnAssertion**: [`WebAuthnAssertion`](WebAuthnAssertion.md)
 
-Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:22](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-agent-service.ts#L22)
+Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:22](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/kms-agent-service.ts#L22)

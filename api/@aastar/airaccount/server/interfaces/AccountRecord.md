@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:4](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/interfaces/storage-adapter.ts#L4)
+Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:4](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/interfaces/storage-adapter.ts#L4)
 
 Account record stored by the SDK.
 
@@ -8,7 +8,18 @@ Account record stored by the SDK.
 
 > **address**: `string`
 
-Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:6](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/interfaces/storage-adapter.ts#L6)
+Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:6](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/interfaces/storage-adapter.ts#L6)
+
+***
+
+### approvedAlgIds?
+
+> `optional` **approvedAlgIds**: `number`[]
+
+Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:50](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/interfaces/storage-adapter.ts#L50)
+
+Resolved approvedAlgIds written into the init config (full-config path). Persisted so the
+deploy-time InitConfig is reconstructed EXACTLY (no re-defaulting). Paired with guardianSpecs.
 
 ***
 
@@ -16,7 +27,7 @@ Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:6](htt
 
 > **createdAt**: `string`
 
-Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:14](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/interfaces/storage-adapter.ts#L14)
+Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:22](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/interfaces/storage-adapter.ts#L22)
 
 ***
 
@@ -24,7 +35,7 @@ Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:14](ht
 
 > `optional` **dailyLimit**: `string`
 
-Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:20](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/interfaces/storage-adapter.ts#L20)
+Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:28](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/interfaces/storage-adapter.ts#L28)
 
 Daily transfer limit in wei, stored as a decimal string (bigint serialization).
 "0" or undefined means no guard / no limit.
@@ -36,7 +47,7 @@ Written into the factory config at account creation time.
 
 > **deployed**: `boolean`
 
-Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:9](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/interfaces/storage-adapter.ts#L9)
+Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:17](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/interfaces/storage-adapter.ts#L17)
 
 ***
 
@@ -44,7 +55,7 @@ Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:9](htt
 
 > **deploymentTxHash**: `string` \| `null`
 
-Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:10](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/interfaces/storage-adapter.ts#L10)
+Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:18](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/interfaces/storage-adapter.ts#L18)
 
 ***
 
@@ -52,7 +63,7 @@ Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:10](ht
 
 > **entryPointVersion**: `string`
 
-Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:12](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/interfaces/storage-adapter.ts#L12)
+Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:20](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/interfaces/storage-adapter.ts#L20)
 
 ***
 
@@ -60,7 +71,7 @@ Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:12](ht
 
 > **factoryAddress**: `string`
 
-Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:13](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/interfaces/storage-adapter.ts#L13)
+Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:21](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/interfaces/storage-adapter.ts#L21)
 
 ***
 
@@ -68,7 +79,7 @@ Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:13](ht
 
 > `optional` **guardian1**: `string`
 
-Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:26](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/interfaces/storage-adapter.ts#L26)
+Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:34](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/interfaces/storage-adapter.ts#L34)
 
 Guardian addresses and their acceptance signatures.
 Present only for accounts created via createAccountWithGuardians().
@@ -80,7 +91,7 @@ Required by transfer-manager to reconstruct initCode using createAccountWithDefa
 
 > `optional` **guardian1Sig**: `string`
 
-Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:27](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/interfaces/storage-adapter.ts#L27)
+Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:35](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/interfaces/storage-adapter.ts#L35)
 
 ***
 
@@ -88,7 +99,7 @@ Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:27](ht
 
 > `optional` **guardian2**: `string`
 
-Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:28](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/interfaces/storage-adapter.ts#L28)
+Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:36](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/interfaces/storage-adapter.ts#L36)
 
 ***
 
@@ -96,15 +107,47 @@ Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:28](ht
 
 > `optional` **guardian2Sig**: `string`
 
-Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:29](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/interfaces/storage-adapter.ts#L29)
+Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:37](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/interfaces/storage-adapter.ts#L37)
+
+***
+
+### guardianSpecs?
+
+> `optional` **guardianSpecs**: (\{ `ecdsa`: `string`; \} \| \{ `p256`: \{ `x`: `string`; `y`: `string`; \}; \})[]
+
+Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:45](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/interfaces/storage-adapter.ts#L45)
+
+Full-config (8-field InitConfig) guardian slots — each is either an ECDSA address or a
+P-256 (passkey) public key (x, y). Present ONLY for accounts created via
+createAccountWithP256Guardians() (the factory's createAccount(owner, salt, config) path).
+transfer-manager rebuilds the byte-identical InitConfig from these at first-UserOp deploy
+time so the deployed CREATE2 address matches the create-time prediction.
+
+***
+
+### minDailyLimit?
+
+> `optional` **minDailyLimit**: `string`
+
+Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:55](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/interfaces/storage-adapter.ts#L55)
+
+minDailyLimit floor (wei, decimal string) written into the init config (full-config path).
+Paired with guardianSpecs for exact deploy-time reconstruction.
 
 ***
 
 ### salt
 
-> **salt**: `number` \| `bigint`
+> **salt**: `string` \| `number` \| `bigint`
 
-Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:8](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/interfaces/storage-adapter.ts#L8)
+Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:16](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/interfaces/storage-adapter.ts#L16)
+
+CREATE2 salt. Canonically persisted as a DECIMAL STRING (lossless, like dailyLimit) — the
+full-config / P-256 path (#118 M2) writes it this way so a large salt (> 2^53) neither truncates
+as a JS number nor fails JSON serialization as a bigint. The deploy-time rebuild reconstructs it
+with `BigInt(account.salt)`, which MUST match the salt used to predict the address
+(`_getSalt(owner, salt, configHash)`) or funds sent to the predicted address are stranded.
+`number | bigint` retained for back-compat with the legacy create paths.
 
 ***
 
@@ -112,7 +155,7 @@ Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:8](htt
 
 > **signerAddress**: `string`
 
-Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/interfaces/storage-adapter.ts#L7)
+Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:7](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/interfaces/storage-adapter.ts#L7)
 
 ***
 
@@ -120,7 +163,7 @@ Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:7](htt
 
 > **userId**: `string`
 
-Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:5](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/interfaces/storage-adapter.ts#L5)
+Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:5](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/interfaces/storage-adapter.ts#L5)
 
 ***
 
@@ -128,4 +171,4 @@ Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:5](htt
 
 > **validatorAddress**: `string`
 
-Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:11](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/interfaces/storage-adapter.ts#L11)
+Defined in: [packages/airaccount/src/server/interfaces/storage-adapter.ts:19](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/interfaces/storage-adapter.ts#L19)

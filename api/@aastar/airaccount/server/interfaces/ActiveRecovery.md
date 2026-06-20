@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/services/recovery-service.ts:78](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/recovery-service.ts#L78)
+Defined in: [packages/airaccount/src/server/services/recovery-service.ts:78](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/recovery-service.ts#L78)
 
 Decoded view of the account's `activeRecovery()` struct (RecoveryProposal).
 
@@ -16,7 +16,7 @@ The remaining fields are SDK-side conveniences derived from those values.
 
 > **approvalBitmap**: `bigint`
 
-Defined in: [packages/airaccount/src/server/services/recovery-service.ts:84](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/recovery-service.ts#L84)
+Defined in: [packages/airaccount/src/server/services/recovery-service.ts:84](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/recovery-service.ts#L84)
 
 Bitmap of guardian approvals (bit i ⇒ guardian[i] approved).
 
@@ -26,7 +26,7 @@ Bitmap of guardian approvals (bit i ⇒ guardian[i] approved).
 
 > **approvalCount**: `number`
 
-Defined in: [packages/airaccount/src/server/services/recovery-service.ts:88](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/recovery-service.ts#L88)
+Defined in: [packages/airaccount/src/server/services/recovery-service.ts:88](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/recovery-service.ts#L88)
 
 Number of distinct guardian approvals (popcount of `approvalBitmap`).
 
@@ -36,7 +36,7 @@ Number of distinct guardian approvals (popcount of `approvalBitmap`).
 
 > **cancellationBitmap**: `bigint`
 
-Defined in: [packages/airaccount/src/server/services/recovery-service.ts:86](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/recovery-service.ts#L86)
+Defined in: [packages/airaccount/src/server/services/recovery-service.ts:86](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/recovery-service.ts#L86)
 
 Bitmap of guardian cancel votes (bit i ⇒ guardian[i] voted to cancel).
 
@@ -46,7 +46,7 @@ Bitmap of guardian cancel votes (bit i ⇒ guardian[i] voted to cancel).
 
 > **cancellationCount**: `number`
 
-Defined in: [packages/airaccount/src/server/services/recovery-service.ts:90](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/recovery-service.ts#L90)
+Defined in: [packages/airaccount/src/server/services/recovery-service.ts:90](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/recovery-service.ts#L90)
 
 Number of distinct guardian cancel votes (popcount of `cancellationBitmap`).
 
@@ -56,7 +56,7 @@ Number of distinct guardian cancel votes (popcount of `cancellationBitmap`).
 
 > **executeAfter**: `bigint`
 
-Defined in: [packages/airaccount/src/server/services/recovery-service.ts:92](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/recovery-service.ts#L92)
+Defined in: [packages/airaccount/src/server/services/recovery-service.ts:92](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/recovery-service.ts#L92)
 
 Earliest timestamp at which `executeRecovery` may succeed (`proposedAt + timelock`).
 
@@ -66,7 +66,7 @@ Earliest timestamp at which `executeRecovery` may succeed (`proposedAt + timeloc
 
 > **isActive**: `boolean`
 
-Defined in: [packages/airaccount/src/server/services/recovery-service.ts:94](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/recovery-service.ts#L94)
+Defined in: [packages/airaccount/src/server/services/recovery-service.ts:94](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/recovery-service.ts#L94)
 
 True when a recovery is currently active (`newOwner != address(0)`).
 
@@ -76,7 +76,7 @@ True when a recovery is currently active (`newOwner != address(0)`).
 
 > **newOwner**: `string`
 
-Defined in: [packages/airaccount/src/server/services/recovery-service.ts:80](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/recovery-service.ts#L80)
+Defined in: [packages/airaccount/src/server/services/recovery-service.ts:80](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/recovery-service.ts#L80)
 
 Proposed new owner. `0x0000…0000` means there is no active recovery.
 
@@ -86,6 +86,6 @@ Proposed new owner. `0x0000…0000` means there is no active recovery.
 
 > **proposedAt**: `bigint`
 
-Defined in: [packages/airaccount/src/server/services/recovery-service.ts:82](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/recovery-service.ts#L82)
+Defined in: [packages/airaccount/src/server/services/recovery-service.ts:82](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/recovery-service.ts#L82)
 
 `block.timestamp` at which the recovery was proposed (seconds).

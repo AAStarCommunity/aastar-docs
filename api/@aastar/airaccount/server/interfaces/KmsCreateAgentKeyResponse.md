@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:26](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-agent-service.ts#L26)
+Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:26](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/kms-agent-service.ts#L26)
 
 ## Properties
 
@@ -6,7 +6,7 @@ Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:26](ht
 
 > **agentAddress**: `string`
 
-Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:28](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-agent-service.ts#L28)
+Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:28](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/kms-agent-service.ts#L28)
 
 ***
 
@@ -14,7 +14,7 @@ Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:28](ht
 
 > **agentCredential**: `string`
 
-Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:30](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-agent-service.ts#L30)
+Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:30](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/kms-agent-service.ts#L30)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:30](ht
 
 > **derivationPath**: `string`
 
-Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:29](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-agent-service.ts#L29)
+Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:29](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/kms-agent-service.ts#L29)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:29](ht
 
 > **expiresAt**: `number`
 
-Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:31](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-agent-service.ts#L31)
+Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:31](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/kms-agent-service.ts#L31)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:31](ht
 
 > **keyId**: `string`
 
-Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:27](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-agent-service.ts#L27)
+Defined in: [packages/airaccount/src/server/services/kms-agent-service.ts:27](https://github.com/AAStarCommunity/aastar-sdk/blob/333c6a5d4c60107a1197c0a393c72c414ed82d56/packages/airaccount/src/server/services/kms-agent-service.ts#L27)
