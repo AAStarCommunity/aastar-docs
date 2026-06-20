@@ -215,6 +215,8 @@ export default defineConfig({
   lang: 'en',
   ignoreDeadLinks: true,
   lastUpdated: true,
+  // CLAUDE.md is an internal maintainer/agent runbook, not a public page.
+  srcExclude: ['CLAUDE.md', '**/CLAUDE.md'],
   vite: {
     plugins: [
       {
