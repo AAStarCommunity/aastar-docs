@@ -1,6 +1,6 @@
 > **FacilitatorSupported** = `object`
 
-Defined in: [packages/x402/src/types.ts:100](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/x402/src/types.ts#L100)
+Defined in: [packages/x402/src/types.ts:100](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/x402/src/types.ts#L100)
 
 Facilitator supported kinds response.
 
@@ -10,7 +10,7 @@ Facilitator supported kinds response.
 
 > **extensions**: `string`[]
 
-Defined in: [packages/x402/src/types.ts:107](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/x402/src/types.ts#L107)
+Defined in: [packages/x402/src/types.ts:107](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/x402/src/types.ts#L107)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [packages/x402/src/types.ts:107](https://github.com/AAStarCommunity/
 
 > **kinds**: `object`[]
 
-Defined in: [packages/x402/src/types.ts:101](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/x402/src/types.ts#L101)
+Defined in: [packages/x402/src/types.ts:101](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/x402/src/types.ts#L101)
 
 #### extra?
 

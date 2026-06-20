@@ -1,6 +1,6 @@
 > **getMySBTId**(`client`, `sbtAddress`, `user`): `Promise`\<`bigint` \| `null`\>
 
-Defined in: [mysbt.ts:39](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/identity/src/mysbt.ts#L39)
+Defined in: [mysbt.ts:39](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/identity/src/mysbt.ts#L39)
 
 Fetch MySBT token ID for a specific user.
 MySBT exposes `getUserSBT(address) -> uint256` (alias of the `userToSBT`

@@ -1,6 +1,6 @@
 > `const` **ROLE\_DVT**: [`Hash`](https://viem.sh/docs/index.html)
 
-Defined in: [packages/core/src/roles.ts:73](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/roles.ts#L73)
+Defined in: [packages/core/src/roles.ts:73](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/roles.ts#L73)
 
 DVT Role (Distributed Validator Technology)
 

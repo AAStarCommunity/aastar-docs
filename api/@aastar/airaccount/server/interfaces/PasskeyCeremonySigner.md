@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/services/webauthn-ceremony.ts:93](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/webauthn-ceremony.ts#L93)
+Defined in: [packages/airaccount/src/server/services/webauthn-ceremony.ts:93](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/webauthn-ceremony.ts#L93)
 
 Pluggable passkey signer. The ceremony helper builds clientDataJSON +
 authenticatorData and computes the WebAuthn message
@@ -14,7 +14,7 @@ use [P256PasskeySigner](../classes/P256PasskeySigner.md).
 
 > `readonly` **credentialId**: `string`
 
-Defined in: [packages/airaccount/src/server/services/webauthn-ceremony.ts:95](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/webauthn-ceremony.ts#L95)
+Defined in: [packages/airaccount/src/server/services/webauthn-ceremony.ts:95](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/webauthn-ceremony.ts#L95)
 
 base64url credential id registered with the KMS for this passkey.
 
@@ -24,7 +24,7 @@ base64url credential id registered with the KMS for this passkey.
 
 > **sign**(`message`): `Uint8Array` \| `Promise`\<`Uint8Array`\>
 
-Defined in: [packages/airaccount/src/server/services/webauthn-ceremony.ts:101](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/webauthn-ceremony.ts#L101)
+Defined in: [packages/airaccount/src/server/services/webauthn-ceremony.ts:101](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/webauthn-ceremony.ts#L101)
 
 Sign the WebAuthn message (authenticatorData || SHA-256(clientDataJSON)).
 MUST return a DER-encoded ES256 signature (ECDSA P-256 with SHA-256 applied

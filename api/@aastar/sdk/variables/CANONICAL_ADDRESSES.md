@@ -1,6 +1,6 @@
 > `const` **CANONICAL\_ADDRESSES**: `object`
 
-Defined in: [packages/core/src/addresses.ts:17](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/addresses.ts#L17)
+Defined in: [packages/core/src/addresses.ts:17](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/addresses.ts#L17)
 
 ## Type Declaration
 
@@ -158,15 +158,15 @@ Defined in: [packages/core/src/addresses.ts:17](https://github.com/AAStarCommuni
 
 #### 11155111.aaStarBLSAggregator
 
-> `readonly` **aaStarBLSAggregator**: `"0x77f7bf95B8602b7851f392F412257539242947e0"` = `"0x77f7bf95B8602b7851f392F412257539242947e0"`
+> `readonly` **aaStarBLSAggregator**: `"0x35775df9a4f4dB42Ea0C46118a12dDd0cEc70609"` = `"0x35775df9a4f4dB42Ea0C46118a12dDd0cEc70609"`
 
 #### 11155111.aaStarBLSAlgorithm
 
-> `readonly` **aaStarBLSAlgorithm**: `"0x68c381Ad3A2e3380F22840008027E9Ec2783F43A"` = `"0x68c381Ad3A2e3380F22840008027E9Ec2783F43A"`
+> `readonly` **aaStarBLSAlgorithm**: `"0xAF525A161CB17e0A1b6254ef0B8d8473bdA05174"` = `"0xAF525A161CB17e0A1b6254ef0B8d8473bdA05174"`
 
 #### 11155111.aaStarValidator
 
-> `readonly` **aaStarValidator**: `"0xC20A986Bcd5bF5Cc2fE5fFde6b155B8419E0389e"` = `"0xC20A986Bcd5bF5Cc2fE5fFde6b155B8419E0389e"`
+> `readonly` **aaStarValidator**: `"0xfcDfd17a373E037c3F9C8ffE2c781915E7Ae6e11"` = `"0xfcDfd17a373E037c3F9C8ffE2c781915E7Ae6e11"`
 
 #### 11155111.agentIdentityRegistry
 
@@ -174,7 +174,7 @@ Defined in: [packages/core/src/addresses.ts:17](https://github.com/AAStarCommuni
 
 #### 11155111.agentRegistry
 
-> `readonly` **agentRegistry**: `"0x3895b3E6fEf4e121E6289dC7881A0eEd5283C652"` = `"0x3895b3E6fEf4e121E6289dC7881A0eEd5283C652"`
+> `readonly` **agentRegistry**: `"0xbcE1163817EEBA2E07d39424427B10937bF1D121"` = `"0xbcE1163817EEBA2E07d39424427B10937bF1D121"`
 
 #### 11155111.agentReputationRegistry
 
@@ -186,19 +186,19 @@ Defined in: [packages/core/src/addresses.ts:17](https://github.com/AAStarCommuni
 
 #### 11155111.airAccountDelegate
 
-> `readonly` **airAccountDelegate**: `"0xA8D7f70c9D36bC4a4eb14F0dCEE19053FCB3309f"` = `"0xA8D7f70c9D36bC4a4eb14F0dCEE19053FCB3309f"`
+> `readonly` **airAccountDelegate**: `"0xd2735E54C5f5f2BF523b8a9ddd0E183624c3f2c0"` = `"0xd2735E54C5f5f2BF523b8a9ddd0E183624c3f2c0"`
 
 #### 11155111.airAccountExtension
 
-> `readonly` **airAccountExtension**: `"0xD61C0F3DE6D98070E9986743d35A56d56855A249"` = `"0xD61C0F3DE6D98070E9986743d35A56d56855A249"`
+> `readonly` **airAccountExtension**: `"0x5529f50811814E0a4966cFC21200DCeF9C3FCb5B"` = `"0x5529f50811814E0a4966cFC21200DCeF9C3FCb5B"`
 
 #### 11155111.airAccountFactoryV7
 
-> `readonly` **airAccountFactoryV7**: `"0x52c5190E7308Ea9B149157FF016cC99B6C6bf984"` = `"0x52c5190E7308Ea9B149157FF016cC99B6C6bf984"`
+> `readonly` **airAccountFactoryV7**: `"0x99C9300d52EDD9f4B7135DEd1811fBa6FFa1DDC6"` = `"0x99C9300d52EDD9f4B7135DEd1811fBa6FFa1DDC6"`
 
 #### 11155111.airAccountV7Impl
 
-> `readonly` **airAccountV7Impl**: `"0x7fe62d512f0b8238DE6Ff17175DcE40eA312bBF2"` = `"0x7fe62d512f0b8238DE6Ff17175DcE40eA312bBF2"`
+> `readonly` **airAccountV7Impl**: `"0xd51db7eB20FF99c8588281CBe1785681Bb17D473"` = `"0xd51db7eB20FF99c8588281CBe1785681Bb17D473"`
 
 #### 11155111.aPNTs
 
@@ -214,7 +214,7 @@ Defined in: [packages/core/src/addresses.ts:17](https://github.com/AAStarCommuni
 
 #### 11155111.calldataParserRegistry
 
-> `readonly` **calldataParserRegistry**: `"0xb8Af1C039dF88F6bD9fE36Ca683492a3c09e7D17"` = `"0xb8Af1C039dF88F6bD9fE36Ca683492a3c09e7D17"`
+> `readonly` **calldataParserRegistry**: `"0x7dEea4544446826601014bD94d0F6432A67496F5"` = `"0x7dEea4544446826601014bD94d0F6432A67496F5"`
 
 #### 11155111.dvtValidator
 
@@ -226,7 +226,7 @@ Defined in: [packages/core/src/addresses.ts:17](https://github.com/AAStarCommuni
 
 #### 11155111.forceExitModule
 
-> `readonly` **forceExitModule**: `"0xd882a16Ea37Be463D1885EF4a397Dbbf157dC211"` = `"0xd882a16Ea37Be463D1885EF4a397Dbbf157dC211"`
+> `readonly` **forceExitModule**: `"0x3fDe77868b74a7979A40a2293a1CD265fbe66EEc"` = `"0x3fDe77868b74a7979A40a2293a1CD265fbe66EEc"`
 
 #### 11155111.gToken
 
@@ -274,7 +274,7 @@ Defined in: [packages/core/src/addresses.ts:17](https://github.com/AAStarCommuni
 
 #### 11155111.sessionKeyValidator
 
-> `readonly` **sessionKeyValidator**: `"0x70de2e36004d6Ddc24DEB80e1Ef76c03EdC0c2AE"` = `"0x70de2e36004d6Ddc24DEB80e1Ef76c03EdC0c2AE"`
+> `readonly` **sessionKeyValidator**: `"0x6810CfB7c72D16e044a17694fAa8076e517264D0"` = `"0x6810CfB7c72D16e044a17694fAa8076e517264D0"`
 
 #### 11155111.simpleAccountFactory
 

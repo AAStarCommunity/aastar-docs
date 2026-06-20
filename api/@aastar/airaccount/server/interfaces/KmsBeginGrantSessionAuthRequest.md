@@ -1,4 +1,4 @@
-Defined in: [packages/airaccount/src/server/services/kms-signer.ts:139](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/kms-signer.ts#L139)
+Defined in: [packages/airaccount/src/server/services/kms-signer.ts:139](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-signer.ts#L139)
 
 ## Properties
 
@@ -6,4 +6,4 @@ Defined in: [packages/airaccount/src/server/services/kms-signer.ts:139](https://
 
 > **keyId**: `string`
 
-Defined in: [packages/airaccount/src/server/services/kms-signer.ts:140](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/airaccount/src/server/services/kms-signer.ts#L140)
+Defined in: [packages/airaccount/src/server/services/kms-signer.ts:140](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/airaccount/src/server/services/kms-signer.ts#L140)

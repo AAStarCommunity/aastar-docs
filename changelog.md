@@ -2,6 +2,75 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.22.0] - 2026-06-20
+
+**Feature (#110 Batch 2): P-256 (WebAuthn passkey) guardians.** Replaces the 8 `NOT_IMPLEMENTED`
+stubs from 0.21.0 with real implementations. New core crypto module `crypto/p256Guardian.ts`
+(re-exported by `@aastar/sdk`): `buildP256GuardianChallenge`, `encodeWebAuthnAssertion` (5-field
+abi.encode, fixed `webauthn.get` prefix, low-S), `coseToP256XY` (COSE_Key + compressed/uncompressed
+SEC1, enforced kty/crv), per-op opData builders, `signP256GuardianAssertion` (software authenticator).
+The 8 `airAccountExtension` wrappers (`addP256Guardian`, `proposeRecoveryWithSig`, …, mixed-sig) are
+real, with `getStorageAt`-based mixed-sig nonce getters. `buildInitConfig` wires P-256 guardians
+through the high-level InitConfig; passkey-guardian creation is guardian-sig-free owner bootstrap.
+All encodings byte-verified against `AirAccountExtension.sol`. **On-chain**: `proposeRecoveryWithSig`
+landed status 0x1 on Sepolia (the contract's EIP-7212 verification of the SDK challenge+assertion
+passed). Codex 2-round APPROVE. Also bumps the KMS pin `openapi 0.23.1 → 0.23.2` (api in-sync).
+
+## [0.21.1] - 2026-06-20
+
+**Fix (#115): PaymasterClient V4 — account-type-aware UserOp signing.** V4 signed UserOps with a
+raw 65-byte ECDSA sig; v0.20.0 AirAccount `_validateSignature` routes on `signature[0]` as an algId
+prefix, so a raw sig whose first byte == `0x02` (ALG_ECDSA) misroutes → **intermittent AA24**. A new
+`signUserOpHash` helper centralizes all 5 sign sites (incl. the internal gas-estimate pass); pass
+`airAccountSig: true` (new option on `estimateUserOperationGas` / `submitGaslessUserOperation`) to emit
+the deterministic `[0x02][r][s][v]` (66-byte) format for v0.20.0 AirAccounts. Default unchanged
+(raw-65) for SimpleAccount and other account types. Codex-reviewed (2 rounds, APPROVE).
+
+## [0.21.0] - 2026-06-20
+
+On-chain acceptance (Sepolia): the v0.20.0 `createAccount` 8-field-`InitConfig` encoding is
+**decode-verified** across 3 independent paths (recovery `createAccount`, `createAgentAccount`, an
+isolated gasless-config `createAccount`) — see `docs/onchain-evidence/v0.20.0.md`. Codex-reviewed (5 rounds, APPROVE).
+
+**Upstream sync — v0.20.0 foundation (Batch 1; non-breaking).** Detect → upgrade → vendor the
+infra pins; the P-256 / WebAuthn guardian feature itself is Batch 2 (stubbed here).
+
+- **AirAccount contracts `v0.19.0-beta.2` → `v0.20.0`** (full Sepolia redeploy 2026-06-20).
+  - **Addresses**: all 11 AirAccount Sepolia addresses in `CANONICAL_ADDRESSES[11155111]` realigned
+    to the v0.20.0 deploy (factory `0x99C9300d…`, impl `0xd51db7eB…`, extension `0x5529f508…`),
+    sourced from `airaccount-contract/docs/DEPLOYMENT-v0.20.0.md`. OP / OP-Sepolia untouched.
+  - **ABIs**: re-vendored `AAStarAirAccountV7.json` + `AirAccountExtension.json` from the upstream
+    full ABI (diamond-lite merged surface).
+  - **#30 recovery relocation**: the 4 ECDSA recovery selectors (`proposeRecovery` / `approveRecovery`
+    / `executeRecovery` / `cancelRecovery`) are no longer on the V7 ABI — they live in
+    `AirAccountExtension`, reached via the account `fallback`→`delegatecall` (selectors + semantics
+    unchanged). The server `RecoveryService` already encodes them against the account address, so no
+    wrapper becomes ABI-absent.
+  - **Events**: `RecoveryProposed` / `RecoveryApproved` / `RecoveryCancelVoted` gained a trailing
+    `uint8 guardianIdx` (topic0 changed); vendored ABIs + the AirAccount event-ABI constants updated.
+  - **REMOVE_GUARDIAN signing payload (Batch-1 breaking; spec §6.4 / #120 [HIGH])**: the guardian-signed
+    `opData` is now `abi.encode(nonce, index, guardianToRemove, p256X, p256Y)` (was `(nonce, guardianToRemove)`).
+    This affects the **plain ECDSA** removal path too (extra `index` + two `bytes32(0)` key words). Added
+    `RecoveryService.buildRemoveGuardianHash(...)` (the SDK had no removal-signing helper before — only the
+    `encodeRemoveGuardian` calldata encoder, which is unaffected) returning the raw `_guardianOpHash` challenge
+    for guardians to `personal_sign`; golden-vector tests included. Source: `airaccount-contract`
+    `docs/p256-guardian-spec.md` §6.4 + `AAStarAirAccountBase.removeGuardian`.
+  - **P-256 / WebAuthn guardian = Batch 2**: `getRecoveryNonce` and `getGuardianP256Key` ship as real
+    view reads; `addP256Guardian`, `addP256GuardianWithMixedSigs`, `addGuardianWithMixedSigs`,
+    `proposeRecoveryWithSig`, `approveRecoveryWithSig`, `cancelRecoveryWithSig`,
+    `removeGuardianWithMixedSigs`, `modifyTierLimitsWithMixedGuardians` are `NOT_IMPLEMENTED` stubs
+    pointing at Batch 2 (`packages/core/src/actions/airAccountExtension.ts`).
+- **KMS `openapi 0.23.0` → `0.23.1`** (doc-only pin; API/wire verified in-sync).
+- **DVT `v1.3.0` → `v1.4.0`** (doc-only pin; wire-format unchanged — per-IP rate-limit + confirm flow
+  are server-side, tracked in #82).
+- **Radar fix**: the AirAccount address anchor in `scripts/upstream/upstream-radar.ts` now prefers the
+  dedicated `docs/DEPLOYMENT-v<latest>.md` "Core addresses" table over CHANGELOG "Deployed" tables, so
+  a release that does not republish a Deployed table no longer reads an older table and false-flags drift.
+- Also closed three pre-existing doc-coverage gaps surfaced by the re-vendor: `buildGrantHash` /
+  `buildP256GrantHash` (SessionKeyValidator views) and `createAccountWithDefaults` (factory write).
+
+_No package versions bumped — that is the separate release step._
+
 ## [0.20.8] - 2026-06-18
 
 **Address bug fix (single source of truth).** `@aastar/airaccount` carried its own hardcoded copy of protocol contract addresses, stale at `v0.17.2-beta.4`, while `@aastar/core` `CANONICAL_ADDRESSES` (the authority) was at `v0.19.0-beta.2` (Sepolia full redeploy). The airaccount server used the stale copy internally.
@@ -149,8 +218,8 @@ Compatible upstreams: AirAccount v0.19.0-beta.2 / SuperPaymaster v5.4.0-beta.1 (
 - **[ADDED]** MicroPaymentChannel ABI
 - **[ADDED]** Address constants: microPaymentChannel, agentIdentityRegistry, agentReputationRegistry (Sepolia deployed)
 
-## [0.20.8] - 2026-06-18
-**SDK Code Integrity Hash**: `1b43e81d4cc394b44ed39665749d678666d9e7571054619f8da09aa64b04fec1`
+## [0.22.0] - 2026-06-20
+**SDK Code Integrity Hash**: `42b3a7765f5bf7021f58329783e01ed7399751d86c1ded6427e021b44408d529`
 *(Excludes metadata/markdown to ensure stability / 排除文档文件以确保哈希稳定)*
 ### ⛽ Gas Fee Strategy (PaymasterClient)
 - **[FIX]** **Testnet/Mainnet Split Gas Pricing**:

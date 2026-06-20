@@ -1,6 +1,6 @@
 > `const` **DEFAULT\_ADMIN\_ROLE**: [`Hash`](https://viem.sh/docs/index.html) = `'0x0000000000000000000000000000000000000000000000000000000000000000'`
 
-Defined in: [packages/core/src/roles.ts:16](https://github.com/AAStarCommunity/aastar-sdk/blob/f84ad01d4a6f445b93e18d397ea2859a5682be1a/packages/core/src/roles.ts#L16)
+Defined in: [packages/core/src/roles.ts:16](https://github.com/AAStarCommunity/aastar-sdk/blob/3f8cdd383a819db0bbb2a41052f39ff7981a46dc/packages/core/src/roles.ts#L16)
 
 Default Admin Role (OpenZeppelin AccessControl)
 
